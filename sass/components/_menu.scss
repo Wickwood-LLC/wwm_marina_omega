@@ -1,0 +1,420 @@
+.main-menu h2.block-title {
+  border: none;
+  margin: 0;
+}
+
+.main-menu .block-menu,
+.main-menu .block-superfish {
+  margin-bottom: 0;
+}
+
+/* @group resets */
+
+.sidebar ul.menu,
+ul.sf-vertical,
+ul.sf-vertical li ul {
+  background-color: transparent;
+  border: none;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+ul.sf-vertical li a:link,
+ul.sf-vertical li a:visited,
+ul.sf-vertical li .nolink {
+  margin: 0;
+}
+
+ul.menu li {
+  background-image: none;
+  list-style-image: none;
+  list-style: none;
+  text-indent: 0;
+}
+
+ul.sf-vertical li,
+ul.sf-horizontal li {
+  border: none;
+}
+
+.block-superfish ul.sf-menu:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.sf-sub-indicator {
+  position: static;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* @group  Typography */
+
+.main-menu ul.menu,
+.block-superfish ul.sf-menu {
+  font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
+  font-size: 100%; /* 12px/12px */
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+  width: auto;
+}
+
+.title {
+  text-align: center;
+  border: 0;
+}
+
+/* @end typography */
+
+/* @group Top level styling */
+
+.main-menu .fusion-right ul.menu,
+.block-superfish.fusion-right ul.sf-menu {
+  float: right;
+}
+
+.main-menu ul.menu li,
+.block-superfish ul.sf-horizontal li {
+  background: transparent;
+  display: block;
+  float: left;
+  margin: 0 4px 0 0;
+  padding: 0;
+  position: relative;
+}
+
+.block-superfish ul.sf-horizontal li.last,
+.block-superfish ul.sf-horizontal li.active-trail.last,
+.main-menu ul.menu li.last {
+  margin-right: 0;
+}
+
+.block-superfish ul.sf-horizontal li a:link,
+.block-superfish ul.sf-horizontal li a:visited,
+.main-menu ul.menu li a:link,
+.main-menu ul.menu li a:visited,
+.main-menu ul.menu li .nolink {
+  background-color: #e1e1e1;
+  border: none;
+  color: #154b70;
+  display: block;
+  padding: 5px 10px 1px 10px;
+  text-decoration: none;
+  border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+}
+
+.block-superfish ul.sf-horizontal > li a:hover,
+.block-superfish ul.sf-horizontal > li a:focus,
+.block-superfish ul.sf-horizontal > li.sfHover > a:link,
+.block-superfish ul.sf-horizontal > li.sfHover > a:visited,
+.block-superfish ul.sf-horizontal > li.active-trail > a:link,
+.block-superfish ul.sf-horizontal > li.active-trail > a:visited,
+.main-menu ul.menu > li a:hover,
+.main-menu ul.menu > li a:focus,
+.main-menu ul.menu > li.active-trail a:link,
+.main-menu ul.menu > li.active-trail a:visited {
+  background-color: #b5ee48; /* old browsers */
+  background-image: linear-gradient(top, #b5ee48 0%, #95cf1a 40%, #95cf1a 100%); /* w3c */
+  background-image: -o-linear-gradient(top, #b5ee48 0%, #95cf1a 40%, #95cf1a 100%); /* opera */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b5ee48), to(#95cf1a), color-stop(40%, #95cf1a));  /* webkit */
+  background-image: -moz-linear-gradient(top, #b5ee48 0%, #95cf1a 40%, #95cf1a 100%); /* firefox */
+  color: #fff;
+}
+
+/* all IEs */
+.ie .block-superfish ul.sf-horizontal li a:hover,
+.ie .block-superfish ul.sf-horizontal li a:focus,
+.ie .block-superfish ul.sf-horizontal li.sfHover > a:link,
+.ie .block-superfish ul.sf-horizontal li.sfHover > a:visited,
+.ie .block-superfish ul.sf-horizontal li.active-trail > a:link,
+.ie .block-superfish ul.sf-horizontal li.active-trail > a:visited,
+.ie .main-menu ul.menu li a:hover,
+.ie .main-menu ul.menu li a:focus,
+.ie .main-menu ul.menu li.active-trail a:link,
+.ie .main-menu ul.menu li.active-trail a:visited {
+  background: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#b5ee48, endColorstr=#95cf1a, GradientType=0);
+  position: relative; /* Required to enable cleartype in IE when using filter */
+  zoom: 1;
+}
+
+/* IE8 */
+.ie8 .block-superfish ul.sf-horizontal li a:hover,
+.ie8 .block-superfish ul.sf-horizontal li a:focus,
+.ie8 .block-superfish ul.sf-horizontal li.sfHover > a:link,
+.ie8 .block-superfish ul.sf-horizontal li.sfHover > a:visited,
+.ie8 .block-superfish ul.sf-horizontal li.active-trail > a:link,
+.ie8 .block-superfish ul.sf-horizontal li.active-trail > a:visited,
+.ie8 .main-menu ul.menu li a:hover,
+.ie8 .main-menu ul.menu li a:focus,
+.ie8 .main-menu ul.menu li.active-trail a:link,
+.ie8 .main-menu ul.menu li.active-trail a:visited {
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#b5ee48, endColorstr=#95cf1a, GradientType=0);
+}
+
+a.menuparent:after {
+  content: '\f0da';
+  margin-left: 0.5em;
+  font-family: FontAwesome;
+}
+
+a.menuparent.sf-depth-1:after {
+  content: '\f0d7';
+}
+
+.sf-sub-indicator {
+  display: none;
+}
+
+/* @end top level */
+
+/* @group Secondary level styling */
+
+.block-superfish ul.sf-horizontal li ul,
+.block-superfish ul.sf-horizontal li.sfHover ul {
+  background: #97d023;
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 91.7%; /* 11px/12px */
+  margin-top: -4px;
+  padding: 0 0 4px 0;
+  position: absolute;
+  text-align: left;
+  text-transform: none;
+  z-index: 2;
+  filter: alpha(opacity=95);
+  border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  overflow: visible !important;
+}
+
+.ie7 .block-superfish ul.sf-horizontal li ul,
+.ie7 .block-superfish ul.sf-horizontal li:hover ul {
+  margin-top: 0;
+}
+
+.block-superfish ul.sf-horizontal li ul li {
+  background: transparent;
+  padding-left: 0;
+}
+
+.block-superfish ul.sf-horizontal li ul li.last {
+  border-bottom: 0;
+}
+
+.block-superfish ul.sf-horizontal li ul li a:link,
+.block-superfish ul.sf-horizontal li ul li a:visited,
+.block-superfish ul.sf-horizontal li.active-trail ul li a:link,
+.block-superfish ul.sf-horizontal li.active-trail ul li a:visited {
+  background: #98d022;
+  color: #154b6f;
+  padding-left: 10px;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+}
+
+.block-superfish ul.sf-horizontal li ul li a:hover,
+.block-superfish ul.sf-horizontal li ul li a:focus,
+.block-superfish ul.sf-horizontal li.active-trail ul li a:hover,
+.block-superfish ul.sf-horizontal li.active-trail ul li a:focus {
+  color: #fff;
+}
+
+.block-superfish ul.sf-horizontal li ul li a.active {
+  text-decoration: underline;
+}
+
+/* @end secondary level */
+
+/* @group Third level */
+
+.block-superfish ul.sf-horizontal li ul li ul {
+  font-size: 100% !important; /* 11px/12px */
+  margin-top: 0 !important;
+}
+
+/* @end third level */
+
+/* @group Superfish auto-arrows */
+
+/*@end superfish auto-arrows */
+
+/* @group Vertical Superfish */
+
+.superfish-vertical {
+  position: relative;
+  z-index: 10;
+}
+
+ul.sf-vertical {
+  background: #fafafa;
+  margin: 0;
+}
+
+ul.sf-vertical li {
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+  line-height: 200%; /* 24px */
+  font-weight: bold;
+  list-style: none;
+  list-style-type: none;
+  list-style-image: none;
+}
+
+ul.sf-vertical li a:link,
+ul.sf-vertical li a:visited,
+ul.sf-vertical li .nolink {
+  margin-left: 10px;
+  padding: 2px;
+}
+
+ul.sf-vertical li a:hover,
+ul.sf-vertical li a.active {
+  text-decoration: underline;
+}
+
+ul.sf-vertical li ul {
+  background: #fafafa;
+  border-top: 1px solid #ccc;
+  margin-left: 0;
+}
+
+ul.sf-vertical li ul li.last {
+  border-top: 1px solid #ccc;
+  margin-bottom: -1px;
+  margin-top: -1px;
+}
+
+ul.sf-vertical li ul {
+  border-top: none;
+  padding: 4px 0;
+}
+
+ul.sf-vertical li ul li {
+  border-bottom: none;
+  line-height: 150%; /* 24px */
+}
+
+ul.sf-vertical li ul li.last {
+  border-top: none;
+}
+
+ul.sf-vertical li ul li ul {
+  margin-top: -4px;
+}
+
+#superfish-1-toggle {
+  border: 0;
+  display: block;
+  text-align: center;
+  background-color: #008db0;
+  color: white;
+  border-radius: 10px;
+  line-height: 1.5;
+  padding: 0.25em 1em;
+  font-size: 18px;  /* fallback */
+  font-size: calc(12px + 1vw);
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 0.5em;
+
+  &.sf-expanded {
+    background-color: #7bc;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    background-color: #7bc;
+  }
+}
+
+#superfish-1-accordion {
+  border: 1px solid #689a04;
+  border-top: 0px;
+  border-radius: 0 0 10px 10px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 1em;
+
+  li {
+    background-color: white;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+
+    &.active-trail, &.active-trail:nth-child(even) {
+      background-color: #00728e;
+
+      > a {
+        color: white;
+
+        &:hover {
+          background-color: #00728e;
+        }
+      }
+    }
+
+    &.menuparent>a.menuparent:after {
+      content: "\f0da";
+      font-family: "FontAwesome";
+    }
+
+    &.menuparent.sf-expanded{
+      >a.menuparent{
+        font-weight: normal;
+
+        &:after {
+          content: "\f0d7";
+          font-family: "FontAwesome";
+        }
+      }
+    }
+
+    &.menuparent>ul{
+      padding-left: 10px;
+      box-sizing: border-box;
+    }
+
+    &:nth-child(even) {
+      background-color: #e6e6e6;
+    }
+
+    a {
+      border: 0px;
+      color: black;
+      padding-left: 34px;
+      background: inherit;
+      border-radius: 0;
+
+      &:hover {
+        background: #e9efcc;
+      }
+      &:focus {
+        background: initial;
+      }
+    }
+  }
+
+  > li.last {
+    border-radius: 0 0 10px 10px;
+
+    &.sf-expanded a {
+      border-radius: 0;
+    }
+
+    > a, .last, .last > a {
+      border-radius: 0 0 10px 10px;
+    }
+  }
+}
+
+/* @end vertical superfish*/

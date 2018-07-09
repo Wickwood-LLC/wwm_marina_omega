@@ -1,0 +1,39 @@
+/* Body of tables */
+
+tbody {
+  border-top: 1px solid #ccc;
+}
+
+/* Header of tables */
+
+thead th,
+th {
+  border-bottom: 3px solid #ccc;
+}
+
+tbody th {
+  border-bottom: 1px solid #ccc;
+}
+
+/* Alternating row background styles */
+
+tr.even,
+tr.even td {
+  background-color: #e3ecc0;
+  border-bottom: 1px solid #ccc;
+}
+
+tr.odd,
+tr.odd td {
+  background-color: #fdffef;
+  border-bottom: 1px solid #ccc;
+}
+
+tr.drag td,
+tr.drag-previous td {
+  color: #000;
+}
+
+td {
+  padding: 3px;
+}

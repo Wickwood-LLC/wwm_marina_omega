@@ -1,0 +1,134 @@
+body {
+  font-size: 75%;
+}
+
+h1 {
+  border-bottom: 1px solid #d6dd89;
+  clear: left;
+  font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
+  font-size: 183.3%; /* 22px/12px */
+  font-weight: normal;
+  line-height: 120%;
+  margin-bottom: 5px;
+}
+
+h2 {
+  border-bottom: 1px solid #d6dd89;
+  font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
+  font-size: 133.3%; /* 16px/12px */
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+h2 a:hover,
+h2 a:focus,
+h2 a:active {
+  color: #619cbe;
+  text-decoration: none;
+}
+
+/* Default link styles - separate a:visited for a different visited
+link style */
+
+a,
+a:link,
+a:visited {
+  color: #0637fb;
+}
+
+/* Hover/active link styles. Don't forget :focus for accessibility */
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+}
+
+/* Lists */
+
+ul {
+  margin: 0 0 10px 20px;
+}
+
+ul.menu,
+ul.item-list,
+ul.pager,
+ul.links {
+  margin-left: 0;
+}
+
+ol {
+  margin: 0 0 10px 40px;
+}
+
+ul ul,
+ol ol {
+  margin: 5px 0 5px 10px;
+}
+
+ul li {
+  background: url(/skins/acquia_marina_default/images/green-bullet.png) no-repeat 0 2px;
+  list-style: none;
+  list-style-image: none;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.action-links {
+  li {
+    display: inline-block;
+  }
+}
+
+blockquote p {
+  font-style: italic;
+  margin: 0;
+  padding: 8px 20px;
+}
+
+blockquote {
+  background: url(/skins/acquia_marina_default/images/close-quote.png) no-repeat 100% 100%; /* LTR */
+  color: #5a6a78;
+  margin: 10px 0;
+}
+
+blockquote p:first-child {
+  background: url(/skins/acquia_marina_default/images/open-quote.png) no-repeat 0 100%;  /* LTR */
+  padding: 0 0 0 20px;/* LTR */
+}
+
+blockquote * > :first-child {
+  background: transparent;
+  padding: 0;
+}
+
+blockquote a:link {
+  text-decoration: underline;
+}
+
+hr {
+  border: 1px solid #d6dd89;
+}
+
+/* @end basic typography*/
+
+/* @group Layout elements & regions */
+
+html {
+  background: #f4f7e7;
+  color: #444;
+}
+
+.page-inner {
+  border: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+/* @group Blocks, panels & all regions
+/-------------------------------------------------------------- */
+
+.ie7 .block {
+  position: relative;
+}

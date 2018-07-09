@@ -1,0 +1,135 @@
+/* @group Header top region
+/-------------------------------------------------------------- */
+
+#header-group-wrapper {
+  background: #fff;
+}
+
+#header-top-wrapper {
+  background: #e1e1e1;
+  border-bottom: 1px solid #ccc;
+}
+
+#wwm-collapse-3 {
+  .left-column, .right-column {
+    flex: 0.5 1 8.5%px;
+
+    @include breakpoint(720px){
+      flex: 0.5 1 100px;
+    }
+  }
+
+  .middle-column {
+    .pane-widgets-s-socialmedia-share-default {
+      text-align: center;
+      margin-top: 1em;
+      margin-left: calc(-16% - 28px);
+      margin-right: -72px;
+      width: calc(100vw - 28px);
+
+      a img {
+        width: 4.4vw;
+      }
+    }
+  }
+}
+
+/* @end header top*/
+
+/* Wrapper around logo, site name, and slogan */
+
+.header-site-info {
+  margin-bottom: 0;
+  float: left;
+}
+
+#logo {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.pane-page-logo img {
+  height: 18vw;
+
+  @include breakpoint(768px){
+    height: 119px;
+  }
+  @include breakpoint(960px){
+    height: 170px;
+  }
+  @include breakpoint(1200px){
+    height: 192px;
+  }
+}
+
+#site-name-wrapper {
+  float: left;
+}
+
+#site-name {
+  font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
+  font-size: 300%;
+  line-height: 125%;
+  font-weight: normal;
+  border: none;
+}
+
+.pane-page-site-name .pane-content a {
+  font-size: 10vw;
+  width: 100%;
+  margin-left: -8.5vw;
+  line-height: 1;
+  text-decoration: none;
+  color: #a7cf38;
+  text-shadow: #7b7b7b -3px 0px 1px;
+
+  @include breakpoint(768px){
+    font-size: 72px;
+    margin-left: -60px;
+  }
+  @include breakpoint(960px){
+    font-size: 98px;
+    margin-left: -77px;
+  }
+  @include breakpoint(1200px) {
+    font-size: 116px;
+    margin-left: -90px;
+  }
+}
+
+/* Typography for site slogan */
+
+#slogan {
+  font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
+  font-size: 116.7%; /* 14px/12px */
+  margin-top: -5px;
+}
+
+.pane-page-slogan {
+  line-height: 1;
+  font-size: 2.5vw;
+  font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
+  font-weight: bold;
+  color: #444;
+
+  @include breakpoint(768px){
+    font-size: 19px;
+    margin-left: -12px;
+  }
+  @include breakpoint(960px){
+    font-size: 24px;
+    margin-left: 18px;
+  }
+  @include breakpoint(1200px){
+    font-size: 30px;
+    margin-left: 29px;
+  }
+}
+
+#header-group-inner {
+  padding: 20px 0 0 0;
+}
+
+#block-panels_mini-header {
+  margin-bottom: 0;
+}

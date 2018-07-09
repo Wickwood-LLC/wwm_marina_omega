@@ -1,0 +1,168 @@
+form input.form-submit {
+  background-color: #286e9b; /* old browsers */
+  background-image: linear-gradient(top, #4186b5 0%, #286e9b 50%, #4186b5 100%); /* w3c */
+  color: #fff;
+  cursor: pointer;
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 100%;  /* 12px/12px */
+  font-weight: bold;
+  margin: 0 4px;
+  padding: 2px 4px;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 4px;
+}
+
+form#user-login,
+form#user-pass {
+  border: 1px solid #27638c;
+  padding: 1em;
+  border-radius: 5px;
+  margin-top: 1em;
+  background: white;
+
+  .form-item-name,
+  .form-item-pass {
+    display: flex;
+    flex-flow: row wrap;
+
+    label {
+      flex: 0 auto;
+      width: 115px;
+    }
+    input {
+      flex: 1;
+      width: calc(100% - 115px);
+    }
+    .description {
+      flex: 100%;
+    }
+  }
+
+  .form-actions {
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+
+form#user-pass {
+  .form-item-name label {
+    width: 280px;
+  }
+}
+
+.g-recaptcha {
+  display: table;
+  margin: auto;
+}
+
+/* all IEs */
+.ie form input.form-submit {
+  background: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#286e9b, endColorstr=#4186b5, GradientType=0);
+  position: relative; /* Required to enable cleartype in IE when using filter */
+  zoom: 1;
+}
+
+/* IE8 */
+.ie8 form input.form-submit {
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#286e9b, endColorstr=#4186b5, GradientType=0);
+}
+
+/* Hover style for form buttons */
+
+form input.form-submit:hover,
+form input.form-submit.hover,
+form input.form-submit:focus {
+  background-color: #4186b5; /* old browsers */
+  background-image: linear-gradient(top, #286e9b 0%, #4186b5 50%, #286e9b 100%); /* w3c */
+  background-image: -o-linear-gradient(top, #286e9b 0%, #4186b5 50%, #286e9b 100%); /* opera */
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#286e9b), to(#286e9b), color-stop(50%, 4186b5));  /* webkit */
+  background-image: -moz-linear-gradient(top, #286e9b 0%, #4186b5 50%, #286e9b 100%); /* firefox */
+  cursor: pointer;
+}
+
+/* all IEs */
+.ie form input.form-submit:hover,
+.ie form input.form-submit.hover,
+.ie form input.form-submit:focus {
+  background: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4186b5, endColorstr=#286e9b, GradientType=0);
+  position: relative; /* Required to enable cleartype in IE when using filter */
+  zoom: 1;
+}
+
+/* IE8 */
+.ie8 form input.form-submit:hover,
+.ie8 form input.form-submit.hover,
+.ie8 form input.form-submit:focus {
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4186b5, endColorstr=#286e9b, GradientType=0);
+}
+
+
+/* Typography, background, borders, padding for form fields */
+
+.form-item input,
+.form-item select,
+.form-item textarea {
+  background-color: #f4f8fb; /* old browsers */
+  background-image: linear-gradient(top, #f4f8fb 0%, #fafcfb 100%); /* w3c */
+  background-image: -o-linear-gradient(top, #f4f8fb 0%, #fafcfb 100%); /* opera */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f8fb), to(#fafcfb));  /* webkit */
+  background-image: -moz-linear-gradient(top, #f4f8fb 0%, #fafcfb 100%); /* firefox */
+  border: 1px solid #9babb0;
+  color: #666;
+  padding: 2px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+/* all IEs */
+.ie .form-item input,
+.ie .form-item select,
+.ie .form-item textarea {
+  background: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f4f8fb, endColorstr=#fafcfb, GradientType=0);
+  position: relative; /* Required to enable cleartype in IE when using filter */
+  zoom: 1;
+}
+
+/* IE8 */
+.ie8 .form-item input,
+.ie8 .form-item select,
+.ie8 .form-item textarea {
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f4f8fb, endColorstr=#fafcfb, GradientType=0);
+}
+
+/* Remove backgrounds and border on radios and checkboxes */
+
+.form-item .form-radio,
+.form-item .form-checkbox {
+  background: none;
+  border: none !important;
+}
+
+/* Fieldset wrapper around groups of form elements -- add border here */
+
+fieldset {
+  border: 1px solid #9babb0;
+  margin: 15px 0;
+  padding: 10px;
+}
+
+/* Typography and spacing for legend of fieldsets */
+
+fieldset legend {
+  font-weight: bold;
+}
+
+/* Link style for legend of fieldsets */
+
+fieldset legend,
+legend.collapse-processed,
+legend.collapse-processed a:link,
+legend.collapse-processed a:visited {
+  font-weight: bold;
+}
+
+/* @end forms*/

@@ -1,0 +1,88 @@
+/* Error that appears when a required form field is not filled out */
+
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error {
+  border: 1px solid #aa1144;
+}
+
+/* Required field */
+
+.marker,
+.form-required {
+  color: #aa1144;
+}
+
+table.update {
+  margin-bottom: 10px;
+}
+
+table.update tr td {
+  padding: 2px;
+}
+
+table.update tr.error td {
+  background-color: #edd9be;
+}
+
+table.update table.version td.version-links ul {
+  margin: 0;
+}
+
+table.update table.version td.version-links ul li {
+  padding: 0 0 0 1em;
+}
+
+table.update tr.ok td {
+  background-color: #e3ecc0;
+}
+
+table.update tr.warning td {
+  background-color: #ffc;
+}
+
+table.update tr.warning .project a:link,
+table.update tr.warning .project a:visited,
+.version-status .not-current {
+  color: #900;
+}
+
+div.content-messages div.messages, div.content-help div.help {
+  border: 3px solid #8DC478;
+  font-weight: normal;
+  margin: 0.75em 0;
+  padding: 7px 7px 7px 21px;
+}
+
+div.messages,
+div.messages.status {
+  background: #fffce3;
+  border: 2px solid #eed300;
+  color: #c28e00;
+  font-weight: normal;
+  font-size: 14px;
+  margin: 20px 0pt;
+  padding: 10px;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+div.messages ul {
+  list-style-position: inside;
+
+  li {
+    list-style: disc;
+    margin-bottom: 0;
+  }
+}
+
+div.messages em {
+  color: #656c9b;
+}
+
+div.error {
+  background-color: #fff2f2;
+  border-color: #f00;
+  color: #b20000;
+}
