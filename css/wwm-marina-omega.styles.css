@@ -1,7 +1,8 @@
 /* No files to import found in variables/* */
 /* No files to import found in abstractions/* */
 body {
-  font-size: 75%; }
+  font-size: 16px;
+  margin: 0; }
 
 h1 {
   border-bottom: 1px solid #d6dd89;
@@ -323,12 +324,9 @@ legend.collapse-processed a:visited {
 /* @end forms*/
 /* @group Header top region
 /-------------------------------------------------------------- */
-#header-group-wrapper {
-  background: #fff; }
-
-#header-top-wrapper {
-  background: #e1e1e1;
-  border-bottom: 1px solid #ccc; }
+#header {
+  background: #fff;
+  border-bottom: 3px solid #a7ce38; }
 
 #wwm-collapse-3 .left-column, #wwm-collapse-3 .right-column {
   -webkit-box-flex: 0.5;
@@ -350,10 +348,6 @@ legend.collapse-processed a:visited {
 
 /* @end header top*/
 /* Wrapper around logo, site name, and slogan */
-.header-site-info {
-  margin-bottom: 0;
-  float: left; }
-
 #logo {
   float: left;
   margin: 0 15px 0 0; }
@@ -370,17 +364,7 @@ legend.collapse-processed a:visited {
     .pane-page-logo img {
       height: 192px; } }
 
-#site-name-wrapper {
-  float: left; }
-
-#site-name {
-  font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
-  font-size: 300%;
-  line-height: 125%;
-  font-weight: normal;
-  border: none; }
-
-.pane-page-site-name .pane-content a {
+.pane-page-site-name a {
   font-size: 10vw;
   width: 100%;
   margin-left: -8.5vw;
@@ -389,25 +373,19 @@ legend.collapse-processed a:visited {
   color: #a7cf38;
   text-shadow: #7b7b7b -3px 0px 1px; }
   @media (min-width: 768px) {
-    .pane-page-site-name .pane-content a {
+    .pane-page-site-name a {
       font-size: 72px;
       margin-left: -60px; } }
   @media (min-width: 960px) {
-    .pane-page-site-name .pane-content a {
+    .pane-page-site-name a {
       font-size: 98px;
       margin-left: -77px; } }
   @media (min-width: 1200px) {
-    .pane-page-site-name .pane-content a {
+    .pane-page-site-name a {
       font-size: 116px;
       margin-left: -90px; } }
 
 /* Typography for site slogan */
-#slogan {
-  font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
-  font-size: 116.7%;
-  /* 14px/12px */
-  margin-top: -5px; }
-
 .pane-page-slogan {
   line-height: 1;
   font-size: 2.5vw;
@@ -430,7 +408,7 @@ legend.collapse-processed a:visited {
 #header-group-inner {
   padding: 20px 0 0 0; }
 
-#block-panels_mini-header {
+#block-panels-mini-header {
   margin-bottom: 0; }
 
 .maintenance-page #header-group-wrapper {
@@ -968,5 +946,35 @@ div.error {
   background-color: #eaefcb;
   border-color: #266996;
   color: #27638c; }
+
+/* Body of tables */
+tbody {
+  border-top: 1px solid #ccc; }
+
+/* Header of tables */
+thead th,
+th {
+  border-bottom: 3px solid #ccc; }
+
+tbody th {
+  border-bottom: 1px solid #ccc; }
+
+/* Alternating row background styles */
+tr.even,
+tr.even td {
+  background-color: #e3ecc0;
+  border-bottom: 1px solid #ccc; }
+
+tr.odd,
+tr.odd td {
+  background-color: #fdffef;
+  border-bottom: 1px solid #ccc; }
+
+tr.drag td,
+tr.drag-previous td {
+  color: #000; }
+
+td {
+  padding: 3px; }
 
 /*# sourceMappingURL=wwm-marina-omega.styles.css.map */
