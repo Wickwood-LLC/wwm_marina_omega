@@ -1,6 +1,7 @@
 /* No files to import found in variables/* */
 /* No files to import found in abstractions/* */
 body {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-size: 16px;
   margin: 0; }
 
@@ -106,6 +107,12 @@ html {
   border: 0;
   margin-bottom: 0;
   padding: 0; }
+
+.header-inner,
+#main-content,
+.footer-inner {
+  max-width: 1200px;
+  margin: auto; }
 
 /* @group Blocks, panels & all regions
 /-------------------------------------------------------------- */
@@ -364,7 +371,7 @@ legend.collapse-processed a:visited {
     .pane-page-logo img {
       height: 192px; } }
 
-.pane-page-site-name a {
+.pane-page-site-name > a {
   font-size: 10vw;
   width: 100%;
   margin-left: -8.5vw;
@@ -373,15 +380,15 @@ legend.collapse-processed a:visited {
   color: #a7cf38;
   text-shadow: #7b7b7b -3px 0px 1px; }
   @media (min-width: 768px) {
-    .pane-page-site-name a {
+    .pane-page-site-name > a {
       font-size: 72px;
       margin-left: -60px; } }
   @media (min-width: 960px) {
-    .pane-page-site-name a {
+    .pane-page-site-name > a {
       font-size: 98px;
       margin-left: -77px; } }
   @media (min-width: 1200px) {
-    .pane-page-site-name a {
+    .pane-page-site-name > a {
       font-size: 116px;
       margin-left: -90px; } }
 
