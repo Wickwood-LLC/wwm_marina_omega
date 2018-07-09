@@ -512,7 +512,8 @@ legend.collapse-processed a:visited {
   float: left;
   margin: 0 4px 0 0;
   padding: 0;
-  position: relative; }
+  position: relative;
+  line-height: 24px; }
 #superfish-1 a.sf-depth-1 {
   background-color: #e1e1e1;
   border: none;
