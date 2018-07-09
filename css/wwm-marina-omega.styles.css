@@ -524,11 +524,11 @@ legend.collapse-processed a:visited {
   display: block;
   padding: 5px 10px 1px 10px;
   border-radius: 5px 5px 0 0; }
-  #superfish-1 a.sf-depth-1:hover, #superfish-1 a.sf-depth-1 .active {
+  #superfish-1 a.sf-depth-1:hover, #superfish-1 a.sf-depth-1.active {
     background-color: #b5ee48;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#b5ee48), color-stop(40%, #95cf1a), to(#95cf1a));
     color: #fff; }
-#superfish-1 li.sfHover a {
+#superfish-1 li.sfHover > a {
   background-color: #b5ee48;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#b5ee48), color-stop(40%, #95cf1a), to(#95cf1a));
   color: #fff; }
