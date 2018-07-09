@@ -23,32 +23,38 @@
     padding: 5px 10px 1px 10px;
     border-radius: 5px 5px 0 0;
 
-    &:hover {
+    &:hover, .active-trail {
       background-color: #b5ee48;
       background-image: -webkit-gradient(linear, left top, left bottom, from(#b5ee48), color-stop(40%, #95cf1a), to(#95cf1a));
       color: #fff;
     }
   }
 
-  li.sfHover > ul {
-    padding: 0 8px 9px 0 !important;
-    background: #97d023;
-    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
-    font-size: 91.7%;
-    margin-top: -4px;
-    position: absolute;
-    text-align: left;
-    text-transform: none;
-    z-index: 2;
-    filter: opacity(.95);
-    border-radius: 0 0 5px 5px;
-    overflow: visible !important;
-    left: 0;
-    top: 33px;
+  li.sfHover {
+    background-color: #b5ee48;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#b5ee48), color-stop(40%, #95cf1a), to(#95cf1a));
+    color: #fff;
 
-    li a {
-      background: #98d022;
-      padding: 5px 10px 1px 10px;
+    > ul {
+      padding: 0 8px 9px 0 !important;
+      background: #97d023;
+      font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+      font-size: 91.7%;
+      margin-top: -4px;
+      position: absolute;
+      text-align: left;
+      text-transform: none;
+      z-index: 2;
+      filter: opacity(.95);
+      border-radius: 0 0 5px 5px;
+      overflow: visible !important;
+      left: 0;
+      top: 37px;
+  
+      li a {
+        background: #98d022;
+        padding: 5px 10px 1px 10px;
+      }
     }
   }
 }

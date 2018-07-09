@@ -523,29 +523,33 @@ legend.collapse-processed a:visited {
   display: block;
   padding: 5px 10px 1px 10px;
   border-radius: 5px 5px 0 0; }
-  #superfish-1 a.sf-depth-1:hover {
+  #superfish-1 a.sf-depth-1:hover, #superfish-1 a.sf-depth-1 .active-trail {
     background-color: #b5ee48;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#b5ee48), color-stop(40%, #95cf1a), to(#95cf1a));
     color: #fff; }
-#superfish-1 li.sfHover > ul {
-  padding: 0 8px 9px 0 !important;
-  background: #97d023;
-  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
-  font-size: 91.7%;
-  margin-top: -4px;
-  position: absolute;
-  text-align: left;
-  text-transform: none;
-  z-index: 2;
-  -webkit-filter: opacity(0.95);
-          filter: opacity(0.95);
-  border-radius: 0 0 5px 5px;
-  overflow: visible !important;
-  left: 0;
-  top: 33px; }
-  #superfish-1 li.sfHover > ul li a {
-    background: #98d022;
-    padding: 5px 10px 1px 10px; }
+#superfish-1 li.sfHover {
+  background-color: #b5ee48;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b5ee48), color-stop(40%, #95cf1a), to(#95cf1a));
+  color: #fff; }
+  #superfish-1 li.sfHover > ul {
+    padding: 0 8px 9px 0 !important;
+    background: #97d023;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 91.7%;
+    margin-top: -4px;
+    position: absolute;
+    text-align: left;
+    text-transform: none;
+    z-index: 2;
+    -webkit-filter: opacity(0.95);
+            filter: opacity(0.95);
+    border-radius: 0 0 5px 5px;
+    overflow: visible !important;
+    left: 0;
+    top: 37px; }
+    #superfish-1 li.sfHover > ul li a {
+      background: #98d022;
+      padding: 5px 10px 1px 10px; }
 
 ul.sf-menu {
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
