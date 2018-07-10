@@ -749,7 +749,9 @@ div.messages {
   border: 3px solid #8DC478;
   font-weight: normal;
   margin: 0.75em 0;
-  padding: 7px 7px 7px 21px; }
+  padding: 7px 7px 7px 21px;
+  background-color: #EAF8E4;
+  color: #3E642F; }
 
 div.messages ul {
   list-style-position: inside; }
