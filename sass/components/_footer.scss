@@ -2,7 +2,7 @@
 	border-top: 3px solid #a7cf38;
 	font-size: 90%;
 
-	:before {
+	&:before {
 		content: '';
 		height: 30px;
 		display: block;
