@@ -141,7 +141,7 @@ ul.breadcrumb {
     display: inline-block;
     margin-bottom: 0; }
     ul.breadcrumb li a:hover {
-      text-decoration: underline; }
+      text-decoration: underline !important; }
 
 #branding {
   background-color: #2f76a5;
@@ -171,6 +171,11 @@ ul.breadcrumb {
     @media (min-width: 1200px) {
       #branding .limiter {
         margin: auto; } }
+
+#page-tite {
+  text-align: center; }
+  #page-tite h1.page-title {
+    border: 0; }
 
 #footer {
   border-top: 3px solid #a7cf38;
