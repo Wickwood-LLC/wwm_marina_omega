@@ -1,0 +1,45 @@
+.action-links {
+  float: left;
+
+  li {
+    display: inline-block;
+  }
+}
+
+.secondary-menu .tabs {
+  float: right;
+}
+
+.tabs--primary {
+	padding: 0 10px;
+
+	li {
+		border-style: none;
+		display: inline;
+		float: left;
+		list-style: none;
+		margin: 0 10px;
+		padding: 0;
+
+		a {
+			background-color: transparent;
+			border: none;
+			float: left;
+			font-weight: bold;
+			margin: 0;
+			padding: 0 0 6px 0;
+			text-decoration: none;
+			white-space: nowrap;
+			color: #27638c;
+			font-size: 108.3%;
+			text-transform: uppercase;
+
+			&:hover, 
+			&:focus,
+			&.active {
+				border-bottom: 4px solid #94ce18;
+				color: #4a95c8;
+			}
+		}
+	}
+}

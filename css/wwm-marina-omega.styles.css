@@ -66,9 +66,6 @@ ul li {
   margin-bottom: 5px;
   padding: 0; }
 
-.action-links li {
-  display: inline-block; }
-
 blockquote p {
   font-style: italic;
   margin: 0;
@@ -171,6 +168,12 @@ ul.breadcrumb {
     @media (min-width: 1200px) {
       #branding .limiter {
         margin: auto; } }
+
+#main-content {
+  padding-top: 1em; }
+
+#console {
+  clear: both; }
 
 #page-tite {
   text-align: center; }
@@ -895,5 +898,38 @@ tr.drag-previous td {
 
 td {
   padding: 3px; }
+
+.action-links {
+  float: left; }
+  .action-links li {
+    display: inline-block; }
+
+.secondary-menu .tabs {
+  float: right; }
+
+.tabs--primary {
+  padding: 0 10px; }
+  .tabs--primary li {
+    border-style: none;
+    display: inline;
+    float: left;
+    list-style: none;
+    margin: 0 10px;
+    padding: 0; }
+    .tabs--primary li a {
+      background-color: transparent;
+      border: none;
+      float: left;
+      font-weight: bold;
+      margin: 0;
+      padding: 0 0 6px 0;
+      text-decoration: none;
+      white-space: nowrap;
+      color: #27638c;
+      font-size: 108.3%;
+      text-transform: uppercase; }
+      .tabs--primary li a:hover, .tabs--primary li a:focus, .tabs--primary li a.active {
+        border-bottom: 4px solid #94ce18;
+        color: #4a95c8; }
 
 /*# sourceMappingURL=wwm-marina-omega.styles.css.map */
