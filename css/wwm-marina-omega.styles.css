@@ -505,6 +505,8 @@ legend.collapse-processed a:visited {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  #block-superfish-1 .block__content {
+    width: 100%; }
 
 #superfish-1 li a {
   color: #154b70;
@@ -688,7 +690,10 @@ ul.sf-vertical li ul li ul {
       color: black;
       padding-left: 34px;
       background: inherit;
-      border-radius: 0; }
+      border-radius: 0;
+      line-height: 24px;
+      text-decoration: none;
+      padding: 5px 10px 1px 10px; }
       #superfish-1-accordion li a:hover {
         background: #e9efcc; }
       #superfish-1-accordion li a:focus {
