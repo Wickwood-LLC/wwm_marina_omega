@@ -47,15 +47,7 @@ table.update tr.warning .project a:visited,
   color: #900;
 }
 
-div.content-messages div.messages, div.content-help div.help {
-  border: 3px solid #8DC478;
-  font-weight: normal;
-  margin: 0.75em 0;
-  padding: 7px 7px 7px 21px;
-}
-
-div.messages,
-div.messages.status {
+div.messages {
   background: #fffce3;
   border: 2px solid #eed300;
   color: #c28e00;
@@ -66,6 +58,13 @@ div.messages.status {
   border-radius: 6px;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
+}
+
+.messages.messages--status {
+  border: 3px solid #8DC478;
+  font-weight: normal;
+  margin: 0.75em 0;
+  padding: 7px 7px 7px 21px;
 }
 
 div.messages ul {
