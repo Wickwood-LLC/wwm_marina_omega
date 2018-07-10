@@ -2,13 +2,20 @@
 	background-color: #2f76a5;
 	background: linear-gradient(#2f76a5, #144a6e);
 	color: #fff;
-	min-height: 33px;
+	min-height: 30px;
 	display: flex;
 	flex-flow: row wrap;
 	width: 100%;
+	font-size: 90%;
 
 	a {
 		color: white;
 		text-decoration: none;
+	}
+
+	.limiter {
+		width: 100%;
+		margin: 0 2em;
+		display: flex;
 	}
 }

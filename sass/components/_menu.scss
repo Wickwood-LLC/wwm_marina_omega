@@ -269,3 +269,15 @@ ul.sf-vertical li ul li ul {
 }
 
 /* @end vertical superfish*/
+
+ul.secondary-menu {
+  margin: 0;
+
+  li {
+    margin: 0;
+
+    a {
+      white-space: nowrap;
+    }
+  }
+}

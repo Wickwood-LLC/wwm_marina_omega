@@ -61,7 +61,6 @@ ol ol {
   margin: 5px 0 5px 10px; }
 
 ul li {
-  background: url(/skins/acquia_marina_default/images/green-bullet.png) no-repeat 0 2px;
   list-style: none;
   list-style-image: none;
   margin-bottom: 5px;
@@ -119,39 +118,31 @@ html {
 .ie7 .block {
   position: relative; }
 
-breadcrumbs {
-  margin: 0; }
+div.breadcrumb {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 100%;
+          flex: 1 100%; }
+  div.breadcrumb a {
+    color: white;
+    line-height: 30px;
+    display: inline-block; }
 
-#breadcrumbs-inner {
-  width: 100%;
-  margin: 0 1em;
-  max-width: calc(100% - 2em); }
-  @media (min-width: 768px) {
-    #breadcrumbs-inner {
-      width: 768px;
-      margin: auto; } }
-  @media (min-width: 960px) {
-    #breadcrumbs-inner {
-      width: 100%;
-      margin: 0 1em;
-      max-width: calc(100% - 2em); } }
-  @media (min-width: 1200px) {
-    #breadcrumbs-inner {
-      width: 1200px;
-      margin: auto; } }
-  #breadcrumbs-inner .breadcrumb {
-    padding-bottom: 0; }
-    #breadcrumbs-inner .breadcrumb a {
-      color: white;
-      line-height: 30px;
-      display: inline-block; }
+ul.breadcrumb {
+  margin: 0;
+  padding: 0; }
+  ul.breadcrumb li {
+    color: white;
+    line-height: 30px;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 1em; }
 
 #branding {
   background-color: #2f76a5;
   background: -webkit-gradient(linear, left top, left bottom, from(#2f76a5), to(#144a6e));
   background: linear-gradient(#2f76a5, #144a6e);
   color: #fff;
-  min-height: 33px;
+  min-height: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -159,10 +150,17 @@ breadcrumbs {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  width: 100%; }
+  width: 100%;
+  font-size: 90%; }
   #branding a {
     color: white;
     text-decoration: none; }
+  #branding .limiter {
+    width: 100%;
+    margin: 0 2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
 
 .copyright p {
   text-align: center;
@@ -724,6 +722,13 @@ ul.sf-vertical li ul li ul {
       border-radius: 0 0 10px 10px; }
 
 /* @end vertical superfish*/
+ul.secondary-menu {
+  margin: 0; }
+  ul.secondary-menu li {
+    margin: 0; }
+    ul.secondary-menu li a {
+      white-space: nowrap; }
+
 /* Error that appears when a required form field is not filled out */
 .form-item input.error,
 .form-item textarea.error,
