@@ -121,6 +121,15 @@ html {
 .ie7 .block {
   position: relative; }
 
+.boxed, .page-admin #content-region {
+  background-color: white;
+  border-color: #27638c;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 1em;
+  margin: 1em 0; }
+
 div.breadcrumb {
   -webkit-box-flex: 1;
       -ms-flex: 1 100%;
