@@ -146,6 +146,21 @@ breadcrumbs {
       line-height: 30px;
       display: inline-block; }
 
+#branding {
+  background-color: #2f76a5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2f76a5), to(#144a6e));
+  background: linear-gradient(#2f76a5, #144a6e);
+  color: #fff;
+  min-height: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  width: 100%; }
+
 .copyright p {
   text-align: center;
   margin-bottom: 0; }
