@@ -175,9 +175,9 @@ ul.breadcrumb {
 #console {
   clear: both; }
 
-#page-tite {
+#page-title {
   text-align: center; }
-  #page-tite h1.page-title {
+  #page-title h1.page-title {
     border: 0; }
 
 #footer {
@@ -922,7 +922,7 @@ td {
       float: left;
       font-weight: bold;
       margin: 0;
-      padding: 0 0 6px 0;
+      padding: 0;
       text-decoration: none;
       white-space: nowrap;
       color: #27638c;
@@ -930,6 +930,7 @@ td {
       text-transform: uppercase; }
       .tabs--primary li a:hover, .tabs--primary li a:focus, .tabs--primary li a.active {
         border-bottom: 4px solid #94ce18;
-        color: #4a95c8; }
+        color: #4a95c8;
+        background-color: transparent; }
 
 /*# sourceMappingURL=wwm-marina-omega.styles.css.map */
