@@ -157,6 +157,7 @@ ul.breadcrumb {
     text-decoration: none; }
   #branding .limiter {
     width: 100%;
+    max-width: 1200px;
     margin: 0 2em;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -727,7 +728,8 @@ ul.secondary-menu {
   ul.secondary-menu li {
     margin: 0; }
     ul.secondary-menu li a {
-      white-space: nowrap; }
+      white-space: nowrap;
+      line-height: 30px; }
 
 /* Error that appears when a required form field is not filled out */
 .form-item input.error,
