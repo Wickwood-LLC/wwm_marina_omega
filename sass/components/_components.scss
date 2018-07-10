@@ -18,5 +18,9 @@
 		max-width: 1200px;
 		margin: 0 2em;
 		display: flex;
+
+		@include breakpoint(1200px) {
+			margin: auto;
+		}
 	}
 }
