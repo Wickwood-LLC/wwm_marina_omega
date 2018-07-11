@@ -428,7 +428,8 @@ legend.collapse-processed a:visited {
   margin-right: -103px;
   width: calc(100vw - 28px); }
   #wwm-collapse-3 .middle-column .pane-widgets-s-socialmedia-share-default a img {
-    width: 25px; }
+    min-width: 25px;
+    width: 4.4vw; }
 
 /* @end header top*/
 /* Wrapper around logo, site name, and slogan */
@@ -452,7 +453,7 @@ legend.collapse-processed a:visited {
       height: 192px; } }
 
 .pane-page-site-name > a {
-  font-size: 11vw;
+  font-size: 10vw;
   width: 100%;
   margin-left: -11.5vw;
   line-height: 1;

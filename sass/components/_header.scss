@@ -25,7 +25,8 @@
       width: calc(100vw - 28px);
 
       a img {
-        width: 25px;
+        min-width: 25px;
+        width: 4.4vw;
       }
     }
   }
@@ -58,7 +59,7 @@
 }
 
 .pane-page-site-name > a {
-  font-size: 11vw;
+  font-size: 10vw;
   width: 100%;
   margin-left: -11.5vw;
   line-height: 1;
