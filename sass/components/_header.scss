@@ -41,7 +41,7 @@
 }
 
 .pane-page-logo img {
-  height: 18vw;
+  height: 22vw;
 
   @include breakpoint(480px){
     height: 20vw;
@@ -58,9 +58,9 @@
 }
 
 .pane-page-site-name > a {
-  font-size: 10vw;
+  font-size: 11vw;
   width: 100%;
-  margin-left: -8.5vw;
+  margin-left: -11.5vw;
   line-height: 1;
   text-decoration: none;
   color: #a7cf38;
@@ -95,7 +95,7 @@
 
   @include breakpoint(480px){
     font-size: 3vw;
-    margin-left: -26px;
+    margin-left: -3vw;
   }
   @include breakpoint(768px){
     font-size: 19px;
