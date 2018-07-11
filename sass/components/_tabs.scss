@@ -12,6 +12,8 @@
 
 .tabs--primary {
 	padding: 0 10px;
+	clear: both;
+	margin-bottom: 10px;
 
 	li {
 		border-style: none;
@@ -40,6 +42,39 @@
 				border-bottom: 4px solid #94ce18;
 				color: #4a95c8;
 				background-color: transparent;
+			}
+		}
+	}
+}
+
+.tabs--secondary {
+	clear: both;
+	border-bottom: 1px solid #555;
+	margin-bottom: 10px;
+	text-transform: lowercase;
+
+	li {
+		margin: 0 10px;
+		padding: 0;
+
+		a {
+			background-color: transparent;
+			border: none;
+			color: #555;
+			float: left;
+			font-weight: bold;
+			margin: 0;
+			padding: 0 0 6px 0;
+			text-decoration: none;
+			white-space: nowrap;
+
+			&:hover, 
+			&:focus,
+			&.active {
+				border-bottom: 4px solid #555;
+				color: #777;
+				padding-bottom: 2px;
+				background: transparent;
 			}
 		}
 	}
