@@ -116,6 +116,9 @@ html {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f2fbd2), to(#f5f7e7));
   background-image: linear-gradient(#f2fbd2, #f5f7e7); }
 
+#content {
+  clear: both; }
+
 /* @group Blocks, panels & all regions
 /-------------------------------------------------------------- */
 .ie7 .block {
@@ -188,7 +191,9 @@ ul.breadcrumb {
 #page-title {
   text-align: center; }
   #page-title h1.page-title {
-    border: 0; }
+    border: 0;
+    margin-top: 0;
+    margin-bottom: 0.5em; }
 
 .views-ui-display-tab-bucket .advanced-help-link {
   float: left; }
