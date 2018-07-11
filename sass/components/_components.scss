@@ -57,3 +57,60 @@
 	text-transform: none;
 	font-size: 13px;
 }
+
+.pane-card-cycles-card-slideshow {
+  .views-slideshow-cycle-main-frame,
+  .views-slideshow-cycle-main-frame-row {
+    width: 100% !important;
+  }
+
+  .col-1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .field--name-field-card-image {
+    text-align: center;
+  }
+  .field--name-field-card-sub-headline {
+    text-align: center;
+  }
+  .pane-node-title h2 {
+    margin: 0;
+  }
+
+  .views-slideshow-controls-text {
+    text-align: center;
+  }
+  .views-slideshow-controls-text-pause {
+    margin: 0.5em;
+  }
+  .views-slideshow-controls-text-previous a:before {
+    content: "\f104";
+    font-family: FontAwesome;
+    color: inherit;
+    margin-right: 0.3em;
+  }
+  .views-slideshow-controls-text-next a:after {
+    content: "\f105";
+    font-family: FontAwesome;
+    color: inherit;
+    margin-left: 0.3em;
+  }
+
+  .vscc-controls {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    height: 2em;
+    
+    span {
+      vertical-align: middle;
+      display: inline-block;
+    }
+    .vscc_controls_pause a {
+      line-height: 2em;
+    }
+  }
+}
