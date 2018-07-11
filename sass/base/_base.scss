@@ -59,6 +59,7 @@ ul.item-list,
 ul.pager,
 ul.links {
   margin-left: 0;
+  padding-left: 1em;
 }
 
 ol {
@@ -134,8 +135,9 @@ html {
   background-image: linear-gradient(#f2fbd2, #f5f7e7);
 }
 
-#content {
+#content.page-content {
   clear: both;
+  margin: 0 0 1em 0;
 }
 
 /* @group Blocks, panels & all regions

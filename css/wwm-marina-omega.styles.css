@@ -52,7 +52,8 @@ ul.menu,
 ul.item-list,
 ul.pager,
 ul.links {
-  margin-left: 0; }
+  margin-left: 0;
+  padding-left: 1em; }
 
 ol {
   margin: 0 0 10px 40px; }
@@ -116,8 +117,9 @@ html {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f2fbd2), to(#f5f7e7));
   background-image: linear-gradient(#f2fbd2, #f5f7e7); }
 
-#content {
-  clear: both; }
+#content.page-content {
+  clear: both;
+  margin: 0 0 1em 0; }
 
 /* @group Blocks, panels & all regions
 /-------------------------------------------------------------- */
@@ -407,7 +409,8 @@ legend.collapse-processed a:visited {
 /-------------------------------------------------------------- */
 #header {
   background: #fff;
-  border-bottom: 3px solid #a7ce38; }
+  border-bottom: 3px solid #a7ce38;
+  padding-top: 10px; }
 
 #wwm-collapse-3 .left-column, #wwm-collapse-3 .right-column {
   -webkit-box-flex: 0.5;
@@ -425,7 +428,7 @@ legend.collapse-processed a:visited {
   margin-right: -72px;
   width: calc(100vw - 28px); }
   #wwm-collapse-3 .middle-column .pane-widgets-s-socialmedia-share-default a img {
-    width: 4.4vw; }
+    width: 25px; }
 
 /* @end header top*/
 /* Wrapper around logo, site name, and slogan */
@@ -435,6 +438,9 @@ legend.collapse-processed a:visited {
 
 .pane-page-logo img {
   height: 18vw; }
+  @media (min-width: 768px) {
+    .pane-page-logo img {
+      height: 20vw; } }
   @media (min-width: 768px) {
     .pane-page-logo img {
       height: 119px; } }
@@ -453,6 +459,10 @@ legend.collapse-processed a:visited {
   text-decoration: none;
   color: #a7cf38;
   text-shadow: #7b7b7b -3px 0px 1px; }
+  @media (min-width: 480px) {
+    .pane-page-site-name > a {
+      font-size: 11.2vw;
+      margin-left: -9.5vw; } }
   @media (min-width: 768px) {
     .pane-page-site-name > a {
       font-size: 72px;
@@ -473,6 +483,10 @@ legend.collapse-processed a:visited {
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
   font-weight: bold;
   color: #444; }
+  @media (min-width: 480px) {
+    .pane-page-slogan {
+      font-size: 3vw;
+      margin-left: -12px; } }
   @media (min-width: 768px) {
     .pane-page-slogan {
       font-size: 19px;
