@@ -42,11 +42,8 @@
 }
 
 .pane-page-logo img {
-  height: 22vw;
+  height: 18vw;
 
-  @include breakpoint(480px){
-    height: 20vw;
-  }
   @include breakpoint(768px){
     height: 119px;
   }
@@ -61,16 +58,12 @@
 .pane-page-site-name > a {
   font-size: 10vw;
   width: 100%;
-  margin-left: -11.5vw;
+  margin-left: -8.5vw;
   line-height: 1;
   text-decoration: none;
   color: #a7cf38;
   text-shadow: #7b7b7b -3px 0px 1px;
 
-  @include breakpoint(480px){
-    font-size: 10.5vw;
-    margin-left: -9.5vw;
-  }
   @include breakpoint(768px){
     font-size: 72px;
     margin-left: -60px;
@@ -94,10 +87,6 @@
   font-weight: bold;
   color: #444;
 
-  @include breakpoint(480px){
-    font-size: 3vw;
-    margin-left: -3vw;
-  }
   @include breakpoint(768px){
     font-size: 19px;
     margin-left: -12px;

@@ -444,10 +444,7 @@ legend.collapse-processed a:visited {
   margin: 0 15px 0 0; }
 
 .pane-page-logo img {
-  height: 22vw; }
-  @media (min-width: 480px) {
-    .pane-page-logo img {
-      height: 20vw; } }
+  height: 18vw; }
   @media (min-width: 768px) {
     .pane-page-logo img {
       height: 119px; } }
@@ -461,15 +458,11 @@ legend.collapse-processed a:visited {
 .pane-page-site-name > a {
   font-size: 10vw;
   width: 100%;
-  margin-left: -11.5vw;
+  margin-left: -8.5vw;
   line-height: 1;
   text-decoration: none;
   color: #a7cf38;
   text-shadow: #7b7b7b -3px 0px 1px; }
-  @media (min-width: 480px) {
-    .pane-page-site-name > a {
-      font-size: 10.5vw;
-      margin-left: -9.5vw; } }
   @media (min-width: 768px) {
     .pane-page-site-name > a {
       font-size: 72px;
@@ -490,10 +483,6 @@ legend.collapse-processed a:visited {
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
   font-weight: bold;
   color: #444; }
-  @media (min-width: 480px) {
-    .pane-page-slogan {
-      font-size: 3vw;
-      margin-left: -3vw; } }
   @media (min-width: 768px) {
     .pane-page-slogan {
       font-size: 19px;
