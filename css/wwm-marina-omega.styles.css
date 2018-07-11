@@ -36,7 +36,8 @@ a,
 a:link,
 a:visited {
   color: #0637fb;
-  text-decoration: none; }
+  text-decoration: none;
+  word-wrap: break-word; }
 
 /* Hover/active link styles. Don't forget :focus for accessibility */
 a:hover,
@@ -110,7 +111,12 @@ html {
 #main-content,
 .footer-inner {
   max-width: 1200px;
-  margin: auto; }
+  margin: 1em; }
+  @media (min-width: 1220px) {
+    .header-inner,
+    #main-content,
+    .footer-inner {
+      margin: auto; } }
 
 #page {
   background-color: #f2fbd2;
@@ -180,7 +186,7 @@ ul.breadcrumb {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    @media (min-width: 1200px) {
+    @media (min-width: 1220px) {
       #branding .limiter {
         margin: auto; } }
 
