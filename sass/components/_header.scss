@@ -21,7 +21,7 @@
       text-align: center;
       margin-top: 1em;
       margin-left: calc(-16% - 28px);
-      margin-right: -72px;
+      margin-right: -103px;
       width: calc(100vw - 28px);
 
       a img {
@@ -43,7 +43,7 @@
 .pane-page-logo img {
   height: 18vw;
 
-  @include breakpoint(768px){
+  @include breakpoint(480px){
     height: 20vw;
   }
   @include breakpoint(768px){
@@ -67,7 +67,7 @@
   text-shadow: #7b7b7b -3px 0px 1px;
 
   @include breakpoint(480px){
-    font-size: 11.2vw;
+    font-size: 10.5vw;
     margin-left: -9.5vw;
   }
   @include breakpoint(768px){
@@ -95,7 +95,7 @@
 
   @include breakpoint(480px){
     font-size: 3vw;
-    margin-left: -12px;
+    margin-left: -26px;
   }
   @include breakpoint(768px){
     font-size: 19px;
