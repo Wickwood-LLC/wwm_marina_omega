@@ -423,24 +423,29 @@ legend.collapse-processed a:visited {
   border-bottom: 3px solid #a7ce38;
   padding-top: 10px; }
 
-#wwm-collapse-3 .left-column, #wwm-collapse-3 .right-column {
-  -webkit-box-flex: 0.5;
-      -ms-flex: 0.5 1 8.5% px;
-          flex: 0.5 1 8.5% px; }
-  @media (min-width: 720px) {
-    #wwm-collapse-3 .left-column, #wwm-collapse-3 .right-column {
-      -webkit-box-flex: 0.5;
-          -ms-flex: 0.5 1 100px;
-              flex: 0.5 1 100px; } }
-#wwm-collapse-3 .middle-column .pane-widgets-s-socialmedia-share-default {
-  text-align: center;
-  margin-top: 1em;
-  margin-left: calc(-16% - 28px);
-  margin-right: -103px;
-  width: calc(100vw - 28px); }
-  #wwm-collapse-3 .middle-column .pane-widgets-s-socialmedia-share-default a img {
-    min-width: 25px;
-    width: 4.4vw; }
+#wwm-collapse-3 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  #wwm-collapse-3 .left-column, #wwm-collapse-3 .right-column {
+    -webkit-box-flex: 0;
+        -ms-flex: 0;
+            flex: 0; }
+  #wwm-collapse-3 .middle-column {
+    -webkit-box-flex: 0;
+        -ms-flex: 0;
+            flex: 0; }
+    #wwm-collapse-3 .middle-column .pane-widgets-s-socialmedia-share-default {
+      text-align: center;
+      margin-top: 1em;
+      margin-left: calc(-19vw - 24px);
+      margin-right: -21vw;
+      width: 100vw; }
+      #wwm-collapse-3 .middle-column .pane-widgets-s-socialmedia-share-default a img {
+        min-width: 25px;
+        width: 4.4vw; }
+  #wwm-collapse-3 .right-column .pane-widgets-s-socialmedia-share-default {
+    width: 70px; }
 
 /* @end header top*/
 /* Wrapper around logo, site name, and slogan */
@@ -460,35 +465,39 @@ legend.collapse-processed a:visited {
     .pane-page-logo img {
       height: 192px; } }
 
-.pane-page-site-name > a {
-  font-size: 10vw;
-  width: 100%;
-  margin-left: -8.5vw;
-  line-height: 1;
-  text-decoration: none;
-  color: #a7cf38;
-  text-shadow: #7b7b7b -3px 0px 1px; }
-  @media screen and (min-width: 718px) {
-    .pane-page-site-name > a {
-      font-size: calc(71px + 5 * ((100vw - 718px) / 49)); } }
-  @media screen and (min-width: 767px) {
-    .pane-page-site-name > a {
-      font-size: 76px; } }
-  @media (min-width: 768px) {
-    .pane-page-site-name > a {
-      font-size: 72px;
-      margin-left: -60px; } }
-  @media (min-width: 960px) {
-    .pane-page-site-name > a {
-      font-size: 98px;
-      margin-left: -77px; } }
-  @media (min-width: 1200px) {
-    .pane-page-site-name > a {
-      font-size: 116px;
-      margin-left: -90px; } }
+.pane-page-site-name {
+  display: inline-block; }
+  .pane-page-site-name > a {
+    font-size: 10vw;
+    width: 100%;
+    margin-left: -8.5vw;
+    line-height: 1;
+    text-decoration: none;
+    color: #a7cf38;
+    text-shadow: #7b7b7b -3px 0px 1px;
+    white-space: nowrap; }
+    @media screen and (min-width: 718px) {
+      .pane-page-site-name > a {
+        font-size: calc(71px + 5 * ((100vw - 718px) / 49)); } }
+    @media screen and (min-width: 767px) {
+      .pane-page-site-name > a {
+        font-size: 76px; } }
+    @media (min-width: 768px) {
+      .pane-page-site-name > a {
+        font-size: 72px;
+        margin-left: -60px; } }
+    @media (min-width: 960px) {
+      .pane-page-site-name > a {
+        font-size: 98px;
+        margin-left: -77px; } }
+    @media (min-width: 1200px) {
+      .pane-page-site-name > a {
+        font-size: 116px;
+        margin-left: -90px; } }
 
 /* Typography for site slogan */
 .pane-page-slogan {
+  display: inline-block;
   line-height: 1;
   font-size: 2.5vw;
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;

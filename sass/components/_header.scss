@@ -8,26 +8,32 @@
 }
 
 #wwm-collapse-3 {
-  .left-column, .right-column {
-    flex: 0.5 1 8.5%px;
+  justify-content: center;
 
-    @include breakpoint(720px){
-      flex: 0.5 1 100px;
-    }
+  .left-column, .right-column {
+    flex: 0;
   }
 
   .middle-column {
+    flex: 0;
+
     .pane-widgets-s-socialmedia-share-default {
       text-align: center;
       margin-top: 1em;
-      margin-left: calc(-16% - 28px);
-      margin-right: -103px;
-      width: calc(100vw - 28px);
+      margin-left: calc(-19vw - 24px);
+      margin-right: -21vw;
+      width: 100vw;
 
       a img {
         min-width: 25px;
         width: 4.4vw;
       }
+    }
+  }
+
+  .right-column {
+    .pane-widgets-s-socialmedia-share-default {
+      width: 70px;
     }
   }
 }
@@ -55,34 +61,40 @@
   }
 }
 
-.pane-page-site-name > a {
-  font-size: 10vw;
-  width: 100%;
-  margin-left: -8.5vw;
-  line-height: 1;
-  text-decoration: none;
-  color: #a7cf38;
-  text-shadow: #7b7b7b -3px 0px 1px;
+.pane-page-site-name {
+  display: inline-block;
 
-  @include fluid-type(718px, 767px, 71px, 76px); // values inside are ($min_width, $max_width, $min_font, $max_font);
+  > a {
+    font-size: 10vw;
+    width: 100%;
+    margin-left: -8.5vw;
+    line-height: 1;
+    text-decoration: none;
+    color: #a7cf38;
+    text-shadow: #7b7b7b -3px 0px 1px;
+    white-space: nowrap;
 
-  @include breakpoint(768px){
-    font-size: 72px;
-    margin-left: -60px;
-  }
-  @include breakpoint(960px){
-    font-size: 98px;
-    margin-left: -77px;
-  }
-  @include breakpoint(1200px) {
-    font-size: 116px;
-    margin-left: -90px;
+    @include fluid-type(718px, 767px, 71px, 76px); // values inside are ($min_width, $max_width, $min_font, $max_font);
+
+    @include breakpoint(768px){
+      font-size: 72px;
+      margin-left: -60px;
+    }
+    @include breakpoint(960px){
+      font-size: 98px;
+      margin-left: -77px;
+    }
+    @include breakpoint(1200px) {
+      font-size: 116px;
+      margin-left: -90px;
+    }
   }
 }
 
 /* Typography for site slogan */
 
 .pane-page-slogan {
+  display: inline-block;
   line-height: 1;
   font-size: 2.5vw;
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
