@@ -169,11 +169,15 @@ ul.sf-vertical li ul li ul {
   border-radius: 10px;
   line-height: 1.5;
   padding: 0.25em 1em;
-  font-size: 18px;  /* fallback */
-  font-size: calc(12px + 1vw);
+  font-size: 12px;
   font-weight: bold;
   text-decoration: none;
   margin-bottom: 0.5em;
+
+  @include breakpoint(500px){
+    font-size: 18px;  /* fallback */
+    font-size: calc(12px + 1vw);
+  }
 
   &.sf-expanded {
     background-color: #7bc;

@@ -455,7 +455,10 @@ legend.collapse-processed a:visited {
   margin: 0 15px 0 0; }
 
 .pane-page-logo img {
-  height: 18vw; }
+  height: 81px; }
+  @media (min-width: 450px) {
+    .pane-page-logo img {
+      font-size: 18vw; } }
   @media (min-width: 768px) {
     .pane-page-logo img {
       height: 119px; } }
@@ -469,14 +472,18 @@ legend.collapse-processed a:visited {
 .pane-page-site-name {
   display: inline-block; }
   .pane-page-site-name > a {
-    font-size: 10vw;
+    font-size: 45px;
     width: 100%;
-    margin-left: -8.5vw;
+    margin-left: -42px;
     line-height: 1;
     text-decoration: none;
     color: #a7cf38;
     text-shadow: #7b7b7b -3px 0px 1px;
     white-space: nowrap; }
+    @media (min-width: 450px) {
+      .pane-page-site-name > a {
+        font-size: 10vw;
+        margin-left: -8.5vw; } }
     @media screen and (min-width: 718px) {
       .pane-page-site-name > a {
         font-size: calc(71px + 5 * ((100vw - 718px) / 49)); } }
@@ -747,12 +754,15 @@ ul.sf-vertical li ul li ul {
   border-radius: 10px;
   line-height: 1.5;
   padding: 0.25em 1em;
-  font-size: 18px;
-  /* fallback */
-  font-size: calc(12px + 1vw);
+  font-size: 12px;
   font-weight: bold;
   text-decoration: none;
   margin-bottom: 0.5em; }
+  @media (min-width: 500px) {
+    #superfish-1-toggle {
+      font-size: 18px;
+      /* fallback */
+      font-size: calc(12px + 1vw); } }
   #superfish-1-toggle.sf-expanded {
     background-color: #7bc;
     border-radius: 10px 10px 0 0;

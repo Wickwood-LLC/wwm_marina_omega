@@ -49,8 +49,11 @@
 }
 
 .pane-page-logo img {
-  height: 18vw;
+  height: 81px;
 
+  @include breakpoint(450px){
+    font-size: 18vw;
+  }
   @include breakpoint(768px){
     height: 119px;
   }
@@ -66,14 +69,19 @@
   display: inline-block;
 
   > a {
-    font-size: 10vw;
+    font-size: 45px;
     width: 100%;
-    margin-left: -8.5vw;
+    margin-left: -42px;
     line-height: 1;
     text-decoration: none;
     color: #a7cf38;
     text-shadow: #7b7b7b -3px 0px 1px;
     white-space: nowrap;
+
+    @include breakpoint(450px){
+      font-size: 10vw;
+      margin-left: -8.5vw;
+    }
 
     @include fluid-type(718px, 767px, 71px, 76px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 
