@@ -430,7 +430,8 @@ legend.collapse-processed a:visited {
   #wwm-collapse-3 .left-column, #wwm-collapse-3 .right-column {
     -webkit-box-flex: 0;
         -ms-flex: 0;
-            flex: 0; }
+            flex: 0;
+    padding: 0 1vw; }
   #wwm-collapse-3 .middle-column {
     -webkit-box-flex: 0;
         -ms-flex: 0;
@@ -438,8 +439,8 @@ legend.collapse-processed a:visited {
     #wwm-collapse-3 .middle-column .pane-widgets-s-socialmedia-share-default {
       text-align: center;
       margin-top: 1em;
-      margin-left: calc(-19vw - 24px);
-      margin-right: -21vw;
+      margin-left: calc(-25vw - 15px);
+      margin-right: -16vw;
       width: 100vw; }
       #wwm-collapse-3 .middle-column .pane-widgets-s-socialmedia-share-default a img {
         min-width: 25px;
