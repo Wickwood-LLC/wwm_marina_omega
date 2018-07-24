@@ -882,10 +882,12 @@ ul.pager {
   display: table;
   margin: auto;
   margin-top: 1em;
+  padding: 0;
 
   .pager__item {
     background: #eee;
     float: left;
+    margin-bottom: 0;
 
     &:first-child {
       border-radius: 5px 0 0 5px;
