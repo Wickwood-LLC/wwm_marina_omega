@@ -1521,6 +1521,19 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/sass\/components\/_blog_pages.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/components\/_blog_pages.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/components\/_breadcrumbs.scss": {
 		"aP": 0,
 		"bl": 0,
