@@ -13,7 +13,8 @@ h1 {
   /* 22px/12px */
   font-weight: normal;
   line-height: 120%;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  margin-top: 0; }
 
 h2 {
   border-bottom: 1px solid #d6dd89;
@@ -22,7 +23,8 @@ h2 {
   /* 16px/12px */
   font-weight: 600;
   text-transform: uppercase;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  margin-top: 0; }
 
 h2 a:hover,
 h2 a:focus,
@@ -760,7 +762,8 @@ html {
   .node-type-panopoly-news-article .radix-layouts-sidebar .boxed .pane-title,
   .node-type-panopoly-faq .radix-layouts-sidebar .boxed .pane-title {
     position: static;
-    margin-bottom: 0.5em; }
+    margin-bottom: 0.5em;
+    margin-top: 0; }
 .node-type-article-post .radix-layouts-sidebar .views-slideshow-cycle-main-frame-row-item.boxed,
 .node-type-panopoly-news-article .radix-layouts-sidebar .views-slideshow-cycle-main-frame-row-item.boxed,
 .node-type-panopoly-faq .radix-layouts-sidebar .views-slideshow-cycle-main-frame-row-item.boxed {
