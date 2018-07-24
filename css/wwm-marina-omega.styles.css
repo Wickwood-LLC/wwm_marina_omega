@@ -1,5 +1,5 @@
 /* No files to import found in variables/* */
-/* No files to import found in abstractions/* */
+/* Fluid Typography */
 body {
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -468,6 +468,14 @@ legend.collapse-processed a:visited {
   text-decoration: none;
   color: #a7cf38;
   text-shadow: #7b7b7b -3px 0px 1px; }
+  .pane-page-site-name > a {
+    font-size: 71px; }
+    @media screen and (min-width: 718px) {
+      .pane-page-site-name > a {
+        font-size: calc(71px + 5 * ((100vw - 718px) / 49)); } }
+    @media screen and (min-width: 767px) {
+      .pane-page-site-name > a {
+        font-size: 76px; } }
   @media (min-width: 768px) {
     .pane-page-site-name > a {
       font-size: 72px;

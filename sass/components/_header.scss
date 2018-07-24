@@ -64,6 +64,8 @@
   color: #a7cf38;
   text-shadow: #7b7b7b -3px 0px 1px;
 
+  @include fluid-type(718px, 767px, 71px, 76px); // values inside are ($min_width, $max_width, $min_font, $max_font);
+
   @include breakpoint(768px){
     font-size: 72px;
     margin-left: -60px;
