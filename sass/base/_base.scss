@@ -33,32 +33,32 @@ h2 a:active {
 }
 
 h1 {
-    font-size: 36px;  // backup size
+    font-size: 28px;  // backup size
     @include fluid-type(718px, 1200px, 28px, 32px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 22px;
     @include fluid-type(718px, 1200px, 22px, 24px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 16px;
     @include fluid-type(718px, 1200px, 16px, 18px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 14px;
     @include fluid-type(718px, 1200px, 14px, 16px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h5 {
-    font-size: 18px;
+    font-size: 11px;
     @include fluid-type(718px, 1200px, 11px, 13px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h6 {
-    font-size: 16px;
+    font-size: 9px;
     @include fluid-type(718px, 1200px, 9px, 10px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
