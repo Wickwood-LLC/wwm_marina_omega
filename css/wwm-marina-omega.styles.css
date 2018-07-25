@@ -32,6 +32,60 @@ h2 a:active {
   color: #619cbe;
   text-decoration: none; }
 
+h1 {
+  font-size: 36px; }
+  @media screen and (min-width: 718px) {
+    h1 {
+      font-size: calc(28px + 8 * ((100vw - 718px) / 482)); } }
+  @media screen and (min-width: 1200px) {
+    h1 {
+      font-size: 36px; } }
+
+h2 {
+  font-size: 30px; }
+  @media screen and (min-width: 718px) {
+    h2 {
+      font-size: calc(22px + 8 * ((100vw - 718px) / 482)); } }
+  @media screen and (min-width: 1200px) {
+    h2 {
+      font-size: 30px; } }
+
+h3 {
+  font-size: 24px; }
+  @media screen and (min-width: 718px) {
+    h3 {
+      font-size: calc(16px + 8 * ((100vw - 718px) / 482)); } }
+  @media screen and (min-width: 1200px) {
+    h3 {
+      font-size: 24px; } }
+
+h4 {
+  font-size: 20px; }
+  @media screen and (min-width: 718px) {
+    h4 {
+      font-size: calc(14px + 6 * ((100vw - 718px) / 482)); } }
+  @media screen and (min-width: 1200px) {
+    h4 {
+      font-size: 20px; } }
+
+h5 {
+  font-size: 18px; }
+  @media screen and (min-width: 718px) {
+    h5 {
+      font-size: calc(13px + 5 * ((100vw - 718px) / 482)); } }
+  @media screen and (min-width: 1200px) {
+    h5 {
+      font-size: 18px; } }
+
+h6 {
+  font-size: 16px; }
+  @media screen and (min-width: 718px) {
+    h6 {
+      font-size: calc(12px + 4 * ((100vw - 718px) / 482)); } }
+  @media screen and (min-width: 1200px) {
+    h6 {
+      font-size: 16px; } }
+
 /* Default link styles - separate a:visited for a different visited
 link style */
 a,
@@ -1084,11 +1138,13 @@ ul.breadcrumb {
   clear: both; }
 
 #page-title {
-  text-align: center; }
+  text-align: center;
+  font-weight: 600; }
   #page-title h1.page-title {
     border: 0;
     margin-top: 0;
-    margin-bottom: 0.5em; }
+    margin-bottom: 0.5em;
+    font-weight: inherit; }
 
 .views-ui-display-tab-bucket .advanced-help-link {
   float: left; }
