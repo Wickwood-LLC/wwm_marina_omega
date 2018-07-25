@@ -62,6 +62,11 @@ h6 {
     @include fluid-type(718px, 1200px, 9px, 10px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
+p {
+  font-size: 13px;
+  @include fluid-type(718px, 1200px, 13px, 18px); // values inside are ($min_width, $max_width, $min_font, $max_font);
+}
+
 /* Default link styles - separate a:visited for a different visited
 link style */
 
