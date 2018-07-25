@@ -256,7 +256,8 @@ html {
       margin-top: 0; }
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content .boxed .pane-title {
       position: static;
-      margin-bottom: 1em; }
+      margin-bottom: 1em;
+      text-align: center; }
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content [data-pane] {
       margin: 1em 0; }
       .blog-type-page #main-content .panel-myriad-layout .sidebar-content [data-pane] .boxed {
