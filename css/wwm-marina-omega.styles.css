@@ -34,21 +34,57 @@ h2 a:active {
 
 h1 {
   font-size: 36px; }
+  @media screen and (min-width: 718px) {
+    h1 {
+      font-size: calc(28px + 4 * ((100vw - 718px) / 482)); } }
+  @media screen and (min-width: 1200px) {
+    h1 {
+      font-size: 32px; } }
 
 h2 {
   font-size: 30px; }
+  @media screen and (min-width: 718px) {
+    h2 {
+      font-size: calc(22px + 2 * ((100vw - 718px) / 482)); } }
+  @media screen and (min-width: 1200px) {
+    h2 {
+      font-size: 24px; } }
 
 h3 {
   font-size: 24px; }
+  @media screen and (min-width: 718px) {
+    h3 {
+      font-size: calc(16px + 2 * ((100vw - 718px) / 482)); } }
+  @media screen and (min-width: 1200px) {
+    h3 {
+      font-size: 18px; } }
 
 h4 {
   font-size: 20px; }
+  @media screen and (min-width: 718px) {
+    h4 {
+      font-size: calc(14px + 2 * ((100vw - 718px) / 482)); } }
+  @media screen and (min-width: 1200px) {
+    h4 {
+      font-size: 16px; } }
 
 h5 {
   font-size: 18px; }
+  @media screen and (min-width: 718px) {
+    h5 {
+      font-size: calc(11px + 2 * ((100vw - 718px) / 482)); } }
+  @media screen and (min-width: 1200px) {
+    h5 {
+      font-size: 13px; } }
 
 h6 {
   font-size: 16px; }
+  @media screen and (min-width: 718px) {
+    h6 {
+      font-size: calc(9px + 1 * ((100vw - 718px) / 482)); } }
+  @media screen and (min-width: 1200px) {
+    h6 {
+      font-size: 10px; } }
 
 /* Default link styles - separate a:visited for a different visited
 link style */
