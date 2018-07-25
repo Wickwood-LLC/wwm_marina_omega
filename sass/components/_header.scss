@@ -30,6 +30,10 @@
         width: 4.4vw;
       }
     }
+
+    @include breakpoint(721px){
+      flex: 1;
+    }
   }
 
   .right-column {
@@ -52,7 +56,7 @@
   height: 81px;
 
   @include breakpoint(450px){
-    font-size: 18vw;
+    height: 18vw;
   }
   @include breakpoint(768px){
     height: 119px;
