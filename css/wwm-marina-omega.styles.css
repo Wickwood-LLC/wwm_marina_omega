@@ -327,7 +327,7 @@ html {
         max-width: 100%; }
     .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row,
     .blog-type-page #main-content .panel-myriad-layout .main-display .views-row {
-      width: calc((100% / 3) - 41px);
+      width: calc((100% / 3) - 42px);
       -webkit-box-flex: 1;
           -ms-flex: 1 100%;
               flex: 1 100%;
