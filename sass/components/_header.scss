@@ -83,7 +83,7 @@
       margin-left: -8.5vw;
     }
 
-    @include fluid-type(font-size, 718px, 767px, 71px, 76px);  // values are $properties, $min-vw, $max-vw, $min-value, $max-value
+    @include fluid-type(718px, 767px, 71px, 76px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 
     @include breakpoint(768px){
       font-size: 72px;

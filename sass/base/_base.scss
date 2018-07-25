@@ -34,32 +34,32 @@ h2 a:active {
 
 h1 {
     font-size: 36px;  // backup size
-    @include fluid-type(font-size,37.5rem, 80rem, $h1-min, $h1-max);  // values are $properties, $min-vw, $max-vw, $min-value, $max-value
+    @include fluid-type(718px, 1200px, 28px, 2em); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h2 {
     font-size: 30px;
-    @include fluid-type(font-size,37.5rem, 80rem, $h2-min, $h2-max);  // values are $properties, $min-vw, $max-vw, $min-value, $max-value
+    @include fluid-type(718px, 1200px, 22px, 1.5em); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h3 {
     font-size: 24px;
-    @include fluid-type(font-size,37.5rem, 80rem, $h3-min, $h3-max);  // values are $properties, $min-vw, $max-vw, $min-value, $max-value
+    @include fluid-type(718px, 1200px, 16px, 1.17em); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h4 {
     font-size: 20px;
-    @include fluid-type(font-size,37.5rem, 80rem, $h4-min, $h4-max);  // values are $properties, $min-vw, $max-vw, $min-value, $max-value
+    @include fluid-type(718px, 1200px, 14px, 1.33em); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h5 {
     font-size: 18px;
-    @include fluid-type(font-size,37.5rem, 80rem, $h5-min, $h5-max);  // values are $properties, $min-vw, $max-vw, $min-value, $max-value
+    @include fluid-type(718px, 1200px, 13px, 1.67em); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h6 {
     font-size: 16px;
-    @include fluid-type(font-size, 37.5rem, 80rem, $h6-min, $h6-max); // values are $properties, $min-vw, $max-vw, $min-value, $max-value
+    @include fluid-type(718px, 1200px, 12px, .67em); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 /* Default link styles - separate a:visited for a different visited
