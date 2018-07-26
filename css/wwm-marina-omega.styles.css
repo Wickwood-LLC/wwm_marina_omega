@@ -1475,12 +1475,19 @@ legend.collapse-processed a:visited {
   @media (min-width: 400px) {
     .pane-page-slogan {
       width: 100%;
-      margin-left: 0;
       text-align: left;
-      margin-top: 0; } }
+      margin-top: 0;
+      width: calc(100% + 18vw + 15px);
+      margin-left: calc(-18vw - 15px);
+      text-align: center; } }
   @media (min-width: 500px) {
     .pane-page-slogan {
       font-size: 2.5vw; } }
+  @media (min-width: 720px) {
+    .pane-page-slogan {
+      width: 100%;
+      margin-left: 0;
+      text-align: left; } }
   @media (min-width: 768px) {
     .pane-page-slogan {
       font-size: 19px;
