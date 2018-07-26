@@ -1399,11 +1399,7 @@ legend.collapse-processed a:visited {
   #mini-panel-header .panel-col-last .pane-widgets-s-socialmedia-share-default {
     width: 70px; }
   #mini-panel-header .panel-col-bottom .pane-widgets-s-socialmedia-share-default {
-    text-align: center;
-    margin-top: 1em;
-    margin-left: calc(-25vw - 15px);
-    margin-right: -16vw;
-    width: 100vw; }
+    text-align: center; }
     #mini-panel-header .panel-col-bottom .pane-widgets-s-socialmedia-share-default a img {
       min-width: 25px;
       width: 4.4vw; }
