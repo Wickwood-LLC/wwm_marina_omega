@@ -1370,39 +1370,38 @@ legend.collapse-processed a:visited {
   border-bottom: 3px solid #a7ce38;
   padding-top: 10px; }
 
-#mini-panel-header {
+#mini-panel-header .center-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  #mini-panel-header .center-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-  #mini-panel-header .inside {
-    margin: 0; }
-  #mini-panel-header .panel-col-first, #mini-panel-header .panel-col-last {
-    -webkit-box-flex: 0;
-        -ms-flex: 0;
-            flex: 0;
-    width: auto;
-    padding: 0 1vw; }
-  #mini-panel-header .panel-col {
-    -webkit-box-flex: 0;
-        -ms-flex: 0;
-            flex: 0;
-    width: auto; }
-    @media (min-width: 721px) {
-      #mini-panel-header .panel-col {
-        -webkit-box-flex: 1;
-            -ms-flex: 1;
-                flex: 1; } }
-  #mini-panel-header .panel-col-last .pane-widgets-s-socialmedia-share-default {
-    width: 70px; }
-  #mini-panel-header .panel-col-bottom .pane-widgets-s-socialmedia-share-default {
-    text-align: center; }
-    #mini-panel-header .panel-col-bottom .pane-widgets-s-socialmedia-share-default a img {
-      min-width: 25px;
-      width: 4.4vw; }
+#mini-panel-header .inside {
+  margin: 0; }
+#mini-panel-header .panel-col-first, #mini-panel-header .panel-col-last {
+  -webkit-box-flex: 0;
+      -ms-flex: 0;
+          flex: 0;
+  width: auto;
+  padding: 0 1vw; }
+#mini-panel-header .panel-col {
+  -webkit-box-flex: 0;
+      -ms-flex: 0;
+          flex: 0;
+  width: auto; }
+  @media (min-width: 721px) {
+    #mini-panel-header .panel-col {
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1; } }
+#mini-panel-header .panel-col-last .pane-widgets-s-socialmedia-share-default {
+  width: 70px; }
+#mini-panel-header .panel-col-bottom .pane-widgets-s-socialmedia-share-default {
+  text-align: center; }
+  #mini-panel-header .panel-col-bottom .pane-widgets-s-socialmedia-share-default a img {
+    min-width: 25px;
+    width: 4.4vw; }
 
 /* @end header top*/
 /* Wrapper around logo, site name, and slogan */
@@ -1434,12 +1433,12 @@ legend.collapse-processed a:visited {
     line-height: 1;
     text-decoration: none;
     color: #a7cf38;
-    text-shadow: #7b7b7b -3px 0px 1px;
-    white-space: nowrap; }
+    text-shadow: #7b7b7b -3px 0px 1px; }
     @media (min-width: 450px) {
       .pane-page-site-name > a {
         font-size: 10vw;
-        margin-left: -8.5vw; } }
+        margin-left: -8.5vw;
+        white-space: nowrap; } }
     @media screen and (min-width: 718px) {
       .pane-page-site-name > a {
         font-size: calc(71px + 5 * ((100vw - 718px) / 49)); } }

@@ -8,10 +8,9 @@
 }
 
 #mini-panel-header {
-  justify-content: center;
-
   .center-wrapper {
     display: flex;
+    justify-content: center;
   }
 
   .inside {
@@ -88,11 +87,11 @@
     text-decoration: none;
     color: #a7cf38;
     text-shadow: #7b7b7b -3px 0px 1px;
-    white-space: nowrap;
 
     @include breakpoint(450px){
       font-size: 10vw;
       margin-left: -8.5vw;
+      white-space: nowrap;
     }
 
     @include fluid-type(718px, 767px, 71px, 76px); // values inside are ($min_width, $max_width, $min_font, $max_font);
