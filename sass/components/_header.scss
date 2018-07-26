@@ -7,16 +7,26 @@
   padding-top: 10px;
 }
 
-#wwm-collapse-3 {
+#mini-panel-header {
   justify-content: center;
 
-  .left-column, .right-column {
+  .center-wrapper {
+    display: flex;
+  }
+
+  .inside {
+    margin: 0;
+  }
+
+  .panel-col-first, .panel-col-last {
     flex: 0;
+    width: auto;
     padding: 0 1vw;
   }
 
-  .middle-column {
+  .panel-col {
     flex: 0;
+    width: auto;
 
     .pane-widgets-s-socialmedia-share-default {
       text-align: center;
@@ -36,7 +46,7 @@
     }
   }
 
-  .right-column {
+  .panel-col-last {
     .pane-widgets-s-socialmedia-share-default {
       width: 70px;
     }
