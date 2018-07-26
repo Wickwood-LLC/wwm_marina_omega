@@ -1391,15 +1391,6 @@ legend.collapse-processed a:visited {
         -ms-flex: 0;
             flex: 0;
     width: auto; }
-    #mini-panel-header .panel-col .pane-widgets-s-socialmedia-share-default {
-      text-align: center;
-      margin-top: 1em;
-      margin-left: calc(-25vw - 15px);
-      margin-right: -16vw;
-      width: 100vw; }
-      #mini-panel-header .panel-col .pane-widgets-s-socialmedia-share-default a img {
-        min-width: 25px;
-        width: 4.4vw; }
     @media (min-width: 721px) {
       #mini-panel-header .panel-col {
         -webkit-box-flex: 1;
@@ -1407,6 +1398,15 @@ legend.collapse-processed a:visited {
                 flex: 1; } }
   #mini-panel-header .panel-col-last .pane-widgets-s-socialmedia-share-default {
     width: 70px; }
+  #mini-panel-header .panel-col-bottom .pane-widgets-s-socialmedia-share-default {
+    text-align: center;
+    margin-top: 1em;
+    margin-left: calc(-25vw - 15px);
+    margin-right: -16vw;
+    width: 100vw; }
+    #mini-panel-header .panel-col-bottom .pane-widgets-s-socialmedia-share-default a img {
+      min-width: 25px;
+      width: 4.4vw; }
 
 /* @end header top*/
 /* Wrapper around logo, site name, and slogan */

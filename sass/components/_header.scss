@@ -28,6 +28,18 @@
     flex: 0;
     width: auto;
 
+    @include breakpoint(721px){
+      flex: 1;
+    }
+  }
+
+  .panel-col-last {
+    .pane-widgets-s-socialmedia-share-default {
+      width: 70px;
+    }
+  }
+
+  .panel-col-bottom {
     .pane-widgets-s-socialmedia-share-default {
       text-align: center;
       margin-top: 1em;
@@ -39,16 +51,6 @@
         min-width: 25px;
         width: 4.4vw;
       }
-    }
-
-    @include breakpoint(721px){
-      flex: 1;
-    }
-  }
-
-  .panel-col-last {
-    .pane-widgets-s-socialmedia-share-default {
-      width: 70px;
     }
   }
 }
