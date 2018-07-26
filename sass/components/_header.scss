@@ -88,10 +88,13 @@
     color: #a7cf38;
     text-shadow: #7b7b7b -3px 0px 1px;
 
+    @include breakpoint(400px){
+      white-space: nowrap;
+    }
+
     @include breakpoint(450px){
       font-size: 10vw;
       margin-left: -8.5vw;
-      white-space: nowrap;
     }
 
     @include fluid-type(718px, 767px, 71px, 76px); // values inside are ($min_width, $max_width, $min_font, $max_font);
@@ -120,6 +123,15 @@
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
   font-weight: bold;
   color: #444;
+  width: calc(100% + 95.45px);
+  margin-left: -95.45px;
+  text-align: center;
+
+  @include breakpoint(400px){
+    width: 100%;
+    margin-left: 0;
+    text-align: left;
+  }
   
   @include breakpoint(500px){
     font-size: 2.5vw;

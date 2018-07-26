@@ -1434,11 +1434,13 @@ legend.collapse-processed a:visited {
     text-decoration: none;
     color: #a7cf38;
     text-shadow: #7b7b7b -3px 0px 1px; }
+    @media (min-width: 400px) {
+      .pane-page-site-name > a {
+        white-space: nowrap; } }
     @media (min-width: 450px) {
       .pane-page-site-name > a {
         font-size: 10vw;
-        margin-left: -8.5vw;
-        white-space: nowrap; } }
+        margin-left: -8.5vw; } }
     @media screen and (min-width: 718px) {
       .pane-page-site-name > a {
         font-size: calc(71px + 5 * ((100vw - 718px) / 49)); } }
@@ -1465,7 +1467,15 @@ legend.collapse-processed a:visited {
   font-size: 12.5px;
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
   font-weight: bold;
-  color: #444; }
+  color: #444;
+  width: calc(100% + 95.45px);
+  margin-left: -95.45px;
+  text-align: center; }
+  @media (min-width: 400px) {
+    .pane-page-slogan {
+      width: 100%;
+      margin-left: 0;
+      text-align: left; } }
   @media (min-width: 500px) {
     .pane-page-slogan {
       font-size: 2.5vw; } }
