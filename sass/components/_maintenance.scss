@@ -1,4 +1,12 @@
 .maintenance-page {
+  .l-page {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+  }
+  .l-header {
+    background: white;
+  }
   #header-group-wrapper {
     display: inline-block;
   }
@@ -77,6 +85,7 @@
       font-size: 19px;
       margin-left: 27px;
       top: 100px;
+      margin-top: -1em;
     }
     @include breakpoint(960px){
       font-size: 24px;
@@ -90,8 +99,24 @@
     }
   }
 
-  #content-region {
+  .l-main {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    background-color: #f2fbd2;
+    background-image: linear-gradient(#f2fbd2, #f5f7e7);
+
+    &:before {
+      content: "";
+      height: 33px;
+      width: 100%;
+      background-color: #2f76a5;
+      background: linear-gradient(#2f76a5, #144a6e);
+      border-top: 3px solid #a7ce38;
+    }
+  }
+  .l-content {
     text-align: center;
-    margin-top: 5em;
+    margin: auto 10%;
   }
 }
