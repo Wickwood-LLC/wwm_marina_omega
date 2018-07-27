@@ -47,6 +47,13 @@
         width: 4.4vw;
       }
     }
+
+    @include breakpoint(400px){
+      margin-top: -4vw;
+    }
+    @include breakpoint(720px){
+      margin-top: 0;
+    }
   }
 }
 
@@ -134,7 +141,7 @@
     margin-top: 0;
 
     width: calc(100% + 18vw + 15px);
-    margin-left: calc(-18vw - 15px);
+    margin-left: calc(-18vw - 8px);
     text-align: center;
   }
   

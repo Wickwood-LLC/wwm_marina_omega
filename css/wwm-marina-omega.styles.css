@@ -1402,6 +1402,12 @@ legend.collapse-processed a:visited {
   #mini-panel-header .panel-col-bottom .pane-widgets-s-socialmedia-share-default a img {
     min-width: 25px;
     width: 4.4vw; }
+@media (min-width: 400px) {
+  #mini-panel-header .panel-col-bottom {
+    margin-top: -4vw; } }
+@media (min-width: 720px) {
+  #mini-panel-header .panel-col-bottom {
+    margin-top: 0; } }
 
 /* @end header top*/
 /* Wrapper around logo, site name, and slogan */
@@ -1478,7 +1484,7 @@ legend.collapse-processed a:visited {
       text-align: left;
       margin-top: 0;
       width: calc(100% + 18vw + 15px);
-      margin-left: calc(-18vw - 15px);
+      margin-left: calc(-18vw - 8px);
       text-align: center; } }
   @media (min-width: 500px) {
     .pane-page-slogan {
