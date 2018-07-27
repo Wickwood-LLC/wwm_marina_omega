@@ -28,6 +28,7 @@
   <?php print $head; ?>
   <?php print $styles; ?>
   <?php print $scripts; ?>
+  <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yesteryear:regular&amp;subset=latin" media="all">
 </head>
 <body<?php print $attributes;?>>
 <div class="l-page">
