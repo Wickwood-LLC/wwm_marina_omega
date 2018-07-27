@@ -1404,7 +1404,7 @@ legend.collapse-processed a:visited {
     width: 4.4vw; }
 @media (min-width: 400px) {
   #mini-panel-header .panel-col-bottom {
-    margin-top: -4vw; } }
+    margin-top: calc(-6% + 1em); } }
 @media (min-width: 720px) {
   #mini-panel-header .panel-col-bottom {
     margin-top: 0; } }

@@ -49,7 +49,7 @@
     }
 
     @include breakpoint(400px){
-      margin-top: -4vw;
+      margin-top: calc(-6% + 1em);
     }
     @include breakpoint(720px){
       margin-top: 0;
