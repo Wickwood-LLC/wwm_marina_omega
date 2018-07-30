@@ -1413,7 +1413,7 @@ legend.collapse-processed a:visited {
   #mini-panel-header .panel-col-bottom .pane-widgets-s-socialmedia-share-default a img {
     min-width: 25px;
     width: 4.4vw; }
-@media (min-width: 400px) {
+@media (min-width: 586px) {
   #mini-panel-header .panel-col-bottom {
     margin-top: calc(-6% + 1em); } }
 @media (min-width: 720px) {
@@ -1484,10 +1484,6 @@ legend.collapse-processed a:visited {
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
   font-weight: bold;
   color: #444;
-  width: calc(100% + 95.45px);
-  margin-left: -95.45px;
-  text-align: center;
-  margin-top: 0.5em;
   font-size: 14px; }
   @media screen and (min-width: 400px) {
     .pane-page-slogan {

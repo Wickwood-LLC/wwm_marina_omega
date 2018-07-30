@@ -48,7 +48,7 @@
       }
     }
 
-    @include breakpoint(400px){
+    @include breakpoint(586px){
       margin-top: calc(-6% + 1em);
     }
     @include breakpoint(720px){
@@ -130,10 +130,10 @@
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
   font-weight: bold;
   color: #444;
-  width: calc(100% + 95.45px);
-  margin-left: -95.45px;
-  text-align: center;
-  margin-top: 0.5em;
+  // width: calc(100% + 95.45px);
+  // margin-left: -95.45px;
+  // text-align: center;
+  // margin-top: 0.5em;
 
   font-size: 14px;  // backup size
 
