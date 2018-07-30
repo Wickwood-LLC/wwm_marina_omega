@@ -207,6 +207,11 @@
       }
       .views-field-body {
         width: 100%;
+
+        .field-content {
+          width: 100%;
+        }
+
         img {
           display: block;
           height: auto;

@@ -393,6 +393,9 @@ html {
     .blog-type-page #main-content .panel-myriad-layout .featured-display .views-field-body,
     .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-body {
       width: 100%; }
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .views-field-body .field-content,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-body .field-content {
+        width: 100%; }
       .blog-type-page #main-content .panel-myriad-layout .featured-display .views-field-body img,
       .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-body img {
         display: block;
