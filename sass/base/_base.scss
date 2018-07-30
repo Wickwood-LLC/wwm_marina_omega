@@ -38,14 +38,14 @@ h2 a:active {
 h1 {
   text-transform: none;
   font-weight: 700;
-  bottom-border: none;
+  border-bottom: none;
   font-size: 24px;  // backup size
   @include fluid-type(400px, 1200px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 h2 {
   text-transform: none;
-  bottom-border: none;
+  border-bottom: none;
   font-size: 22px;
   @include fluid-type(400px, 1200px, 20px, 26px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }

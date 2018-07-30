@@ -43,7 +43,7 @@ h2 a:active {
 h1 {
   text-transform: none;
   font-weight: 700;
-  bottom-border: none;
+  border-bottom: none;
   font-size: 24px; }
   @media screen and (min-width: 400px) {
     h1 {
@@ -54,7 +54,7 @@ h1 {
 
 h2 {
   text-transform: none;
-  bottom-border: none;
+  border-bottom: none;
   font-size: 22px; }
   @media screen and (min-width: 400px) {
     h2 {
@@ -330,7 +330,6 @@ html {
       margin-top: 0; }
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content .boxed .pane-title {
       position: static;
-      margin-bottom: 1em;
       text-align: center; }
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content [data-pane] {
       margin: 1em 0; }
@@ -748,7 +747,7 @@ html {
 
 .views-field-title-field h2 {
   text-transform: none;
-  bottom-border: none;
+  border-bottom: none;
   font-size: 22px; }
   @media screen and (min-width: 400px) {
     .views-field-title-field h2 {
@@ -1174,7 +1173,7 @@ ul.breadcrumb {
   #page-title h1.page-title {
     margin-top: 0;
     text-transform: capitalize;
-    bottom-border: none;
+    border-bottom: 0;
     margin-bottom: 0em;
     font-size: 24px; }
     @media screen and (min-width: 400px) {
