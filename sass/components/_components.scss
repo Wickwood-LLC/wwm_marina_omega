@@ -70,3 +70,10 @@
 	text-transform: none;
 	font-size: 13px;
 }
+
+h2.pane-title {
+	text-transform: capitalize;
+	border-bottom: 1px solid #d6dd89;
+	font-size: 22px;
+	@include fluid-type(400px, 1200px, 20px, 26px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+}

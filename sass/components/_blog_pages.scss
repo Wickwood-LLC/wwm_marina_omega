@@ -519,6 +519,13 @@
   }
 }
 
+.views-field-title-field h2 {
+  text-transform: none;
+  bottom-border: none;
+  font-size: 22px;
+  @include fluid-type(400px, 1200px, 20px, 26px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+}
+
 .node-type-article-post,
 .node-type-panopoly-news-article,
 .node-type-panopoly-faq {

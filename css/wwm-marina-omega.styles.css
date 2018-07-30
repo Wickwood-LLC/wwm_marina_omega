@@ -41,64 +41,69 @@ h2 a:active {
   text-decoration: none; }
 
 h1 {
-  font-size: 28px; }
-  @media screen and (min-width: 718px) {
+  text-transform: none;
+  font-weight: 700;
+  bottom-border: none;
+  font-size: 24px; }
+  @media screen and (min-width: 400px) {
     h1 {
-      font-size: calc(28px + 4 * ((100vw - 718px) / 482)); } }
+      font-size: calc(24px + 8 * ((100vw - 400px) / 800)); } }
   @media screen and (min-width: 1200px) {
     h1 {
       font-size: 32px; } }
 
 h2 {
+  text-transform: none;
+  bottom-border: none;
   font-size: 22px; }
-  @media screen and (min-width: 718px) {
+  @media screen and (min-width: 400px) {
     h2 {
-      font-size: calc(22px + 2 * ((100vw - 718px) / 482)); } }
+      font-size: calc(20px + 6 * ((100vw - 400px) / 800)); } }
   @media screen and (min-width: 1200px) {
     h2 {
-      font-size: 24px; } }
+      font-size: 26px; } }
 
 h3 {
-  font-size: 16px; }
-  @media screen and (min-width: 718px) {
+  font-size: 14px; }
+  @media screen and (min-width: 400px) {
     h3 {
-      font-size: calc(16px + 2 * ((100vw - 718px) / 482)); } }
+      font-size: calc(14px + 4 * ((100vw - 400px) / 800)); } }
   @media screen and (min-width: 1200px) {
     h3 {
       font-size: 18px; } }
 
 h4 {
-  font-size: 14px; }
-  @media screen and (min-width: 718px) {
+  font-size: 12px; }
+  @media screen and (min-width: 400px) {
     h4 {
-      font-size: calc(14px + 2 * ((100vw - 718px) / 482)); } }
+      font-size: calc(14px + 2 * ((100vw - 400px) / 800)); } }
   @media screen and (min-width: 1200px) {
     h4 {
       font-size: 16px; } }
 
 h5 {
-  font-size: 11px; }
-  @media screen and (min-width: 718px) {
+  font-size: 10px; }
+  @media screen and (min-width: 400px) {
     h5 {
-      font-size: calc(11px + 2 * ((100vw - 718px) / 482)); } }
+      font-size: calc(10px + 4 * ((100vw - 400px) / 800)); } }
   @media screen and (min-width: 1200px) {
     h5 {
-      font-size: 13px; } }
+      font-size: 14px; } }
 
 h6 {
   font-size: 9px; }
-  @media screen and (min-width: 718px) {
+  @media screen and (min-width: 400px) {
     h6 {
-      font-size: calc(9px + 1 * ((100vw - 718px) / 482)); } }
+      font-size: calc(9px + 3 * ((100vw - 400px) / 800)); } }
   @media screen and (min-width: 1200px) {
     h6 {
-      font-size: 10px; } }
+      font-size: 12px; } }
 
 p {
   font-size: 13px; }
-  @media screen and (min-width: 718px) {
+  @media screen and (min-width: 400px) {
     p {
-      font-size: calc(13px + 5 * ((100vw - 718px) / 482)); } }
+      font-size: calc(13px + 5 * ((100vw - 400px) / 800)); } }
   @media screen and (min-width: 1200px) {
     p {
       font-size: 18px; } }
@@ -216,11 +221,6 @@ html {
   border-width: 1px;
   padding: 1em;
   margin: .5em 0; }
-
-.field--name-title-field h1 {
-  text-align: center;
-  margin: 0 0 1rem 0;
-  border: 0; }
 
 .blog-type-page #main-content {
   background-color: transparent;
@@ -746,6 +746,17 @@ html {
 .blog-type-page.section-faqs .views-field-title-field {
   margin-bottom: 1em; }
 
+.views-field-title-field h2 {
+  text-transform: none;
+  bottom-border: none;
+  font-size: 22px; }
+  @media screen and (min-width: 400px) {
+    .views-field-title-field h2 {
+      font-size: calc(20px + 6 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    .views-field-title-field h2 {
+      font-size: 26px; } }
+
 .node-type-article-post .pane-node-title-field,
 .node-type-panopoly-news-article .pane-node-title-field,
 .node-type-panopoly-faq .pane-node-title-field {
@@ -1196,6 +1207,17 @@ ul.breadcrumb {
   font-weight: normal;
   text-transform: none;
   font-size: 13px; }
+
+h2.pane-title {
+  text-transform: capitalize;
+  border-bottom: 1px solid #d6dd89;
+  font-size: 22px; }
+  @media screen and (min-width: 400px) {
+    h2.pane-title {
+      font-size: calc(20px + 6 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    h2.pane-title {
+      font-size: 26px; } }
 
 #footer {
   border-top: 3px solid #a7cf38;
