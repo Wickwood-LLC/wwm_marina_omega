@@ -6,6 +6,7 @@
   }
   .l-header {
     background: white;
+    padding-top: 1em;
   }
   #header-group-wrapper {
     display: inline-block;
@@ -71,7 +72,7 @@
 
   .site-slogan {
     position: absolute;
-    top: 11vw;
+    top: calc(8.5vw + 27px);
     margin-left: 4vw;
     border: 0;
 
@@ -84,18 +85,18 @@
     @include breakpoint(768px){
       font-size: 19px;
       margin-left: 27px;
-      top: 100px;
+      top: 110px;
       margin-top: -1em;
     }
     @include breakpoint(960px){
       font-size: 24px;
       margin-left: 40px;
-      top: 128px;
+      top: 140px;
     }
     @include breakpoint(1200px){
       font-size: 30px;
       margin-left: 45px;
-      top: 147px;
+      top: 160px;
     }
   }
 
@@ -117,6 +118,13 @@
   }
   .l-content {
     text-align: center;
-    margin: auto 10%;
+    margin: 10%;
+
+    h1 {
+      border: 0;
+      text-transform: capitalize;
+      font-weight: bold;
+      margin-bottom: 1em;
+    }
   }
 }
