@@ -1166,6 +1166,15 @@ ul.breadcrumb {
     margin-bottom: 0.5em;
     font-weight: inherit; }
 
+.field.field--name-title-field {
+  font-size: 24px; }
+  @media screen and (min-width: 400px) {
+    .field.field--name-title-field {
+      font-size: calc(24px + 8 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    .field.field--name-title-field {
+      font-size: 32px; } }
+
 .views-ui-display-tab-bucket .advanced-help-link {
   float: left; }
 

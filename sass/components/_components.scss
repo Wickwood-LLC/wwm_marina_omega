@@ -44,6 +44,10 @@
 		font-weight: inherit;
 	}
 }
+.field.field--name-title-field {
+	font-size: 24px;  // backup size
+	@include fluid-type(400px, 1200px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+}
 
 .views-ui-display-tab-bucket .advanced-help-link {
 	float: left;
