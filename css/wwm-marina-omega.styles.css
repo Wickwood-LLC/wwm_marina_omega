@@ -1481,42 +1481,20 @@ legend.collapse-processed a:visited {
 .pane-page-slogan {
   display: inline-block;
   line-height: 1.3;
-  font-size: 12.5px;
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
   font-weight: bold;
   color: #444;
   width: calc(100% + 95.45px);
   margin-left: -95.45px;
   text-align: center;
-  margin-top: 0.5em; }
-  @media (min-width: 400px) {
+  margin-top: 0.5em;
+  font-size: 14px; }
+  @media screen and (min-width: 400px) {
     .pane-page-slogan {
-      width: 100%;
-      text-align: left;
-      margin-top: 0;
-      width: calc(100% + 18vw + 15px);
-      margin-left: calc(-18vw - 8px);
-      text-align: center; } }
-  @media (min-width: 500px) {
+      font-size: calc(14px + 16 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
     .pane-page-slogan {
-      font-size: 2.5vw; } }
-  @media (min-width: 720px) {
-    .pane-page-slogan {
-      width: 100%;
-      margin-left: 0;
-      text-align: left; } }
-  @media (min-width: 768px) {
-    .pane-page-slogan {
-      font-size: 19px;
-      margin-left: -12px; } }
-  @media (min-width: 960px) {
-    .pane-page-slogan {
-      font-size: 24px;
-      margin-left: 18px; } }
-  @media (min-width: 1200px) {
-    .pane-page-slogan {
-      font-size: 30px;
-      margin-left: 29px; } }
+      font-size: 30px; } }
 
 #header-group-inner {
   padding: 20px 0 0 0; }
