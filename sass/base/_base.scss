@@ -2,6 +2,9 @@ body {
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-size: 16px;
   margin: 0;
+  display: flex;
+  flex-flow: column wrap;
+  min-height: 100vh;
 }
 
 h1 {
@@ -175,6 +178,7 @@ html {
 #page {
   background-color: #f2fbd2;
   background-image: linear-gradient(#f2fbd2, #f5f7e7);
+  flex: 1;
 }
 
 #content.page-content {
