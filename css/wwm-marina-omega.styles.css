@@ -1681,9 +1681,15 @@ legend.collapse-processed a:visited {
 
 ul.sf-menu {
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
-  font-size: 100%;
   font-weight: bold;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 14px; }
+  @media screen and (min-width: 400px) {
+    ul.sf-menu {
+      font-size: calc(14px + 4 * ((100vw - 400px) / 318)); } }
+  @media screen and (min-width: 718px) {
+    ul.sf-menu {
+      font-size: 18px; } }
 
 a.menuparent:after {
   content: '\f0da';
@@ -1759,15 +1765,16 @@ ul.sf-vertical li ul li ul {
   border-radius: 10px;
   line-height: 1.5;
   padding: 0.25em 1em;
-  font-size: 12px;
   font-weight: bold;
   text-decoration: none;
-  margin-bottom: 0.5em; }
-  @media (min-width: 500px) {
+  margin-bottom: 0.5em;
+  font-size: 14px; }
+  @media screen and (min-width: 400px) {
     #superfish-1-toggle {
-      font-size: 18px;
-      /* fallback */
-      font-size: calc(12px + 1vw); } }
+      font-size: calc(14px + 4 * ((100vw - 400px) / 318)); } }
+  @media screen and (min-width: 718px) {
+    #superfish-1-toggle {
+      font-size: 18px; } }
   #superfish-1-toggle.sf-expanded {
     background-color: #7bc;
     border-radius: 10px 10px 0 0;
