@@ -1593,27 +1593,9 @@ legend.collapse-processed a:visited {
     display: none; }
   #header.sticky-header .panel-col-first,
   #header.sticky-header .panel-col-last {
-    width: 17vw;
-    display: block; }
-    @media (min-width: 1200px) {
-      #header.sticky-header .panel-col-first,
-      #header.sticky-header .panel-col-last {
-        width: 205px; } }
-  #header.sticky-header .title-bryan {
-    display: inline-block; }
-    #header.sticky-header .title-bryan h1 {
-      font-size: 5vw;
-      letter-spacing: normal;
-      line-height: 1;
-      text-indent: 0;
-      display: none; }
-      @media (min-width: 718px) {
-        #header.sticky-header .title-bryan h1 {
-          font-size: 4vw;
-          display: block; } }
-      @media (min-width: 1201px) {
-        #header.sticky-header .title-bryan h1 {
-          font-size: 48px; } }
+    display: none; }
+  #header.sticky-header .pane-page-slogan {
+    display: none; }
   #header.sticky-header .pane-page-site-name {
     display: inline-block;
     font-size: 7vw;

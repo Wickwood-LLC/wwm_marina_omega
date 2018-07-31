@@ -212,32 +212,11 @@
   }
   .panel-col-first,
   .panel-col-last {
-      width: 17vw;
-      display: block;
-
-      @include breakpoint(1200px){
-        width: 205px;
-      }
+      display: none;
   }
 
-  .title-bryan {
-    display: inline-block;
-
-    h1 {
-      font-size: 5vw;
-      letter-spacing: normal;
-      line-height: 1;
-      text-indent: 0;
-      display: none;
-
-      @include breakpoint(718px) {
-        font-size: 4vw;
-        display: block;
-      }
-      @include breakpoint(1201px) {
-        font-size: 48px;
-      }
-    }
+  .pane-page-slogan {
+    display: none;
   }
 
   .pane-page-site-name {
