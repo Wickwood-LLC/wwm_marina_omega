@@ -1686,7 +1686,8 @@ ul.sf-menu {
 a.menuparent:after {
   content: '\f0da';
   margin-left: 0.5em;
-  font-family: FontAwesome; }
+  font-family: FontAwesome;
+  line-height: 1; }
 
 a.menuparent.sf-depth-1:after {
   content: '\f0d7'; }
