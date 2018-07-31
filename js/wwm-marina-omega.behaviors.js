@@ -172,7 +172,7 @@
             'margin-top': headerHeight + topSpacing,
           });
 
-          $("#mini-panel-header .panel-col-last .pane-widgets-s-socialmedia-share-default").appendTo("#mini-panel-header .panel-col .inside > div"); // insert social icons inside the middle column
+          $("#mini-panel-header .pane-widgets-s-socialmedia-share-default").appendTo("#mini-panel-header .panel-col .inside > div"); // insert social icons inside the middle column
           $(".pane-page-logo").prependTo("#mini-panel-header .panel-col .inside > div"); // insert logo inside the middle column
         }
         else {
@@ -218,7 +218,7 @@
             'margin-top': headerHeight + topSpacing,
           });
 
-          $("#mini-panel-header .panel-col-last .pane-widgets-s-socialmedia-share-default").appendTo("#mini-panel-header .panel-col .inside > div"); // insert social icons inside the middle column
+          $("#mini-panel-header .pane-widgets-s-socialmedia-share-default").appendTo("#mini-panel-header .panel-col .inside > div"); // insert social icons inside the middle column
           $(".pane-page-logo").prependTo("#mini-panel-header .panel-col .inside > div"); // insert logo inside the middle column
         }
         else if (currentPosition >= 0) {
