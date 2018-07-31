@@ -142,16 +142,13 @@
 
   @include breakpoint(400px){
     width: 100%;
-    // text-align: left;
+    margin-left: 0;
+    text-align: left;
     // margin-top: 0;
 
     // width: calc(100% + 18vw + 15px);
     // margin-left: calc(-18vw - 8px);
     // text-align: center;
-  }
-
-  @include breakpoint(586px){
-    text-align: left;
   }
   
   // @include breakpoint(500px){
