@@ -1247,7 +1247,14 @@ h2.pane-title {
     display: inline-block;
     margin-right: 0.5em; }
     .pane-menu-menu-footer-links ul.menu li a {
-      text-decoration: none; }
+      text-decoration: none;
+      font-size: 10px; }
+      @media screen and (min-width: 400px) {
+        .pane-menu-menu-footer-links ul.menu li a {
+          font-size: calc(10px + 4 * ((100vw - 400px) / 800)); } }
+      @media screen and (min-width: 1200px) {
+        .pane-menu-menu-footer-links ul.menu li a {
+          font-size: 14px; } }
 
 form input.form-submit {
   background-color: #286e9b;

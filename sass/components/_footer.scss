@@ -27,6 +27,8 @@
 
       a {
       	text-decoration: none;
+          font-size: 10px;
+          @include fluid-type(400px, 1200px, 10px, 14px); // values inside are ($min_width, $max_width, $min_font, $max_font);
       }
     }
   }
