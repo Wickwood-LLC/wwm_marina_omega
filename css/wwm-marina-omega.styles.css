@@ -1602,6 +1602,8 @@ legend.collapse-processed a:visited {
     text-transform: capitalize;
     font-weight: bold;
     margin-bottom: 1em; }
+.maintenance-page #mini-panel-header .panel-col-bottom {
+  margin: 0; }
 
 #block-superfish-1 {
   display: -webkit-box;
