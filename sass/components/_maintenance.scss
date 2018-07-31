@@ -4,7 +4,7 @@
     display: flex;
     flex-flow: column;
   }
-  .l-header {
+  #header {
     background: white;
     padding-top: 1em;
   }
@@ -16,89 +16,90 @@
     width: 100%;
   }
 
-  #header-site-info-inner {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-  }
+  // #header-site-info-inner {
+  //   display: flex;
+  //   justify-content: center;
+  //   flex-flow: row wrap;
+  // }
 
-  .site-logo {
-    float: left;
+  // .site-logo {
+  //   float: left;
 
-    img {
-      height: 18vw;
+  //   img {
+  //     height: 18vw;
 
-      @include breakpoint(768px){
-        height: 119px;
-      }
-      @include breakpoint(960px){
-        height: 170px;
-      }
-      @include breakpoint(1200px){
-        height: 192px;
-      }
-    }
-  }
+  //     @include breakpoint(768px){
+  //       height: 119px;
+  //     }
+  //     @include breakpoint(960px){
+  //       height: 170px;
+  //     }
+  //     @include breakpoint(1200px){
+  //       height: 192px;
+  //     }
+  //   }
+  // }
 
-  h1.site-name {
-    clear: none;
-    border: 0;
-    align-self: start;
+  // h1.site-name {
+  //   clear: none;
+  //   border: 0;
+  //   align-self: start;
+  //   font-weight: normal;
 
-    a {
-      font-family: 'Yesteryear', Verdana, Geneva, Arial, Helvetica, sans-serif;
-      font-size: 10vw;
-      width: 100%;
-      margin-left: -5.5vw;
-      line-height: 1;
-      text-decoration: none;
-      color: #a7cf38;
-      text-shadow: #7b7b7b -3px 0px 1px;
+  //   a {
+  //     font-family: 'Yesteryear', Verdana, Geneva, Arial, Helvetica, sans-serif;
+  //     font-size: 10vw;
+  //     width: 100%;
+  //     margin-left: -5.5vw;
+  //     line-height: 1;
+  //     text-decoration: none;
+  //     color: #a7cf38;
+  //     text-shadow: #7b7b7b -3px 0px 1px;
 
-      @include breakpoint(768px){
-        font-size: 72px;
-        margin-left: -37px;
-      }
-      @include breakpoint(960px){
-        font-size: 98px;
-        margin-left: -54px;
-      }
-      @include breakpoint(1200px) {
-        font-size: 116px;
-        margin-left: -63px;
-      }
-    }
-  }
+  //     @include breakpoint(768px){
+  //       font-size: 72px;
+  //       margin-left: -37px;
+  //     }
+  //     @include breakpoint(960px){
+  //       font-size: 98px;
+  //       margin-left: -54px;
+  //     }
+  //     @include breakpoint(1200px) {
+  //       font-size: 116px;
+  //       margin-left: -63px;
+  //     }
+  //   }
+  // }
 
-  .site-slogan {
-    position: absolute;
-    top: calc(8.5vw + 27px);
-    margin-left: 4vw;
-    border: 0;
+  // .site-slogan {
+  //   position: absolute;
+  //   top: calc(8.5vw + 27px);
+  //   margin-left: 4vw;
+  //   border: 0;
 
-    line-height: 1;
-    font-size: 2.5vw;
-    font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
-    font-weight: bold;
-    color: #444;
+  //   line-height: 1;
+  //   font-size: 2.5vw;
+  //   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
+  //   font-weight: bold;
+  //   color: #444;
 
-    @include breakpoint(768px){
-      font-size: 19px;
-      margin-left: 27px;
-      top: 110px;
-      margin-top: -1em;
-    }
-    @include breakpoint(960px){
-      font-size: 24px;
-      margin-left: 40px;
-      top: 140px;
-    }
-    @include breakpoint(1200px){
-      font-size: 30px;
-      margin-left: 45px;
-      top: 160px;
-    }
-  }
+  //   @include breakpoint(768px){
+  //     font-size: 19px;
+  //     margin-left: 27px;
+  //     top: 110px;
+  //     margin-top: -1em;
+  //   }
+  //   @include breakpoint(960px){
+  //     font-size: 24px;
+  //     margin-left: 40px;
+  //     top: 140px;
+  //   }
+  //   @include breakpoint(1200px){
+  //     font-size: 30px;
+  //     margin-left: 45px;
+  //     top: 160px;
+  //   }
+  // }
 
   .l-main {
     flex: 1;

@@ -1562,89 +1562,13 @@ legend.collapse-processed a:visited {
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column; }
-.maintenance-page .l-header {
+.maintenance-page #header {
   background: white;
   padding-top: 1em; }
 .maintenance-page #header-group-wrapper {
   display: inline-block; }
 .maintenance-page #header-site-info {
   width: 100%; }
-.maintenance-page #header-site-info-inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap; }
-.maintenance-page .site-logo {
-  float: left; }
-  .maintenance-page .site-logo img {
-    height: 18vw; }
-    @media (min-width: 768px) {
-      .maintenance-page .site-logo img {
-        height: 119px; } }
-    @media (min-width: 960px) {
-      .maintenance-page .site-logo img {
-        height: 170px; } }
-    @media (min-width: 1200px) {
-      .maintenance-page .site-logo img {
-        height: 192px; } }
-.maintenance-page h1.site-name {
-  clear: none;
-  border: 0;
-  -ms-flex-item-align: start;
-      align-self: start; }
-  .maintenance-page h1.site-name a {
-    font-family: 'Yesteryear', Verdana, Geneva, Arial, Helvetica, sans-serif;
-    font-size: 10vw;
-    width: 100%;
-    margin-left: -5.5vw;
-    line-height: 1;
-    text-decoration: none;
-    color: #a7cf38;
-    text-shadow: #7b7b7b -3px 0px 1px; }
-    @media (min-width: 768px) {
-      .maintenance-page h1.site-name a {
-        font-size: 72px;
-        margin-left: -37px; } }
-    @media (min-width: 960px) {
-      .maintenance-page h1.site-name a {
-        font-size: 98px;
-        margin-left: -54px; } }
-    @media (min-width: 1200px) {
-      .maintenance-page h1.site-name a {
-        font-size: 116px;
-        margin-left: -63px; } }
-.maintenance-page .site-slogan {
-  position: absolute;
-  top: calc(8.5vw + 27px);
-  margin-left: 4vw;
-  border: 0;
-  line-height: 1;
-  font-size: 2.5vw;
-  font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
-  font-weight: bold;
-  color: #444; }
-  @media (min-width: 768px) {
-    .maintenance-page .site-slogan {
-      font-size: 19px;
-      margin-left: 27px;
-      top: 110px;
-      margin-top: -1em; } }
-  @media (min-width: 960px) {
-    .maintenance-page .site-slogan {
-      font-size: 24px;
-      margin-left: 40px;
-      top: 140px; } }
-  @media (min-width: 1200px) {
-    .maintenance-page .site-slogan {
-      font-size: 30px;
-      margin-left: 45px;
-      top: 160px; } }
 .maintenance-page .l-main {
   -webkit-box-flex: 1;
       -ms-flex: 1;
