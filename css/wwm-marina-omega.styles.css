@@ -1591,23 +1591,39 @@ legend.collapse-processed a:visited {
   #header.sticky-header .panel-col-top,
   #header.sticky-header .panel-col-bottom {
     display: none; }
+  #header.sticky-header .panel-col-first {
+    display: inline-block; }
+    @media (min-width: 502px) {
+      #header.sticky-header .panel-col-first {
+        display: none; } }
   #header.sticky-header .panel-col-first,
   #header.sticky-header .panel-col-last {
     display: none; }
   #header.sticky-header .panel-col {
-    text-align: center; }
+    text-align: center;
+    width: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
   #header.sticky-header .pane-page-slogan {
     display: none; }
   #header.sticky-header .pane-page-site-name a {
-    display: inline-block;
-    font-size: 48px;
+    display: none;
+    font-size: 36px;
     text-indent: 0;
     letter-spacing: normal;
     line-height: 1.3;
     margin-left: 0;
     margin-right: 0.5em; }
+    @media (min-width: 502px) {
+      #header.sticky-header .pane-page-site-name a {
+        display: inline-block; } }
   #header.sticky-header .pane-widgets-s-socialmedia-share-default {
     display: inline-block; }
+    #header.sticky-header .pane-widgets-s-socialmedia-share-default img {
+      width: 4vw;
+      max-width: 32px;
+      min-width: 25px; }
   #header.sticky-header #logo img {
     vertical-align: baseline; }
   #header.sticky-header #superfish-1 {
