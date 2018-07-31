@@ -248,12 +248,21 @@
     }
   }
 
-  #logo img {
-    vertical-align: baseline;
+  .pane-page-logo {
     display: inline-block;
-
+    
     @include breakpoint(502px) {
       display: none;
+    }
+  }
+
+  #logo {
+    float: none;
+    display: inline-block;
+    margin-right: 0;
+
+    img {
+      vertical-align: baseline;
     }
   }
 

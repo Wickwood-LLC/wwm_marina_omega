@@ -1619,12 +1619,17 @@ legend.collapse-processed a:visited {
       width: 4vw;
       max-width: 32px;
       min-width: 25px; }
-  #header.sticky-header #logo img {
-    vertical-align: baseline;
+  #header.sticky-header .pane-page-logo {
     display: inline-block; }
     @media (min-width: 502px) {
-      #header.sticky-header #logo img {
+      #header.sticky-header .pane-page-logo {
         display: none; } }
+  #header.sticky-header #logo {
+    float: none;
+    display: inline-block;
+    margin-right: 0; }
+    #header.sticky-header #logo img {
+      vertical-align: baseline; }
   #header.sticky-header #superfish-1 {
     text-align: center; }
     #header.sticky-header #superfish-1 li.sf-depth-1 {
