@@ -180,3 +180,83 @@
 #block-panels-mini-header {
   margin-bottom: 0;
 }
+
+#header.sticky-header {
+  display: block;
+  position: fixed;
+  background: white;
+  z-index: 100;
+  box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 0;
+
+  >.block-content {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      max-width: 1400px;
+      margin: auto;
+      position: relative;
+      box-sizing: border-box;
+  }
+
+  #mini-panel-header {
+      width: 100%;
+  }
+
+  .panel-col-top,
+  .panel-col-bottom {
+      display: none;
+  }
+  .panel-col-first,
+  .panel-col-last {
+      width: 17vw;
+      display: block;
+
+      @include breakpoint(1200px){
+        width: 205px;
+      }
+  }
+
+  .title-bryan {
+    display: inline-block;
+
+    h1 {
+      font-size: 5vw;
+      letter-spacing: normal;
+      line-height: 1;
+      text-indent: 0;
+      display: none;
+
+      @include breakpoint(718px) {
+        font-size: 4vw;
+        display: block;
+      }
+      @include breakpoint(1201px) {
+        font-size: 48px;
+      }
+    }
+  }
+
+  .pane-page-site-name {
+    display: inline-block;
+    font-size: 7vw;
+    text-indent: 0;
+    letter-spacing: normal;
+    line-height: 1;
+
+    @include breakpoint(718px) {
+      font-size: 4vw;
+      margin-left: 0.5em;
+    }
+    @include breakpoint(1201px) {
+      font-size: 48px;
+    }
+  }
+
+  #logo img {
+    vertical-align: baseline;
+  }
+}

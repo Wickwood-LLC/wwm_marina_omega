@@ -135,7 +135,7 @@
       var $header;
       var topSpacing;
 
-      $header = $('#block-panels-mini-header');
+      $header = $('#header');
       topSpacing = $('#admin-menu').height();
       headerHeight = $header.height();        // gets the height of our header
 
@@ -144,6 +144,7 @@
 
       function sticky() {
         headerWidth = $header.width();          // gets the width of the container
+        headerHeight = $header.height();        // gets the height of our header
         $header.css({
           // width: "initial",
         });
@@ -157,8 +158,8 @@
         currentPosition = stickyTop - windowTop + headerHeight;    // tells how far our target element is from where our screen is currently
         topSpacing = $('#admin-menu').height();
 
-        $('#header').css({
-          "margin-bottom": '0',
+        $('#page').css({
+          "margin-top": '0',
         });
 
         // console.log('Distance from top of page: ' + stickyTop);
@@ -167,15 +168,15 @@
         if (currentPosition < 0) {   // if target element goes above the screen
           $header.addClass('sticky-header');
 
-          $('#header').css({
-            'margin-bottom': headerHeight,
+          $('#page').css({
+            'margin-top': headerHeight + topSpacing,
           });
         }
         else {
           $header.removeClass('sticky-header');
 
-          $('#header').css({
-            'margin-bottom': '0',
+          $('#page').css({
+            'margin-top': '0',
           });
         }
 
@@ -184,11 +185,13 @@
             $header.css({
               top: topSpacing,
             });
+
           }
           else {
             $header.css({
               top: '0',
             });
+
           }
         }
 
@@ -205,15 +208,15 @@
         if (currentPosition < 0) {   // if target element goes above the screen
           $header.addClass('sticky-header');
 
-          $('#header').css({
-            'margin-bottom': headerHeight,
+          $('#page').css({
+            'margin-top': headerHeight + topSpacing,
           })
         }
         else if (currentPosition >= 0) {
           $header.removeClass('sticky-header');
 
-          $('#header').css({
-            'margin-bottom': '0',
+          $('#page').css({
+            'margin-top': '0',
           })
         }
 
@@ -222,11 +225,13 @@
             $header.css({
               top: topSpacing,
             });   //stick it at the top
+
           }
           else {
             $header.css({
               top: '0',
             });
+
           }
         }
 

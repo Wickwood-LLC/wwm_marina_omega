@@ -1562,6 +1562,74 @@ legend.collapse-processed a:visited {
 #block-panels-mini-header {
   margin-bottom: 0; }
 
+#header.sticky-header {
+  display: block;
+  position: fixed;
+  background: white;
+  z-index: 100;
+  -webkit-box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
+          box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 0; }
+  #header.sticky-header > .block-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  #header.sticky-header #mini-panel-header {
+    width: 100%; }
+  #header.sticky-header .panel-col-top,
+  #header.sticky-header .panel-col-bottom {
+    display: none; }
+  #header.sticky-header .panel-col-first,
+  #header.sticky-header .panel-col-last {
+    width: 17vw;
+    display: block; }
+    @media (min-width: 1200px) {
+      #header.sticky-header .panel-col-first,
+      #header.sticky-header .panel-col-last {
+        width: 205px; } }
+  #header.sticky-header .title-bryan {
+    display: inline-block; }
+    #header.sticky-header .title-bryan h1 {
+      font-size: 5vw;
+      letter-spacing: normal;
+      line-height: 1;
+      text-indent: 0;
+      display: none; }
+      @media (min-width: 718px) {
+        #header.sticky-header .title-bryan h1 {
+          font-size: 4vw;
+          display: block; } }
+      @media (min-width: 1201px) {
+        #header.sticky-header .title-bryan h1 {
+          font-size: 48px; } }
+  #header.sticky-header .pane-page-site-name {
+    display: inline-block;
+    font-size: 7vw;
+    text-indent: 0;
+    letter-spacing: normal;
+    line-height: 1; }
+    @media (min-width: 718px) {
+      #header.sticky-header .pane-page-site-name {
+        font-size: 4vw;
+        margin-left: 0.5em; } }
+    @media (min-width: 1201px) {
+      #header.sticky-header .pane-page-site-name {
+        font-size: 48px; } }
+  #header.sticky-header #logo img {
+    vertical-align: baseline; }
+
 .maintenance-page .l-page {
   height: 100vh;
   display: -webkit-box;
