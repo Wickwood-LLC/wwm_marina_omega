@@ -94,6 +94,7 @@
     text-decoration: none;
     color: #a7cf38;
     text-shadow: #7b7b7b -3px 0px 1px;
+    font-weight: normal;
 
     @include breakpoint(400px){
       white-space: nowrap;

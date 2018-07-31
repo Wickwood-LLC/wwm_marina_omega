@@ -1505,7 +1505,8 @@ legend.collapse-processed a:visited {
     line-height: 1;
     text-decoration: none;
     color: #a7cf38;
-    text-shadow: #7b7b7b -3px 0px 1px; }
+    text-shadow: #7b7b7b -3px 0px 1px;
+    font-weight: normal; }
     @media (min-width: 400px) {
       .pane-page-site-name > a {
         white-space: nowrap; } }
@@ -1569,6 +1570,8 @@ legend.collapse-processed a:visited {
   display: inline-block; }
 .maintenance-page #header-site-info {
   width: 100%; }
+.maintenance-page h1.site-name a {
+  font-family: 'Yesteryear', Verdana, Geneva, Arial, Helvetica, sans-serif; }
 .maintenance-page .l-main {
   -webkit-box-flex: 1;
       -ms-flex: 1;
