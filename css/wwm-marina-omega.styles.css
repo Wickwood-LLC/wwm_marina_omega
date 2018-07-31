@@ -1570,7 +1570,7 @@ legend.collapse-processed a:visited {
   display: inline-block; }
 .maintenance-page #header-site-info {
   width: 100%; }
-.maintenance-page h1.site-name a {
+.maintenance-page h1.pane-page-site-name a {
   font-family: 'Yesteryear', Verdana, Geneva, Arial, Helvetica, sans-serif; }
 .maintenance-page .l-main {
   -webkit-box-flex: 1;
