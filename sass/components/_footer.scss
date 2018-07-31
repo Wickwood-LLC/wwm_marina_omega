@@ -1,7 +1,7 @@
 #footer {
 	border-top: 3px solid #a7cf38;
-	font-size: 9px;
-  @include fluid-type(400px, 1200px, 9px, 12px); // values inside are ($min_width, $max_width, $min_font, $max_font);
+	font-size: 10px;
+  @include fluid-type(400px, 1200px, 10px, 14px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 
 	&:before {
 		content: '';
@@ -15,8 +15,6 @@
 .copyright p {
   text-align: center;
   margin-bottom: 0;
-  font-size: 9px;
-  @include fluid-type(400px, 1200px, 9px, 12px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 .pane-menu-menu-footer-links {
