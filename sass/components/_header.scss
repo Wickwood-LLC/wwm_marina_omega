@@ -210,13 +210,6 @@
   .panel-col-bottom {
       display: none;
   }
-  .panel-col-first {
-    display: inline-block;
-
-    @include breakpoint(502px) {
-      display: none;
-    }
-  }
   .panel-col-first,
   .panel-col-last {
       display: none;
@@ -257,6 +250,11 @@
 
   #logo img {
     vertical-align: baseline;
+    display: inline-block;
+
+    @include breakpoint(502px) {
+      display: none;
+    }
   }
 
   #superfish-1 {

@@ -1591,11 +1591,6 @@ legend.collapse-processed a:visited {
   #header.sticky-header .panel-col-top,
   #header.sticky-header .panel-col-bottom {
     display: none; }
-  #header.sticky-header .panel-col-first {
-    display: inline-block; }
-    @media (min-width: 502px) {
-      #header.sticky-header .panel-col-first {
-        display: none; } }
   #header.sticky-header .panel-col-first,
   #header.sticky-header .panel-col-last {
     display: none; }
@@ -1625,7 +1620,11 @@ legend.collapse-processed a:visited {
       max-width: 32px;
       min-width: 25px; }
   #header.sticky-header #logo img {
-    vertical-align: baseline; }
+    vertical-align: baseline;
+    display: inline-block; }
+    @media (min-width: 502px) {
+      #header.sticky-header #logo img {
+        display: none; } }
   #header.sticky-header #superfish-1 {
     text-align: center; }
     #header.sticky-header #superfish-1 li.sf-depth-1 {
