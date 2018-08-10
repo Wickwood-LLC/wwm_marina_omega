@@ -47,11 +47,9 @@
                                     <div class="center-wrapper">
                                         <div class="panel-panel panel-col-first">
                                             <div class="inside">
-                                                <div class="panel-pane pane-page-logo">
-                                                    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo">
-                                                        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-                                                    </a>
-                                                </div>
+                                                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo">
+                                                    <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="panel-panel panel-col">
