@@ -48,7 +48,11 @@
                                         <div class="panel-panel panel-col-first">
                                             <div class="inside">
                                                 <?php if ($logo): ?>
-                                                    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
+                                                <div class="panel-pane pane-page-logo">
+                                                    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo">
+                                                        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+                                                    </a>
+                                                </div>
                                                 <?php endif; ?>
                                             </div>
                                         </div>
