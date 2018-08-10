@@ -16,6 +16,12 @@
     width: 100%;
   }
 
+  #mini-panel-header {
+    .panel-col {
+      flex: 0;
+    }
+  }
+
   h1.pane-page-site-name {
     a {
       font-family: 'Yesteryear', Verdana, Geneva, Arial, Helvetica, sans-serif;
