@@ -172,8 +172,12 @@
             'margin-top': headerHeight + topSpacing,
           });
 
-          $("#mini-panel-header .panel-col-bottom .pane-widgets-s-socialmedia-share-default").clone().appendTo("#mini-panel-header .panel-col .inside > div"); // insert social icons inside the middle column
-          $(".pane-page-logo").clone().prependTo("#mini-panel-header .panel-col .inside > div"); // insert logo inside the middle column
+          if (!($('#mini-panel-header .panel-col .pane-widgets-s-socialmedia-share-default').length)) {
+            $("#mini-panel-header .panel-col-bottom .pane-widgets-s-socialmedia-share-default").clone().appendTo("#mini-panel-header .panel-col .inside > div"); // insert social icons inside the middle column
+          }
+          if (!($('#mini-panel-header .panel-col .inside > div .pane-page-logo').length)) {
+            $(".pane-page-logo").clone().prependTo("#mini-panel-header .panel-col .inside > div"); // insert logo inside the middle column
+          }
         }
         else {
           $header.removeClass('sticky-header');
@@ -218,8 +222,12 @@
             'margin-top': headerHeight + topSpacing,
           });
 
-          $("#mini-panel-header .panel-col-bottom .pane-widgets-s-socialmedia-share-default").clone().appendTo("#mini-panel-header .panel-col .inside > div"); // insert social icons inside the middle column
-          $(".pane-page-logo").clone().prependTo("#mini-panel-header .panel-col .inside > div"); // insert logo inside the middle column
+          if (!($('#mini-panel-header .panel-col .pane-widgets-s-socialmedia-share-default').length)) {
+            $("#mini-panel-header .panel-col-bottom .pane-widgets-s-socialmedia-share-default").clone().appendTo("#mini-panel-header .panel-col .inside > div"); // insert social icons inside the middle column
+          }
+          if (!($('#mini-panel-header .panel-col .inside > div .pane-page-logo').length)) {
+            $(".pane-page-logo").clone().prependTo("#mini-panel-header .panel-col .inside > div"); // insert logo inside the middle column
+          }
         }
         else if (currentPosition >= 0) {
           $header.removeClass('sticky-header');
