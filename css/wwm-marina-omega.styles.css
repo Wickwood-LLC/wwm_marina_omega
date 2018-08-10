@@ -1481,19 +1481,19 @@ legend.collapse-processed a:visited {
   float: left;
   margin: 0 15px 0 0; }
 
-.pane-page-logo img {
+#logo img {
   height: 81px; }
   @media (min-width: 450px) {
-    .pane-page-logo img {
+    #logo img {
       height: 18vw; } }
   @media (min-width: 768px) {
-    .pane-page-logo img {
+    #logo img {
       height: 119px; } }
   @media (min-width: 960px) {
-    .pane-page-logo img {
+    #logo img {
       height: 170px; } }
   @media (min-width: 1200px) {
-    .pane-page-logo img {
+    #logo img {
       height: 192px; } }
 
 .pane-page-site-name {
