@@ -172,8 +172,8 @@
             'margin-top': headerHeight + topSpacing,
           });
 
-          $("#mini-panel-header .panel-col-bottom .pane-widgets-s-socialmedia-share-default").appendTo("#mini-panel-header .panel-col .inside > div"); // insert social icons inside the middle column
-          $(".pane-page-logo").prependTo("#mini-panel-header .panel-col .inside > div"); // insert logo inside the middle column
+          $("#mini-panel-header .panel-col-bottom .pane-widgets-s-socialmedia-share-default").clone().appendTo("#mini-panel-header .panel-col .inside > div"); // insert social icons inside the middle column
+          $(".pane-page-logo").clone().prependTo("#mini-panel-header .panel-col .inside > div"); // insert logo inside the middle column
         }
         else {
           $header.removeClass('sticky-header');
@@ -182,8 +182,8 @@
             'margin-top': '0',
           });
 
-          $("#mini-panel-header .panel-col .pane-widgets-s-socialmedia-share-default").prependTo("#mini-panel-header .panel-col-last .inside div:empty"); // return social icons to its original location
-          $(".pane-page-logo").prependTo("#mini-panel-header .panel-col-first .inside > div"); // return logo to its original location
+          $("#mini-panel-header .panel-col .pane-widgets-s-socialmedia-share-default").remove(); // remove social icons from the mid region
+          $("#mini-panel-header .panel-col .inside > div .pane-page-logo").remove(); // remove logo from the mid region
         }
 
         if ($('#admin-menu').length) {
@@ -218,8 +218,8 @@
             'margin-top': headerHeight + topSpacing,
           });
 
-          $("#mini-panel-header .panel-col-bottom .pane-widgets-s-socialmedia-share-default").appendTo("#mini-panel-header .panel-col .inside > div"); // insert social icons inside the middle column
-          $(".pane-page-logo").prependTo("#mini-panel-header .panel-col .inside > div"); // insert logo inside the middle column
+          $("#mini-panel-header .panel-col-bottom .pane-widgets-s-socialmedia-share-default").clone().appendTo("#mini-panel-header .panel-col .inside > div"); // insert social icons inside the middle column
+          $(".pane-page-logo").clone().prependTo("#mini-panel-header .panel-col .inside > div"); // insert logo inside the middle column
         }
         else if (currentPosition >= 0) {
           $header.removeClass('sticky-header');
@@ -228,8 +228,8 @@
             'margin-top': '0',
           });
 
-          $("#mini-panel-header .panel-col .pane-widgets-s-socialmedia-share-default").prependTo("#mini-panel-header .panel-col-last .inside div:empty"); // return social icons to its original location
-          $(".pane-page-logo").prependTo("#mini-panel-header .panel-col-first .inside > div"); // return logo to its original location
+          $("#mini-panel-header .panel-col .pane-widgets-s-socialmedia-share-default").remove(); // remove social icons from the mid region
+          $("#mini-panel-header .panel-col .inside > div .pane-page-logo").remove(); // remove logo from the mid region
         }
 
         if ($('#admin-menu').length) {
