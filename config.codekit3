@@ -602,9 +602,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/js\/wwm-marina-omega.behaviors-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -1761,7 +1761,7 @@
 		"oA": 0,
 		"oAP": "\/css\/wwm-marina-omega.styles.css",
 		"oF": 2,
-		"oS": 0,
+		"oS": 1,
 		"uL": 0
 		},
 	"\/screenshot.png": {
