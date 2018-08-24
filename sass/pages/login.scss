@@ -1,0 +1,40 @@
+@import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
+@import "../abstractions/_mixins.scss";
+
+form#user-login,
+form#user-pass {
+  border: 1px solid #27638c;
+  padding: 1em;
+  border-radius: 5px;
+  margin-top: 1em;
+  background: white;
+
+  .form-item-name,
+  .form-item-pass {
+    display: flex;
+    flex-flow: row wrap;
+
+    label {
+      flex: 0 auto;
+      width: 115px;
+    }
+    input {
+      flex: 1;
+      width: calc(100% - 115px);
+    }
+    .description {
+      flex: 100%;
+    }
+  }
+
+  .form-actions {
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+
+form#user-pass {
+  .form-item-name label {
+    width: 280px;
+  }
+}

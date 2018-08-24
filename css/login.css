@@ -1,0 +1,62 @@
+/* Fluid Typography */
+form#user-login,
+form#user-pass {
+  border: 1px solid #27638c;
+  padding: 1em;
+  border-radius: 5px;
+  margin-top: 1em;
+  background: white;
+}
+
+form#user-login .form-item-name,
+form#user-login .form-item-pass,
+form#user-pass .form-item-name,
+form#user-pass .form-item-pass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+form#user-login .form-item-name label,
+form#user-login .form-item-pass label,
+form#user-pass .form-item-name label,
+form#user-pass .form-item-pass label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 auto;
+          flex: 0 auto;
+  width: 115px;
+}
+
+form#user-login .form-item-name input,
+form#user-login .form-item-pass input,
+form#user-pass .form-item-name input,
+form#user-pass .form-item-pass input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: calc(100% - 115px);
+}
+
+form#user-login .form-item-name .description,
+form#user-login .form-item-pass .description,
+form#user-pass .form-item-name .description,
+form#user-pass .form-item-pass .description {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+}
+
+form#user-login .form-actions,
+form#user-pass .form-actions {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+form#user-pass .form-item-name label {
+  width: 280px;
+}
+/*# sourceMappingURL=login.css.map */

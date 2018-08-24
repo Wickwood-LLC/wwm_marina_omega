@@ -1,3 +1,6 @@
+@import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
+@import "../abstractions/_mixins.scss";
+
 .blog-type-page {
 	#main-content {
 		background-color: transparent;
@@ -834,23 +837,8 @@
 	}
 }
 
-
-element.style {
-}
 p:last-child {
   margin: 0;
-}
-.vbo-views-form p, .view-empty p {
-  text-align: center;
-  font-size: 1.5em;
-  font-weight: bold;
-  color: red;
-  clear: both;
-  border: 1px solid #CCCCCC;
-  padding: 1em;
-  display: inline-block;
-  width: 66%;
-  background: white;
 }
 
 .pane-views-empty {
@@ -875,57 +863,6 @@ p:last-child {
     background: white;
     border-radius: 5px;
   }
-}
-
-.pane-views-pager {
-  text-align: center;
-
-  ul.pager {
-    margin: auto;
-  }
-}
-ul.pager {
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  display: table;
-  margin: auto;
-  margin-top: 1em;
-  padding: 0;
-
-  .pager__item {
-    background: #eee;
-    float: left;
-    margin-bottom: 0;
-
-    &:first-child {
-      border-radius: 5px 0 0 5px;
-    }
-    &:last-child {
-      border-radius: 0 5px 5px 0;
-    }
-    &.pager__item--current {
-      background: #007bcb;
-      color: white;
-
-      &:hover {
-        color: black;
-      }
-    }
-    &:hover {
-      background: white;
-    }
-
-    a, a:visited {
-      color: black;
-    }
-  }
-}
-.sidebar-content ul.pager {
-  display: block;
-  border: 0;
 }
 
 .view-card-cycles {

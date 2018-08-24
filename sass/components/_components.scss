@@ -77,3 +77,16 @@ h2.pane-title {
 	font-size: 22px;
 	@include fluid-type(400px, 1200px, 20px, 26px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
+
+.vbo-views-form p, .view-empty p {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: red;
+  clear: both;
+  border: 1px solid #CCCCCC;
+  padding: 1em;
+  display: inline-block;
+  width: 66%;
+  background: white;
+}
