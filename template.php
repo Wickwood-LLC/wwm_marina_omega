@@ -19,3 +19,10 @@ function wwm_marina_omega_breadcrumb($variables) {
     return $output;
   }
 }
+
+/**
+ * Implements hook_preprocess_maintenance_page()
+ */
+function wwm_marina_omega_preprocess_maintenance_page() {
+  drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/maintenance.css', array('group' => CSS_THEME));
+}
