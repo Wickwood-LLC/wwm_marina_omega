@@ -30,8 +30,11 @@ function wwm_marina_omega_preprocess_page() {
   else if ((arg(0) == 'node' && preg_match('/^\d+$/', arg(1)) && empty(arg(2))) ) { // Node view page.
     drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/blog_pages.css', array('group' => CSS_THEME));
   }
-  else if (arg(0) == 'user' && arg(1) == 'login') {
-    drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/login.css', array('group' => CSS_THEME));
+  else if (arg(0) == 'user') {
+    // login and password reset pages.
+    if ((arg(1) == 'login' || arg(1) == 'password')) {
+      drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/login.css', array('group' => CSS_THEME));
+    }
   }
 }
 
