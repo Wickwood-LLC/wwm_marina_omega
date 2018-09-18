@@ -36,11 +36,14 @@ function wwm_marina_omega_preprocess_page() {
       drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/login.css', array('group' => CSS_THEME));
     }
   }
+  else if (arg(0) == 'admin') {	// admin pages
+    drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/admin.css', array('group' => CSS_THEME));
+  }
 }
 
 /**
  * Implements hook_preprocess_maintenance_page()
  */
-function wwm_marina_omega_preprocess_maintenance_page() {
+function wwm_marina_omega_preprocess_maintenance_page() {	// maintenance page
   drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/maintenance.css', array('group' => CSS_THEME));
 }
