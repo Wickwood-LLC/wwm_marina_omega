@@ -869,7 +869,7 @@
 .node-type-panopoly-news-article .radix-layouts-sidebar .pane-card-cycles-card-slideshow,
 .node-type-panopoly-faq .radix-layouts-sidebar .pane-card-cycles-card-slideshow,
 .node-type-panopoly-page .radix-layouts-sidebar .pane-card-cycles-card-slideshow {
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 
 .node-type-article-post .radix-layouts-sidebar .boxed,
