@@ -21,8 +21,23 @@ function wwm_marina_omega_breadcrumb($variables) {
 }
 
 /**
+ * Implements hook_preprocess_page()
+ */
+function wwm_marina_omega_preprocess_page() {
+  if (in_array(arg(0), array('articles', 'news', 'press-releases', 'faqs'))) { // Panel pages
+    drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/blog_pages.css', array('group' => CSS_THEME));
+  }
+  else if ((arg(0) == 'node' && preg_match('/^\d+$/', arg(1)) && empty(arg(2))) ) { // Node view page.
+    drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/blog_pages.css', array('group' => CSS_THEME));
+  }
+  else if (arg(0) == 'user' && arg(1) == 'login') {
+    drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/login.css', array('group' => CSS_THEME));
+  }
+}
+
+/**
  * Implements hook_preprocess_maintenance_page()
  */
 function wwm_marina_omega_preprocess_maintenance_page() {
-  drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/maintenance.css', array('group' => CSS_THEME));
+  drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/maintenance.css', array('group' => CSS_THEME));
 }
