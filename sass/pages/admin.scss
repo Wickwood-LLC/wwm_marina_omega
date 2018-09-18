@@ -1,0 +1,10 @@
+@import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
+@import "../abstractions/_mixins.scss";
+
+#ctools-export-ui-list-form {
+	.form-item-search {
+		display: inline;
+		float: none;
+		vertical-align: middle;
+	}
+}

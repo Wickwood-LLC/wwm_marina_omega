@@ -554,6 +554,23 @@
 		"oAP": "\/bower_components\/sassy-maps\/sassy-maps.gemspec",
 		"oF": 0
 		},
+	"\/css\/admin.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/admin-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/admin.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/admin.css.map",
+		"oF": 0
+		},
 	"\/css\/blog_pages.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1726,6 +1743,19 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/sass\/pages\/admin.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/css\/admin.css",
+		"oF": 2,
+		"oS": 1,
+		"uL": 1
 		},
 	"\/sass\/pages\/blog_pages.scss": {
 		"aP": 1,
