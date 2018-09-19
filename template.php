@@ -39,6 +39,9 @@ function wwm_marina_omega_preprocess_page() {
   else if (arg(0) == 'admin') {	// admin pages
     drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/admin.css', array('group' => CSS_THEME));
   }
+  else if (arg(0) == 'introduction') { // Introduction page
+    drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/content_page_nodequeue.css', array('group' => CSS_THEME));
+  }
 }
 
 /**
