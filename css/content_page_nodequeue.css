@@ -34,9 +34,12 @@
       -ms-flex: 1;
           flex: 1;
   margin-bottom: 1em;
+  text-align: center;
+}
+
+.content-page-nodequeue .view-home-page-nodequeue-view .view-content .views-row .views-field-field-teaser-link-text a {
   color: red;
   font-weight: bold;
-  text-align: center;
 }
 
 .content-page-nodequeue .view-home-page-nodequeue-view .view-content .views-row .views-field-nodequeue-links ul.links {

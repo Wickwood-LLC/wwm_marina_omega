@@ -20,9 +20,12 @@
 			.views-field-field-teaser-link-text {
 				flex: 1;
 				margin-bottom: 1em;
-				color: red;
-				font-weight: bold;
 				text-align: center;
+
+				a {
+					color: red;
+					font-weight: bold;
+				}
 			}
 			.views-field-nodequeue-links ul.links {
 				margin: 0;
