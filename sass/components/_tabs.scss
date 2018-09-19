@@ -80,3 +80,11 @@
 		}
 	}
 }
+
+.tabs.secondary {
+	float: right;
+	display: inline-flex;
+	flex-flow: row wrap;
+	padding: 0;
+	margin-top: 0.5em;
+}

@@ -1479,4 +1479,17 @@ td {
   background: transparent;
 }
 
+.tabs.secondary {
+  float: right;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding: 0;
+  margin-top: 0.5em;
+}
+
 /*# sourceMappingURL=wwm-marina-omega.styles.css.map */
