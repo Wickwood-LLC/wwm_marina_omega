@@ -18,4 +18,17 @@
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
 }
+
+#node-edit ul.tips {
+  -webkit-padding-start: 0px;
+     -moz-padding-start: 0px;
+          padding-inline-start: 0px;
+  -webkit-margin-start: 0px;
+     -moz-margin-start: 0px;
+          margin-inline-start: 0px;
+}
+
+#node-edit ul.tips li {
+  list-style: disc;
+}
 /*# sourceMappingURL=node_edit_forms.css.map */

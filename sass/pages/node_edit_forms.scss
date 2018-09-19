@@ -13,4 +13,13 @@
 			flex: 1 1 auto;
 		}
 	}
+
+	ul.tips {
+		padding-inline-start: 0px;
+		margin-inline-start: 0px;
+
+		li {
+			list-style: disc;
+		}
+	}
 }
