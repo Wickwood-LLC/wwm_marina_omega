@@ -5,10 +5,29 @@
 	.view-home-page-nodequeue-view .view-content {
 		display: flex;
 		flex-flow: row wrap;
+		margin-left: -0.5em;
+		margin-right: -0.5em;
 
 		.views-row {
 			flex: 1 1 250px;
 			margin: 0.5em;
+			flex-flow: column nowrap;
+			display: flex;
+
+			.views-field-title {
+				text-align: center;
+			}
+			.views-field-field-teaser-link-text {
+				flex: 1;
+				margin-bottom: 1em;
+				color: red;
+				font-weight: bold;
+				text-align: center;
+			}
+			.views-field-nodequeue-links ul.links {
+				margin: 0;
+				padding: 0;
+			}
 		}
 	}
 }
