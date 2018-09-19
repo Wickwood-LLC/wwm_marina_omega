@@ -39,9 +39,6 @@ function wwm_marina_omega_preprocess_page() {
   else if (arg(0) == 'admin') {	// admin pages
     drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/admin.css', array('group' => CSS_THEME));
   }
-  else if (arg(0) == 'introduction') { // Introduction page
-    drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/content_page_nodequeue.css', array('group' => CSS_THEME));
-  }
 }
 
 /**
@@ -56,4 +53,14 @@ function wwm_marina_omega_preprocess_maintenance_page() {	// maintenance page
  */
 function wwm_marina_omega_form_node_form_alter(&$form, &$form_state, $form_id) {
   $form['#attached']['css'][] = drupal_get_path('theme', 'wwm_marina_omega') . '/css/node_edit_forms.css';
+}
+
+/**
+ * Implements hook_ctools_render_alter()
+ */
+function wwm_marina_omega_ctools_render_alter(&$info, &$page, &$context) {
+  // Load homepage.css on panelizer page with "content-page-nodequeue" CSS class.
+  if (!empty($info['classes_array']) && in_array('content-page-nodequeue', $info['classes_array'])) {
+    drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/content_page_nodequeue.css', array('group' => CSS_THEME));
+  }
 }
