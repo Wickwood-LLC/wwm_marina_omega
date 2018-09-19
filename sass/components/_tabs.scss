@@ -48,7 +48,7 @@
 }
 
 .tabs--secondary,
-.tabs.secondary {
+.tabs.secondary:not(#views-display-menu-tabs) {
 	clear: both;
 	border-bottom: 1px solid #555;
 	margin-bottom: 10px;
@@ -81,7 +81,7 @@
 	}
 }
 
-.tabs.secondary {
+.tabs.secondary:not(#views-display-menu-tabs) {
 	float: right;
 	display: inline-flex;
 	flex-flow: row wrap;

@@ -1446,19 +1446,19 @@ td {
 }
 
 .tabs--secondary,
-.tabs.secondary {
+.tabs.secondary:not(#views-display-menu-tabs) {
   clear: both;
   border-bottom: 1px solid #555;
   margin-bottom: 10px;
   text-transform: lowercase;
 }
 .tabs--secondary li,
-.tabs.secondary li {
+.tabs.secondary:not(#views-display-menu-tabs) li {
   margin: 0 10px;
   padding: 0;
 }
 .tabs--secondary li a,
-.tabs.secondary li a {
+.tabs.secondary:not(#views-display-menu-tabs) li a {
   background-color: transparent;
   border: none;
   color: #555;
@@ -1470,16 +1470,16 @@ td {
   white-space: nowrap;
 }
 .tabs--secondary li a:hover, .tabs--secondary li a:focus, .tabs--secondary li a.active,
-.tabs.secondary li a:hover,
-.tabs.secondary li a:focus,
-.tabs.secondary li a.active {
+.tabs.secondary:not(#views-display-menu-tabs) li a:hover,
+.tabs.secondary:not(#views-display-menu-tabs) li a:focus,
+.tabs.secondary:not(#views-display-menu-tabs) li a.active {
   border-bottom: 4px solid #555;
   color: #777;
   padding-bottom: 2px;
   background: transparent;
 }
 
-.tabs.secondary {
+.tabs.secondary:not(#views-display-menu-tabs) {
   float: right;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
