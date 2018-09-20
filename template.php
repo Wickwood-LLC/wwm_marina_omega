@@ -29,6 +29,14 @@ function wwm_marina_omega_preprocess_page() {
   }
   else if ((arg(0) == 'node' && preg_match('/^\d+$/', arg(1)) && empty(arg(2))) ) { // Node view page.
     drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/blog_pages.css', array('group' => CSS_THEME));
+    // Get node being displayed.
+    $node = menu_get_object();
+    if (in_array($node->type, array('article_post', 'panopoly_news_article', 'panopoly_faq', 'panopoly_page'))) {
+      drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/articles_news_faq_nodes.css', array('group' => CSS_THEME));
+    }
+    else if ($node->type == 'press_release') {
+      drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/press_release_nodes.css', array('group' => CSS_THEME));
+    }
   }
   else if (arg(0) == 'user') {
     // login and password reset pages.
