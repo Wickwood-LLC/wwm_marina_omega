@@ -1,37 +1,35 @@
 @import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
 @import "../abstractions/_mixins.scss";
 
-.content-page-nodequeue {
-	.view-home-page-nodequeue-view .view-content {
+.view-home-page-nodequeue-view.view-display-id-panel_pane_1 .view-content {
+	display: flex;
+	flex-flow: row wrap;
+	margin-left: -0.5em;
+	margin-right: -0.5em;
+
+	.views-row {
+		flex: 1 1 250px;
+		margin: 0.5em;
+		flex-flow: column nowrap;
 		display: flex;
-		flex-flow: row wrap;
-		margin-left: -0.5em;
-		margin-right: -0.5em;
 
-		.views-row {
-			flex: 1 1 250px;
-			margin: 0.5em;
-			flex-flow: column nowrap;
-			display: flex;
+		.views-field-title {
+			text-align: center;
+			margin-bottom: 0.5em;
+		}
+		.views-field-field-teaser-link-text {
+			flex: 1;
+			margin-bottom: 1em;
+			text-align: center;
 
-			.views-field-title {
-				text-align: center;
-				margin-bottom: 0.5em;
+			a {
+				color: red;
+				font-weight: bold;
 			}
-			.views-field-field-teaser-link-text {
-				flex: 1;
-				margin-bottom: 1em;
-				text-align: center;
-
-				a {
-					color: red;
-					font-weight: bold;
-				}
-			}
-			.views-field-nodequeue-links ul.links {
-				margin: 0;
-				padding: 0;
-			}
+		}
+		.views-field-nodequeue-links ul.links {
+			margin: 0;
+			padding: 0;
 		}
 	}
 }
