@@ -571,6 +571,23 @@
 		"oAP": "\/css\/admin.css.map",
 		"oF": 0
 		},
+	"\/css\/articles_news_faq_nodes.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/articles_news_faq_nodes-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/articles_news_faq_nodes.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/articles_news_faq_nodes.css.map",
+		"oF": 0
+		},
 	"\/css\/blog_pages.css": {
 		"aP": 1,
 		"bl": 0,
@@ -654,6 +671,23 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/css\/node_edit_forms.css.map",
+		"oF": 0
+		},
+	"\/css\/press_release_nodes.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/press_release_nodes-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/press_release_nodes.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/press_release_nodes.css.map",
 		"oF": 0
 		},
 	"\/css\/view_card_cycles.css": {
@@ -1808,6 +1842,19 @@
 		"oS": 1,
 		"uL": 1
 		},
+	"\/sass\/pages\/articles_news_faq_nodes.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/css\/articles_news_faq_nodes.css",
+		"oF": 2,
+		"oS": 1,
+		"uL": 1
+		},
 	"\/sass\/pages\/blog_pages.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1869,6 +1916,19 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "\/css\/node_edit_forms.css",
+		"oF": 2,
+		"oS": 1,
+		"uL": 1
+		},
+	"\/sass\/pages\/press_release_nodes.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/css\/press_release_nodes.css",
 		"oF": 2,
 		"oS": 1,
 		"uL": 1
