@@ -68,7 +68,7 @@ function wwm_marina_omega_ctools_render_alter(&$info, &$page, &$context) {
 /**
  * Implements hook_views_pre_render()
  */
-function dgr_rubik_views_pre_render(&$view) {
+function wwm_marina_omega_views_pre_render(&$view) {
   if ($view->name == 'card_cycles') {
     drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/view_card_cycles.css', array('group' => CSS_THEME));
   }
