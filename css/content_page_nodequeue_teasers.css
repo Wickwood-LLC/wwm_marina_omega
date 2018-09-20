@@ -15,6 +15,7 @@
   -webkit-box-flex: 1;
       -ms-flex: 1 1 250px;
           flex: 1 1 250px;
+  margin: 0.5em;
 }
 
 .view-home-page-nodequeue-view.view-display-id-panel_pane_2 .view-content .views-row .panelizer-view-mode {
@@ -25,6 +26,7 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
+  height: 100%;
 }
 
 .view-home-page-nodequeue-view.view-display-id-panel_pane_2 .view-content .views-row .field--name-title-field {
@@ -36,6 +38,7 @@
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  margin-top: 1em;
   margin-bottom: 1em;
   text-align: center;
 }

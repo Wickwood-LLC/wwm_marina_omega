@@ -9,10 +9,12 @@
 
 	.views-row {
 		flex: 1 1 250px;
+		margin: 0.5em;
 
 		.panelizer-view-mode {
 			display: flex;
 			flex-flow: column nowrap;
+			height: 100%;
 		}
 
 		.field--name-title-field {
@@ -21,6 +23,7 @@
 		}
 		.pane-node-field-teaser-link-text {
 			flex: 1;
+			margin-top: 1em;
 			margin-bottom: 1em;
 			text-align: center;
 
