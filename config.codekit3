@@ -605,21 +605,21 @@
 		"oAP": "\/css\/blog_pages.css.map",
 		"oF": 0
 		},
-	"\/css\/content_page_nodequeue.css": {
+	"\/css\/content_page_nodequeue_fields.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/content_page_nodequeue-min.css",
+		"oAP": "\/css\/content_page_nodequeue_fields-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/content_page_nodequeue.css.map": {
+	"\/css\/content_page_nodequeue_fields.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/css\/content_page_nodequeue.css.map",
+		"oAP": "\/css\/content_page_nodequeue_fields.css.map",
 		"oF": 0
 		},
 	"\/css\/login.css": {
@@ -1868,7 +1868,7 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"\/sass\/pages\/content_page_nodequeue.scss": {
+	"\/sass\/pages\/content_page_nodequeue_fields.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1876,7 +1876,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/css\/content_page_nodequeue.css",
+		"oAP": "\/css\/content_page_nodequeue_fields.css",
 		"oF": 2,
 		"oS": 1,
 		"uL": 1
