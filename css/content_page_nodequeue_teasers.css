@@ -29,6 +29,10 @@
   height: 100%;
 }
 
+.view-home-page-nodequeue-view.view-display-id-panel_pane_2 .view-content .views-row .field--name-field-featured-image {
+  text-align: center;
+}
+
 .view-home-page-nodequeue-view.view-display-id-panel_pane_2 .view-content .views-row .field--name-title-field {
   text-align: center;
   margin-bottom: 0.5em;
