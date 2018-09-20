@@ -31,4 +31,14 @@
 #node-edit ul.tips li {
   list-style: disc;
 }
+
+.node-form {
+  background-color: white;
+  border-color: #cccccc;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 1em;
+  margin: .5em 0;
+}
 /*# sourceMappingURL=node_edit_forms.css.map */
