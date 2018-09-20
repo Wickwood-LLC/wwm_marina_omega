@@ -7,10 +7,13 @@
 	margin-left: -0.5em;
 	margin-right: -0.5em;
 
-	.views-row .panelizer-view-mode {
+	.views-row {
 		flex: 1 1 250px;
-		flex-flow: column nowrap;
-		display: flex;
+
+		.panelizer-view-mode {
+			display: flex;
+			flex-flow: column nowrap;
+		}
 
 		.field--name-title-field {
 			text-align: center;
