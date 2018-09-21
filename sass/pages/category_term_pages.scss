@@ -2,7 +2,44 @@
 @import "../abstractions/_mixins.scss";
 
 .section-categories.page-taxonomy-term {
-	.view-panopoly-taxonomy.view-content {
+	.row-one {
+		display: flex;
+		flex-flow: row wrap;
+		margin-left: -0.5em;
+		margin-right: -0.5em;
+		align-items: stretch;
+
+		.main-content {
+			flex: 3 1 300px;
+			margin: 0.5em;
+			display: flex;
+			flex-flow: row wrap;
+		}
+		.pane-taxonomy-term-field-featured-image {
+			flex: 1 1 0;
+			margin: 0 0.5em;
+
+			img {
+				max-width: 100%;
+				width: 100%;
+				height: auto;
+				margin: 0;
+			}
+		}
+		.pane-term-description {
+			flex: 2 1 0;
+		}
+
+		.sidebar-content {
+			flex: 1 1 0;
+			margin: 0.5em;
+
+			.pane-views-68df6443216479c90da4235283a03ab4 {
+				margin: 0;
+			}
+		}
+	}
+	.view-panopoly-taxonomy .view-content {
 		display: flex;
 		flex-flow: row wrap;
 		margin-left: -0.5em;
