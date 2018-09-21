@@ -1,0 +1,33 @@
+/* Fluid Typography */
+.page-categories .view-categories .view-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin-left: -0.5em;
+  margin-right: -0.5em;
+}
+
+.page-categories .view-categories .view-content .views-row {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 200px;
+          flex: 2 1 200px;
+  margin: 0.5em;
+}
+
+.page-categories .view-categories .view-content .views-field-name {
+  text-align: center;
+}
+
+.page-categories .view-categories .view-content .views-field-field-featured-image {
+  text-align: center;
+}
+
+.page-categories .view-categories .view-content .views-field-field-featured-image img {
+  max-width: 250px;
+  width: 100%;
+}
+/*# sourceMappingURL=categories_view.css.map */

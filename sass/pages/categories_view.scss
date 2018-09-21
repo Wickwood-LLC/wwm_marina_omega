@@ -1,0 +1,28 @@
+@import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
+@import "../abstractions/_mixins.scss";
+
+.page-categories {
+	.view-categories .view-content {
+		display: flex;
+		flex-flow: row wrap;
+		margin-left: -0.5em;
+		margin-right: -0.5em;
+
+		.views-row {
+			flex: 2 1 200px;
+			margin: 0.5em;
+		}
+
+		.views-field-name {
+			text-align: center;
+		}
+		.views-field-field-featured-image {
+			text-align: center;
+			
+			img {
+				max-width: 250px;
+				width: 100%;
+			}
+		}
+	}
+}
