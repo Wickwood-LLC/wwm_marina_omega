@@ -622,6 +622,23 @@
 		"oAP": "\/css\/categories_view.css.map",
 		"oF": 0
 		},
+	"\/css\/category_term_pages.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/category_term_pages-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/category_term_pages.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/category_term_pages.css.map",
+		"oF": 0
+		},
 	"\/css\/content_page_nodequeue_fields.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1911,6 +1928,19 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "\/css\/categories_view.css",
+		"oF": 2,
+		"oS": 1,
+		"uL": 1
+		},
+	"\/sass\/pages\/category_term_pages.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/css\/category_term_pages.css",
 		"oF": 2,
 		"oS": 1,
 		"uL": 1
