@@ -41,6 +41,9 @@ function wwm_marina_omega_preprocess_page() {
   else if (arg(0) == 'categories') { // Categories view pages
     drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/categories_view.css', array('group' => CSS_THEME));
   }
+  else if (arg(0) == 'taxonomy' && arg(1) == 'term' && preg_match('/^\d+$/', arg(2)) && empty(arg(3))) { // Categories term view pages
+    drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/blog_pages.css', array('group' => CSS_THEME));
+  }
   else if (arg(0) == 'user') {
     // login and password reset pages.
     if ((arg(1) == 'login' || arg(1) == 'password')) {
