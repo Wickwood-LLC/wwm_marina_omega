@@ -13,8 +13,8 @@
 
 .page-categories .view-categories .view-content .views-row {
   -webkit-box-flex: 2;
-      -ms-flex: 2 1 200px;
-          flex: 2 1 200px;
+      -ms-flex: 2 1 300px;
+          flex: 2 1 300px;
   margin: 0.5em;
 }
 
