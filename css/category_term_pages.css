@@ -55,6 +55,9 @@
       -ms-flex: 1 1 0px;
           flex: 1 1 0;
   margin: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .section-categories.page-taxonomy-term .row-one .sidebar-content .pane-views-68df6443216479c90da4235283a03ab4 {
@@ -93,5 +96,13 @@
   max-width: 300px;
   width: 100%;
   height: auto;
+}
+
+.section-categories.page-taxonomy-term .views-exposed-form .views-exposed-widget {
+  display: inline-block;
+  float: none;
+  min-width: 0;
+  max-width: 100%;
+  vertical-align: top;
 }
 /*# sourceMappingURL=category_term_pages.css.map */
