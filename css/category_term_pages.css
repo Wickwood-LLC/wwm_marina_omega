@@ -30,9 +30,10 @@
 
 .section-categories.page-taxonomy-term .row-one .pane-taxonomy-term-field-featured-image {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 0px;
-          flex: 1 1 0;
+      -ms-flex: 1 1 47%;
+          flex: 1 1 47%;
   margin: 0 0.5em;
+  min-width: 200px;
 }
 
 .section-categories.page-taxonomy-term .row-one .pane-taxonomy-term-field-featured-image img {
@@ -43,9 +44,10 @@
 }
 
 .section-categories.page-taxonomy-term .row-one .pane-term-description {
-  -webkit-box-flex: 2;
-      -ms-flex: 2 1 0px;
-          flex: 2 1 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  min-width: 200px;
 }
 
 .section-categories.page-taxonomy-term .row-one .sidebar-content {

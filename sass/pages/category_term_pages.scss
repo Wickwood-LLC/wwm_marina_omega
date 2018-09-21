@@ -16,8 +16,9 @@
 			flex-flow: row wrap;
 		}
 		.pane-taxonomy-term-field-featured-image {
-			flex: 1 1 0;
+			flex: 1 1 47%;
 			margin: 0 0.5em;
+			min-width: 200px;
 
 			img {
 				max-width: 100%;
@@ -27,7 +28,8 @@
 			}
 		}
 		.pane-term-description {
-			flex: 2 1 0;
+			flex: 1 1 50%;
+			min-width: 200px;
 		}
 
 		.sidebar-content {
