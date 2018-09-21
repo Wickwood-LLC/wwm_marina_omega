@@ -32,7 +32,8 @@
   list-style: disc;
 }
 
-.node-form {
+.page-node-add #content,
+.page-node-edit #content {
   background-color: white;
   border-color: #cccccc;
   border-style: solid;
