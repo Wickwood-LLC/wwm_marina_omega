@@ -70,21 +70,14 @@ function wwm_marina_omega_form_node_form_alter(&$form, &$form_state, $form_id) {
 }
 
 /**
- * Implements hook_ctools_render_alter()
- */
-function wwm_marina_omega_ctools_render_alter(&$info, &$page, &$context) {
-  // Load homepage.css on panelizer page with "content-page-nodequeue" CSS class.
-  if (!empty($info['classes_array']) && in_array('content-page-nodequeue', $info['classes_array'])) {
-    drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/content_page_nodequeue_fields.css', array('group' => CSS_THEME));
-    drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/content_page_nodequeue_teasers.css', array('group' => CSS_THEME));
-  }
-}
-
-/**
  * Implements hook_views_pre_render()
  */
 function wwm_marina_omega_views_pre_render(&$view) {
   if ($view->name == 'card_cycles') {
     drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/view_card_cycles.css', array('group' => CSS_THEME));
+  }
+  else if ($view->name == 'home_page_nodequeue_view') {
+    drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/content_page_nodequeue_fields.css', array('group' => CSS_THEME));
+    drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/content_page_nodequeue_teasers.css', array('group' => CSS_THEME));
   }
 }
