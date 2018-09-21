@@ -27,7 +27,8 @@
 }
 
 .page-categories .view-categories .view-content .views-field-field-featured-image img {
-  max-width: 250px;
+  max-width: 300px;
   width: 100%;
+  height: auto;
 }
 /*# sourceMappingURL=categories_view.css.map */
