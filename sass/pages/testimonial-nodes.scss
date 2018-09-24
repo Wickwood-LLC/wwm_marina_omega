@@ -1,0 +1,34 @@
+@import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
+@import "../abstractions/_mixins.scss";
+
+.node-type-client-audio-testimonial,
+.node-type-client-image-testimonial,
+.node-type-client-video-testimonial {
+	#content .radix-selby-flipped .col-md-8 {
+		background-color: white;
+		border-color: #cccccc;
+		border-style: solid;
+		border-radius: 5px;
+		border-width: 1px;
+		padding: 1em;
+
+		.pane-node-title {
+			text-align: center;
+		}
+	}
+}
+
+.node-type-client-written-testimonial {
+	#content .radix-bryant-flipped .radix-layouts-content {
+		background-color: white;
+		border-color: #cccccc;
+		border-style: solid;
+		border-radius: 5px;
+		border-width: 1px;
+		padding: 1em;
+
+		.pane-node-title {
+			text-align: center;
+		}
+	}
+}

@@ -1,0 +1,31 @@
+/* Fluid Typography */
+.node-type-client-audio-testimonial #content .radix-selby-flipped .col-md-8,
+.node-type-client-image-testimonial #content .radix-selby-flipped .col-md-8,
+.node-type-client-video-testimonial #content .radix-selby-flipped .col-md-8 {
+  background-color: white;
+  border-color: #cccccc;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 1em;
+}
+
+.node-type-client-audio-testimonial #content .radix-selby-flipped .col-md-8 .pane-node-title,
+.node-type-client-image-testimonial #content .radix-selby-flipped .col-md-8 .pane-node-title,
+.node-type-client-video-testimonial #content .radix-selby-flipped .col-md-8 .pane-node-title {
+  text-align: center;
+}
+
+.node-type-client-written-testimonial #content .radix-bryant-flipped .radix-layouts-content {
+  background-color: white;
+  border-color: #cccccc;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 1em;
+}
+
+.node-type-client-written-testimonial #content .radix-bryant-flipped .radix-layouts-content .pane-node-title {
+  text-align: center;
+}
+/*# sourceMappingURL=testimonial-nodes.css.map */
