@@ -27,10 +27,13 @@
 
 .node-type-client-audio-testimonial #content .radix-selby-flipped .col-md-8 .pane-node-field-image-testimonial,
 .node-type-client-audio-testimonial #content .radix-selby-flipped .col-md-8 .pane-node-field-video-testimonial,
+.node-type-client-audio-testimonial #content .radix-selby-flipped .col-md-8 .pane-node-field-audio-testimonial,
 .node-type-client-image-testimonial #content .radix-selby-flipped .col-md-8 .pane-node-field-image-testimonial,
 .node-type-client-image-testimonial #content .radix-selby-flipped .col-md-8 .pane-node-field-video-testimonial,
+.node-type-client-image-testimonial #content .radix-selby-flipped .col-md-8 .pane-node-field-audio-testimonial,
 .node-type-client-video-testimonial #content .radix-selby-flipped .col-md-8 .pane-node-field-image-testimonial,
-.node-type-client-video-testimonial #content .radix-selby-flipped .col-md-8 .pane-node-field-video-testimonial {
+.node-type-client-video-testimonial #content .radix-selby-flipped .col-md-8 .pane-node-field-video-testimonial,
+.node-type-client-video-testimonial #content .radix-selby-flipped .col-md-8 .pane-node-field-audio-testimonial {
   margin: 1em 0;
   text-align: center;
 }
