@@ -8,6 +8,15 @@
   border-radius: 5px;
   border-width: 1px;
   padding: 1em;
+  margin: 0 1em 1em 1em;
+}
+
+@media (min-width: 992px) {
+  .node-type-client-audio-testimonial #content .radix-selby-flipped .col-md-8,
+  .node-type-client-image-testimonial #content .radix-selby-flipped .col-md-8,
+  .node-type-client-video-testimonial #content .radix-selby-flipped .col-md-8 {
+    width: calc(66.66666666666666% - 2em);
+  }
 }
 
 .node-type-client-audio-testimonial #content .radix-selby-flipped .col-md-8 .pane-node-title,
@@ -23,6 +32,13 @@
   border-radius: 5px;
   border-width: 1px;
   padding: 1em;
+  margin: 0 1em 1em 1em;
+}
+
+@media (min-width: 992px) {
+  .node-type-client-written-testimonial #content .radix-bryant-flipped .radix-layouts-content {
+    width: calc(75% - 2em);
+  }
 }
 
 .node-type-client-written-testimonial #content .radix-bryant-flipped .radix-layouts-content .pane-node-title {
