@@ -101,9 +101,37 @@
   text-align: center;
 }
 
-.node-type-client-video-testimonial #content .radix-bryant-flipped .col-md-9 .pane-node-field-video-testimonial {
-  float: left;
-  margin: 1em 1em 0 0;
+.node-type-client-video-testimonial .pane-node-field-video-testimonial {
+  float: none;
+  margin: 1em 0;
   text-align: center;
+  width: 100%;
+}
+
+@media (min-width: 720px) {
+  .node-type-client-video-testimonial .pane-node-field-video-testimonial {
+    float: left;
+    margin: 1em 1em 0 0;
+  }
+}
+
+.node-type-client-video-testimonial .pane-node-field-video-testimonial .field--name-field-video-testimonial {
+  max-width: 420px;
+  margin: auto;
+}
+
+.node-type-client-video-testimonial .pane-node-field-video-testimonial .file-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.node-type-client-video-testimonial .pane-node-field-video-testimonial .file-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=testimonial-nodes.css.map */

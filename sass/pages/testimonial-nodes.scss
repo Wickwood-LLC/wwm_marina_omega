@@ -92,11 +92,37 @@
 		.pane-node-title {
 			text-align: center;
 		}
+	}
 
-		.pane-node-field-video-testimonial {
+	.pane-node-field-video-testimonial {
+		float: none;
+		margin: 1em 0;
+		text-align: center;
+		width: 100%;
+
+		@include breakpoint(720px) {
 			float: left;
 			margin: 1em 1em 0 0;
-			text-align: center;
+		}
+
+		.field--name-field-video-testimonial {
+			max-width: 420px;
+			margin: auto;
+		}
+
+		.file-video {
+			position: relative;
+			padding-bottom: 56.25%;
+			padding-top: 25px;
+			height: 0;
+
+			iframe {				
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
 		}
 	}
 }
