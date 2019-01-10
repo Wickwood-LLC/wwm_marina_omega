@@ -49,3 +49,21 @@
 		}
 	}
 }
+
+.node-type-client-image-testimonial {
+	.col-md-8 > .row:nth-child(2) {
+		display: flex;
+		flex-flow: row wrap;
+
+		.radix-layouts-contentcolumn1 {
+			flex: 1 1 300px;
+		}
+		.radix-layouts-contentcolumn2 {
+			flex: 1 1 50%;
+		}
+	}
+	.field--name-field-image-testimonial img {
+		max-width: 100%;
+		height: auto;
+	}
+}
