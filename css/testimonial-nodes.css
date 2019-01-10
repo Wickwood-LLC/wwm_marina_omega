@@ -75,4 +75,9 @@
   max-width: 100%;
   height: auto;
 }
+
+.node-type-client-audio-testimonial .field--name-field-image-testimonial img,
+.node-type-client-audio-testimonial .field--name-field-audio-testimonial audio {
+  max-width: 100%;
+}
 /*# sourceMappingURL=testimonial-nodes.css.map */
