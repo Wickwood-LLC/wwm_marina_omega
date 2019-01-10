@@ -74,3 +74,29 @@
 		max-width: 100%;
 	}
 }
+
+.node-type-client-video-testimonial {
+	#content .radix-bryant-flipped .col-md-9 {
+		background-color: white;
+		border-color: #cccccc;
+		border-style: solid;
+		border-radius: 5px;
+		border-width: 1px;
+		padding: 1em;
+		margin: 0 1em 1em 1em;
+
+		@include breakpoint(992px) {
+			width: calc(75% - 2em);
+		}
+
+		.pane-node-title {
+			text-align: center;
+		}
+
+		.pane-node-field-video-testimonial {
+			float: left;
+			margin: 1em 1em 0 0;
+			text-align: center;
+		}
+	}
+}
