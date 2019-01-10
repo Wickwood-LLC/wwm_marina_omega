@@ -106,12 +106,14 @@
   margin: 1em 0;
   text-align: center;
   width: 100%;
+  max-width: 100%;
 }
 
 @media (min-width: 720px) {
   .node-type-client-video-testimonial .pane-node-field-video-testimonial {
     float: left;
     margin: 1em 1em 0 0;
+    max-width: 420px;
   }
 }
 
