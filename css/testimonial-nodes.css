@@ -93,7 +93,7 @@
 
 @media (min-width: 992px) {
   .node-type-client-video-testimonial #content .radix-burr-flipped .col-md-8 {
-    width: calc(75% - 2em);
+    width: calc(66.666667% - 2em);
   }
 }
 
