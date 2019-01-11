@@ -71,9 +71,26 @@
   text-align: center;
 }
 
-.node-type-client-image-testimonial .field--name-field-image-testimonial img {
+.node-type-client-image-testimonial .pane-node-field-image-testimonial {
+  float: none;
+  margin: 1em 0;
+  text-align: center;
+  width: 100%;
   max-width: 100%;
-  height: auto;
+  z-index: 1;
+}
+
+@media (min-width: 720px) {
+  .node-type-client-image-testimonial .pane-node-field-image-testimonial {
+    float: left;
+    margin: 1em 1em 0 0;
+    max-width: 480px;
+  }
+}
+
+.node-type-client-image-testimonial .pane-node-field-image-testimonial .field--name-field-image-testimonial img {
+  max-width: 480px;
+  margin: auto;
 }
 
 .node-type-client-video-testimonial #content .radix-burr-flipped .col-md-8 {

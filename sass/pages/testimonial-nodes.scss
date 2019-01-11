@@ -71,10 +71,25 @@
 			text-align: center;
 		}
 	}
-	
-	.field--name-field-image-testimonial img {
+
+	.pane-node-field-image-testimonial {
+		float: none;
+		margin: 1em 0;
+		text-align: center;
+		width: 100%;
 		max-width: 100%;
-		height: auto;
+		z-index: 1;
+
+		@include breakpoint(720px) {
+			float: left;
+			margin: 1em 1em 0 0;
+			max-width: 480px;
+		}
+
+		.field--name-field-image-testimonial img {
+			max-width: 480px;
+			margin: auto;
+		}
 	}
 }
 
