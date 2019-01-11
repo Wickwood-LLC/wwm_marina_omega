@@ -1,9 +1,7 @@
 @import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
 @import "../abstractions/_mixins.scss";
 
-.node-type-client-audio-testimonial,
-.node-type-client-image-testimonial,
-.node-type-client-video-testimonial {
+.node-type-client-audio-testimonial {
 	#content .radix-selby-flipped .col-md-8 {
 		background-color: white;
 		border-color: #cccccc;
@@ -20,13 +18,18 @@
 		.pane-node-title {
 			text-align: center;
 		}
+	}
 
-		.pane-node-field-image-testimonial,
-		.pane-node-field-video-testimonial,
-		.pane-node-field-audio-testimonial {
-			margin: 1em 0;
-			text-align: center;
-		}
+	.pane-node-field-image-testimonial,
+	.pane-node-field-video-testimonial,
+	.pane-node-field-audio-testimonial {
+		margin: 1em 0;
+		text-align: center;
+	}
+
+	.field--name-field-image-testimonial img,
+	.field--name-field-audio-testimonial audio {
+		max-width: 100%;
 	}
 }
 
@@ -51,27 +54,27 @@
 }
 
 .node-type-client-image-testimonial {
-	.col-md-8 > .row:nth-child(2) {
-		display: flex;
-		flex-flow: row wrap;
+	#content .radix-burr-flipped .col-md-8 {
+		background-color: white;
+		border-color: #cccccc;
+		border-style: solid;
+		border-radius: 5px;
+		border-width: 1px;
+		padding: 1em;
+		margin: 0 1em 1em 1em;
 
-		.radix-layouts-contentcolumn1 {
-			flex: 1 1 300px;
+		@include breakpoint(992px) {
+			width: calc(66.666667% - 2em);
 		}
-		.radix-layouts-contentcolumn2 {
-			flex: 1 1 50%;
+
+		.pane-node-title {
+			text-align: center;
 		}
 	}
+	
 	.field--name-field-image-testimonial img {
 		max-width: 100%;
 		height: auto;
-	}
-}
-
-.node-type-client-audio-testimonial {
-	.field--name-field-image-testimonial img,
-	.field--name-field-audio-testimonial audio {
-		max-width: 100%;
 	}
 }
 
