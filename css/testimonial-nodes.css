@@ -81,7 +81,7 @@
   max-width: 100%;
 }
 
-.node-type-client-video-testimonial #content .radix-burr-flipped .col-md-9 {
+.node-type-client-video-testimonial #content .radix-burr-flipped .col-md-8 {
   background-color: white;
   border-color: #cccccc;
   border-style: solid;
@@ -92,12 +92,12 @@
 }
 
 @media (min-width: 992px) {
-  .node-type-client-video-testimonial #content .radix-burr-flipped .col-md-9 {
+  .node-type-client-video-testimonial #content .radix-burr-flipped .col-md-8 {
     width: calc(75% - 2em);
   }
 }
 
-.node-type-client-video-testimonial #content .radix-burr-flipped .col-md-9 .pane-node-title {
+.node-type-client-video-testimonial #content .radix-burr-flipped .col-md-8 .pane-node-title {
   text-align: center;
 }
 
