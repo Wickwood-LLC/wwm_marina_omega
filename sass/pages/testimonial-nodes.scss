@@ -76,7 +76,7 @@
 }
 
 .node-type-client-video-testimonial {
-	#content .radix-bryant-flipped .col-md-9 {
+	#content .radix-burr-flipped .col-md-9 {
 		background-color: white;
 		border-color: #cccccc;
 		border-style: solid;
@@ -100,15 +100,16 @@
 		text-align: center;
 		width: 100%;
 		max-width: 100%;
+		z-index: 1;
 
 		@include breakpoint(720px) {
 			float: left;
 			margin: 1em 1em 0 0;
-			max-width: 420px;
+			max-width: 480px;
 		}
 
 		.field--name-field-video-testimonial {
-			max-width: 420px;
+			max-width: 480px;
 			margin: auto;
 		}
 

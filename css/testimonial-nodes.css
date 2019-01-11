@@ -81,7 +81,7 @@
   max-width: 100%;
 }
 
-.node-type-client-video-testimonial #content .radix-bryant-flipped .col-md-9 {
+.node-type-client-video-testimonial #content .radix-burr-flipped .col-md-9 {
   background-color: white;
   border-color: #cccccc;
   border-style: solid;
@@ -92,12 +92,12 @@
 }
 
 @media (min-width: 992px) {
-  .node-type-client-video-testimonial #content .radix-bryant-flipped .col-md-9 {
+  .node-type-client-video-testimonial #content .radix-burr-flipped .col-md-9 {
     width: calc(75% - 2em);
   }
 }
 
-.node-type-client-video-testimonial #content .radix-bryant-flipped .col-md-9 .pane-node-title {
+.node-type-client-video-testimonial #content .radix-burr-flipped .col-md-9 .pane-node-title {
   text-align: center;
 }
 
@@ -107,18 +107,19 @@
   text-align: center;
   width: 100%;
   max-width: 100%;
+  z-index: 1;
 }
 
 @media (min-width: 720px) {
   .node-type-client-video-testimonial .pane-node-field-video-testimonial {
     float: left;
     margin: 1em 1em 0 0;
-    max-width: 420px;
+    max-width: 480px;
   }
 }
 
 .node-type-client-video-testimonial .pane-node-field-video-testimonial .field--name-field-video-testimonial {
-  max-width: 420px;
+  max-width: 480px;
   margin: auto;
 }
 
