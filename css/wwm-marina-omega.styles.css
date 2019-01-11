@@ -8,13 +8,8 @@ body {
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-size: 16px;
   margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
+  flex-flow: column nowrap;
   min-height: 100vh;
 }
 
@@ -183,6 +178,7 @@ ul.links {
 
 ol {
   margin: 0 0 10px 40px;
+  overflow: auto;
 }
 
 ul ul,
@@ -254,11 +250,8 @@ hr {
 
 #page {
   background-color: #f2fbd2;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f2fbd2), to(#f5f7e7));
   background-image: linear-gradient(#f2fbd2, #f5f7e7);
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
 }
 
 #content.page-content {
@@ -283,9 +276,7 @@ hr {
 }
 
 div.breadcrumb {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 100%;
-          flex: 1 100%;
+  flex: 1 100%;
 }
 div.breadcrumb a {
   color: white;
@@ -309,17 +300,11 @@ ul.breadcrumb li a:hover {
 
 #branding {
   background-color: #2f76a5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#2f76a5), to(#144a6e));
   background: linear-gradient(#2f76a5, #144a6e);
   color: #fff;
   min-height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  flex-flow: row wrap;
   width: 100%;
   font-size: 90%;
 }
@@ -331,8 +316,6 @@ ul.breadcrumb li a:hover {
   width: 100%;
   max-width: 1200px;
   margin: 0 2em;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 @media (min-width: 1220px) {
@@ -451,7 +434,6 @@ h2.pane-title {
   height: 30px;
   display: block;
   background-color: #2f76a5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#2f76a5), to(#144a6e));
   background: linear-gradient(#2f76a5, #144a6e);
 }
 
@@ -485,7 +467,6 @@ h2.pane-title {
 form input.form-submit {
   background-color: #286e9b;
   /* old browsers */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#4186b5), color-stop(50%, #286e9b), to(#4186b5));
   background-image: linear-gradient(top, #4186b5 0%, #286e9b 50%, #4186b5 100%);
   /* w3c */
   color: #fff;
@@ -526,7 +507,6 @@ form input.form-submit.hover,
 form input.form-submit:focus {
   background-color: #4186b5;
   /* old browsers */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#286e9b), color-stop(50%, #4186b5), to(#286e9b));
   background-image: linear-gradient(top, #286e9b 0%, #4186b5 50%, #286e9b 100%);
   /* w3c */
   /* opera */
@@ -560,7 +540,6 @@ form input.form-submit:focus {
 .form-item textarea {
   background-color: #f4f8fb;
   /* old browsers */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f8fb), to(#fafcfb));
   background-image: linear-gradient(top, #f4f8fb 0%, #fafcfb 100%);
   /* w3c */
   /* opera */
@@ -629,34 +608,24 @@ legend.collapse-processed a:visited {
 }
 
 #mini-panel-header .center-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 #mini-panel-header .inside {
   margin: 0;
 }
 #mini-panel-header .panel-col-first, #mini-panel-header .panel-col-last {
-  -webkit-box-flex: 0;
-      -ms-flex: 0;
-          flex: 0;
+  flex: 0;
   width: auto;
   padding: 0 1vw;
 }
 #mini-panel-header .panel-col {
-  -webkit-box-flex: 0;
-      -ms-flex: 0;
-          flex: 0;
+  flex: 0;
   width: auto;
 }
 @media (min-width: 721px) {
   #mini-panel-header .panel-col {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
   }
 }
 #mini-panel-header .panel-col-last .pane-widgets-s-socialmedia-share-default {
@@ -807,26 +776,20 @@ legend.collapse-processed a:visited {
   position: fixed;
   background: white;
   z-index: 100;
-  -webkit-box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
-          box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
+  box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
   left: 0;
   top: 0;
   width: 100%;
   min-height: 0;
 }
 #header.sticky-header > .block-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   width: 100%;
   max-width: 1400px;
   margin: auto;
   position: relative;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 #header.sticky-header #mini-panel-header {
   width: 100%;
@@ -842,9 +805,7 @@ legend.collapse-processed a:visited {
 #header.sticky-header .panel-col {
   text-align: center;
   width: 100%;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
 }
 #header.sticky-header .pane-page-slogan {
   display: none;
@@ -904,8 +865,6 @@ legend.collapse-processed a:visited {
 }
 
 #block-superfish-1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 #block-superfish-1 .block__content {
@@ -1106,16 +1065,14 @@ ul.sf-vertical li ul li ul {
   border: 1px solid #689a04;
   border-top: 0px;
   border-radius: 0 0 10px 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
   margin-bottom: 1em;
 }
 #superfish-1-accordion li {
   background-color: white;
   border: 1px solid #ddd;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 #superfish-1-accordion li.active-trail, #superfish-1-accordion li.active-trail:nth-child(even) {
   background-color: #00728e;
@@ -1139,8 +1096,7 @@ ul.sf-vertical li ul li ul {
 }
 #superfish-1-accordion li.menuparent > ul {
   padding-left: 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 #superfish-1-accordion li:nth-child(even) {
   background-color: #e6e6e6;
@@ -1481,13 +1437,8 @@ td {
 
 .tabs.secondary:not(#views-display-menu-tabs) {
   float: right;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  flex-flow: row wrap;
   padding: 0;
   margin-top: 0.5em;
 }
