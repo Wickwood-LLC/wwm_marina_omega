@@ -15,12 +15,17 @@
   }
 }
 
-.node-type-client-audio-testimonial #content .radix-selby-flipped .col-md-8 .pane-node-title {
+.node-type-client-audio-testimonial #content .radix-selby-flipped .col-md-8 > .row:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.node-type-client-audio-testimonial .pane-node-title {
   text-align: center;
 }
 
-.node-type-client-audio-testimonial .pane-node-field-image-testimonial,
-.node-type-client-audio-testimonial .pane-node-field-video-testimonial,
 .node-type-client-audio-testimonial .pane-node-field-audio-testimonial {
   margin: 1em 0;
   text-align: center;
