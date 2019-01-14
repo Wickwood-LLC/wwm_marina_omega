@@ -68,7 +68,7 @@
 		margin: 0 1em 1em 1em;
 
 		@include breakpoint(992px) {
-			width: calc(66.666667% - 2em);
+			width: calc(75% - 2em);
 		}
 
 		.pane-node-title {
@@ -108,7 +108,7 @@
 		margin: 0 1em 1em 1em;
 
 		@include breakpoint(992px) {
-			width: calc(66.666667% - 2em);
+			width: calc(75% - 2em);
 		}
 
 		.pane-node-title {

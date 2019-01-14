@@ -68,7 +68,7 @@
 
 @media (min-width: 992px) {
   .node-type-client-image-testimonial #content .radix-bryant-flipped .col-md-9 {
-    width: calc(66.666667% - 2em);
+    width: calc(75% - 2em);
   }
 }
 
@@ -110,7 +110,7 @@
 
 @media (min-width: 992px) {
   .node-type-client-video-testimonial #content .radix-bryant-flipped .col-md-9 {
-    width: calc(66.666667% - 2em);
+    width: calc(75% - 2em);
   }
 }
 
