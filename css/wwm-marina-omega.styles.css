@@ -416,6 +416,10 @@ h2.pane-title {
   background: white;
 }
 
+#admin-menu ul {
+  overflow: initial;
+}
+
 #footer {
   border-top: 3px solid #a7cf38;
   font-size: 10px;
