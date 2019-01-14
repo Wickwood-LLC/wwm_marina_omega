@@ -104,7 +104,6 @@ a:active {
 
 ul {
   margin: 0 0 10px 20px;
-  overflow: auto;
 }
 
 ul.menu,
@@ -117,7 +116,6 @@ ul.links {
 
 ol {
   margin: 0 0 10px 40px;
-  overflow: auto;
 }
 
 ul ul,
@@ -192,6 +190,12 @@ hr {
 #content.page-content {
   clear: both;
   margin: 0 0 1em 0;
+
+  ul, ol {
+    overflow: auto;
+    font-size: 13px;
+    @include fluid-type(400px, 1200px, 13px, 18px); // values inside are ($min_width, $max_width, $min_font, $max_font);
+  }
 }
 
 /* @group Blocks, panels & all regions

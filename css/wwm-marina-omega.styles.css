@@ -166,7 +166,6 @@ a:active {
 /* Lists */
 ul {
   margin: 0 0 10px 20px;
-  overflow: auto;
 }
 
 ul.menu,
@@ -179,7 +178,6 @@ ul.links {
 
 ol {
   margin: 0 0 10px 40px;
-  overflow: auto;
 }
 
 ul ul,
@@ -258,6 +256,20 @@ hr {
 #content.page-content {
   clear: both;
   margin: 0 0 1em 0;
+}
+#content.page-content ul, #content.page-content ol {
+  overflow: auto;
+  font-size: 13px;
+}
+@media screen and (min-width: 400px) {
+  #content.page-content ul, #content.page-content ol {
+    font-size: calc(13px + 5 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  #content.page-content ul, #content.page-content ol {
+    font-size: 18px;
+  }
 }
 
 /* @group Blocks, panels & all regions
