@@ -56,7 +56,7 @@
   text-align: center;
 }
 
-.node-type-client-image-testimonial #content .radix-bryant-flipped .col-md-9 {
+.node-type-client-image-testimonial .testimonial-content .radix-layouts-content {
   background-color: white;
   border-color: #cccccc;
   border-style: solid;
@@ -67,12 +67,12 @@
 }
 
 @media (min-width: 992px) {
-  .node-type-client-image-testimonial #content .radix-bryant-flipped .col-md-9 {
+  .node-type-client-image-testimonial .testimonial-content .radix-layouts-content {
     width: calc(75% - 2em);
   }
 }
 
-.node-type-client-image-testimonial #content .radix-bryant-flipped .col-md-9 .pane-node-title {
+.node-type-client-image-testimonial .testimonial-content .radix-layouts-content .pane-node-title {
   text-align: center;
 }
 
@@ -98,7 +98,7 @@
   margin: auto;
 }
 
-.node-type-client-video-testimonial #content .radix-bryant-flipped .col-md-9 {
+.node-type-client-video-testimonial .testimonial-content .radix-layouts-content {
   background-color: white;
   border-color: #cccccc;
   border-style: solid;
@@ -109,12 +109,12 @@
 }
 
 @media (min-width: 992px) {
-  .node-type-client-video-testimonial #content .radix-bryant-flipped .col-md-9 {
+  .node-type-client-video-testimonial .testimonial-content .radix-layouts-content {
     width: calc(75% - 2em);
   }
 }
 
-.node-type-client-video-testimonial #content .radix-bryant-flipped .col-md-9 .pane-node-title {
+.node-type-client-video-testimonial .testimonial-content .radix-layouts-content .pane-node-title {
   text-align: center;
 }
 
