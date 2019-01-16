@@ -37,6 +37,9 @@ function wwm_marina_omega_preprocess_page() {
     else if ($node->type == 'press_release') {
       drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/press_release_nodes.css', array('group' => CSS_THEME));
     }
+    else if ($node->type == 'client') {
+      drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/clients.css', array('group' => CSS_THEME));
+    }
     if (in_array($node->type, array('client_audio_testimonial', 'client_image_testimonial', 'client_video_testimonial', 'client_written_testimonial'))) {
       drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/testimonial-nodes.css', array('group' => CSS_THEME));
     }
