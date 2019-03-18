@@ -957,12 +957,12 @@ ul.sf-menu {
 }
 @media screen and (min-width: 400px) {
   ul.sf-menu {
-    font-size: calc(12px + 2 * ((100vw - 400px) / 820));
+    font-size: calc(14px + 2 * ((100vw - 400px) / 820));
   }
 }
 @media screen and (min-width: 1220px) {
   ul.sf-menu {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
