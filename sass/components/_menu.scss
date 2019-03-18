@@ -80,7 +80,7 @@ ul.sf-menu {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 14px;  // backup size
-  @include fluid-type(400px, 718px, 14px, 18px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+  @include fluid-type(400px, 1200px, 14px, 18px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 
 }
 
