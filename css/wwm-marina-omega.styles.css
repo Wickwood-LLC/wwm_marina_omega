@@ -284,6 +284,7 @@ hr {
   border-style: solid;
   border-radius: 5px;
   border-width: 1px;
+  overflow: auto;
   padding: 1em;
   margin: .5em 0;
 }
