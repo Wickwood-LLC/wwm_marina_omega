@@ -24,9 +24,10 @@
     position: relative;
     line-height: 24px;
     border-radius: 5px 5px 0 0;
+    max-width: 200px;
 
     &.sfHover > ul {
-      top: 37px;
+      top: calc(100% + 5px);
     }
   }
   a.sf-depth-1 {
@@ -36,6 +37,8 @@
     padding: 5px 10px 1px 10px;
     border-radius: 5px 5px 0 0;
     line-height: 24px;
+    box-sizing: border-box;
+    text-align: center;
 
     &:hover, &.active {
       background-color: #b5ee48;
@@ -81,7 +84,9 @@ ul.sf-menu {
   text-transform: uppercase;
   font-size: 14px;  // backup size
   @include fluid-type(400px, 1220px, 14px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
-
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 a.menuparent:after {
