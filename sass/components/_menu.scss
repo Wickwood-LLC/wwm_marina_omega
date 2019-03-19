@@ -88,6 +88,8 @@
     &.sticky-menu {
         position: fixed;
         border-bottom: 3px solid #a7ce38;
+        border-left: 3px solid #a7ce38;
+        box-sizing: border-box;
         padding: 0;
         background: white;
         flex-flow: row wrap;
