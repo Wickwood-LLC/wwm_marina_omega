@@ -957,6 +957,36 @@ legend.collapse-processed a:visited {
   background: #98d022;
   padding: 5px 10px 1px 10px;
 }
+#superfish-1.sticky-menu {
+  position: fixed;
+  border-bottom: 3px solid #a7ce38;
+  padding: 0;
+  background: white;
+}
+#superfish-1.sticky-menu:hover {
+  position: fixed;
+  right: 0;
+  box-shadow: -5px 5px 20px -3px #383838;
+}
+#superfish-1.sticky-menu:hover:before {
+  opacity: 0;
+  transition: 0.5s;
+}
+#superfish-1.sticky-menu:before {
+  content: '\f0c9';
+  font-family: 'FontAwesome';
+  font-size: 24px;
+  left: -45px;
+  background: #a6b54c;
+  padding: 0.5em;
+  box-sizing: border-box;
+  top: 0;
+  position: absolute;
+  color: white;
+  box-shadow: 2px 2px 30px -3px #383838;
+  opacity: 1;
+  transition: all 1.5s ease 0.5s;
+}
 
 ul.sf-menu {
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
@@ -964,9 +994,9 @@ ul.sf-menu {
   text-transform: uppercase;
   font-size: 14px;
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 718px) {
   ul.sf-menu {
-    font-size: calc(14px + 2 * ((100vw - 400px) / 820));
+    font-size: calc(14px + 2 * ((100vw - 718px) / 502));
   }
 }
 @media screen and (min-width: 1220px) {
@@ -1150,7 +1180,9 @@ ul.sf-vertical li ul li ul {
 #superfish-1-accordion > li.last.sf-expanded a {
   border-radius: 0;
 }
-#superfish-1-accordion > li.last > a, #superfish-1-accordion > li.last .last, #superfish-1-accordion > li.last .last > a {
+#superfish-1-accordion > li.last > a,
+#superfish-1-accordion > li.last .last,
+#superfish-1-accordion > li.last .last > a {
   border-radius: 0 0 10px 10px;
 }
 
