@@ -839,7 +839,7 @@
 	"/js/wwm-marina-omega.behaviors.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "/js/wwm-marina-omega.behaviors-min.js",
 		"oF": 0,
