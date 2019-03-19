@@ -981,7 +981,7 @@ legend.collapse-processed a:visited {
   font-family: 'FontAwesome';
   font-size: 24px;
   left: -45px;
-  background: #a6b54c;
+  background: #a7ce38;
   padding: 0.5em;
   box-sizing: border-box;
   top: 0;
@@ -997,6 +997,9 @@ legend.collapse-processed a:visited {
   border-radius: 0;
   border-bottom: 1px dotted #e1e1e1;
   margin: 0;
+}
+#superfish-1.sticky-menu li.sf-depth-1 a.sf-depth-1 {
+  border-radius: 0;
 }
 
 ul.sf-menu {
