@@ -919,6 +919,7 @@ legend.collapse-processed a:visited {
   line-height: 24px;
   box-sizing: border-box;
   text-align: center;
+  height: 100%;
 }
 #superfish-1 a.sf-depth-1:hover, #superfish-1 a.sf-depth-1.active {
   background-color: #b5ee48;
