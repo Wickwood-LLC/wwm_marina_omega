@@ -962,9 +962,13 @@ legend.collapse-processed a:visited {
   border-bottom: 3px solid #a7ce38;
   padding: 0;
   background: white;
+  flex-flow: row wrap;
+  width: 300px;
+  right: -300px;
+  z-index: 50;
+  transition: 1s;
 }
 #superfish-1.sticky-menu:hover {
-  position: fixed;
   right: 0;
   box-shadow: -5px 5px 20px -3px #383838;
 }
@@ -986,6 +990,10 @@ legend.collapse-processed a:visited {
   box-shadow: 2px 2px 30px -3px #383838;
   opacity: 1;
   transition: all 1.5s ease 0.5s;
+}
+#superfish-1.sticky-menu li {
+  flex: 1 100%;
+  max-width: none;
 }
 
 ul.sf-menu {
