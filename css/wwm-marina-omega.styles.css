@@ -991,9 +991,12 @@ legend.collapse-processed a:visited {
   opacity: 1;
   transition: all 1.5s ease 0.5s;
 }
-#superfish-1.sticky-menu li {
+#superfish-1.sticky-menu li.sf-depth-1 {
   flex: 1 100%;
   max-width: none;
+  border-radius: 0;
+  border-bottom: 1px dotted #e1e1e1;
+  margin: 0;
 }
 
 ul.sf-menu {
