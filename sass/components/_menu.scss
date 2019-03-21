@@ -39,13 +39,15 @@
     a.sf-depth-1 {
         background-color: #e1e1e1;
         border: none;
-        display: block;
+        display: flex;
         padding: 5px 10px 1px 10px;
         border-radius: 5px 5px 0 0;
         line-height: 24px;
         box-sizing: border-box;
         text-align: center;
         height: 100%;
+        align-items: center;
+        justify-content: center;
 
         &:hover,
         &.active {
