@@ -88,7 +88,7 @@
     }
     
     @include breakpoint(0px 717px) {
-        :not('.sticky-header') & {
+        :not(.sticky-header) & {
             position: fixed;
             border-bottom: 3px solid #a7ce38;
             border-left: 3px solid #a7ce38;
