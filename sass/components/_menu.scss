@@ -143,6 +143,9 @@
         }
 
         .sticky-header & {
+            border: 0;
+            position: relative;
+            left: -1rem;
             right: unset;
         }
     }

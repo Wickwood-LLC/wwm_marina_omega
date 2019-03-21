@@ -1044,6 +1044,9 @@ legend.collapse-processed a:visited {
     border-radius: 0;
   }
   .sticky-header #superfish-1 {
+    border: 0;
+    position: relative;
+    left: -1rem;
     right: unset;
   }
 }
