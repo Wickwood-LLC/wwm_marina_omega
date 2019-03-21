@@ -273,6 +273,7 @@
         left: unset;
         right: -300px;
         width: 300px;
+        transition: 1s;
 
         &:hover {
             right: 0;

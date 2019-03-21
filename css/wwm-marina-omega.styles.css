@@ -889,6 +889,7 @@ legend.collapse-processed a:visited {
     left: unset;
     right: -300px;
     width: 300px;
+    transition: 1s;
   }
   #header.sticky-header:hover {
     right: 0;
@@ -993,7 +994,7 @@ legend.collapse-processed a:visited {
   padding: 5px 10px 1px 10px;
 }
 @media (min-width: 0px) and (max-width: 717px) {
-  :not(.sticky-header) #superfish-1 {
+  #superfish-1 {
     position: fixed;
     border-bottom: 3px solid #a7ce38;
     border-left: 3px solid #a7ce38;
@@ -1006,15 +1007,15 @@ legend.collapse-processed a:visited {
     z-index: 50;
     transition: 1s;
   }
-  :not(.sticky-header) #superfish-1:hover {
+  #superfish-1:hover {
     right: 0;
     box-shadow: -5px 5px 20px -3px #383838;
   }
-  :not(.sticky-header) #superfish-1:hover:before {
+  #superfish-1:hover:before {
     opacity: 0;
     transition: 0.5s;
   }
-  :not(.sticky-header) #superfish-1:before {
+  #superfish-1:before {
     content: '\f0c9';
     font-family: 'FontAwesome';
     font-size: 24px;
@@ -1029,15 +1030,21 @@ legend.collapse-processed a:visited {
     opacity: 1;
     transition: all 1.5s ease 0.5s;
   }
-  :not(.sticky-header) #superfish-1 li.sf-depth-1 {
+  .sticky-header #superfish-1:before {
+    display: none;
+  }
+  #superfish-1 li.sf-depth-1 {
     flex: 1 100%;
     max-width: none;
     border-radius: 0;
     border-bottom: 1px dotted #e1e1e1;
     margin: 0;
   }
-  :not(.sticky-header) #superfish-1 li.sf-depth-1 a.sf-depth-1 {
+  #superfish-1 li.sf-depth-1 a.sf-depth-1 {
     border-radius: 0;
+  }
+  .sticky-header #superfish-1 {
+    right: unset;
   }
 }
 
