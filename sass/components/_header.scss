@@ -2,59 +2,61 @@
 /-------------------------------------------------------------- */
 
 #header {
-  background: #fff;
-  border-bottom: 3px solid #a7ce38;
-  padding-top: 10px;
+    background: #fff;
+    border-bottom: 3px solid #a7ce38;
+    padding-top: 10px;
 }
 
 #mini-panel-header {
-  .center-wrapper {
-    display: flex;
-    justify-content: center;
-  }
-
-  .inside {
-    margin: 0;
-  }
-
-  .panel-col-first, .panel-col-last {
-    flex: 0;
-    width: auto;
-    padding: 0 1vw;
-  }
-
-  .panel-col {
-    flex: 0;
-    width: auto;
-
-    @include breakpoint(721px){
-      flex: 1;
-    }
-  }
-
-  .panel-col-last {
-    .pane-widgets-s-socialmedia-share-default {
-      width: 70px;
-    }
-  }
-
-  .panel-col-bottom {
-    .pane-widgets-s-socialmedia-share-default {
-      text-align: center;
-
-      a img {
-        min-width: 25px;
-        width: 4.4vw;
-      }
+    .center-wrapper {
+        display: flex;
+        justify-content: center;
     }
 
-    @include breakpoint(586px){
-      margin-top: calc(-6% + 1em);
+    .inside {
+        margin: 0;
     }
-    @include breakpoint(720px){
-      margin-top: 0;
+
+    .panel-col-first,
+    .panel-col-last {
+        flex: 0;
+        width: auto;
+        padding: 0 1vw;
     }
-  }
+
+    .panel-col {
+        flex: 0;
+        width: auto;
+
+        @include breakpoint(721px) {
+            flex: 1;
+        }
+    }
+
+    .panel-col-last {
+        .pane-widgets-s-socialmedia-share-default {
+            width: 70px;
+        }
+    }
+
+    .panel-col-bottom {
+        .pane-widgets-s-socialmedia-share-default {
+            text-align: center;
+
+            a img {
+                min-width: 25px;
+                width: 4.4vw;
+            }
+        }
+
+        @include breakpoint(586px) {
+            margin-top: calc(-6% + 1em);
+        }
+
+        @include breakpoint(720px) {
+            margin-top: 0;
+        }
+    }
 }
 
 /* @end header top*/
@@ -62,225 +64,240 @@
 /* Wrapper around logo, site name, and slogan */
 
 #logo {
-  float: left;
-  margin: 0 15px 0 0;
+    float: left;
+    margin: 0 15px 0 0;
 }
 
 #logo img {
-  height: 81px;
+    height: 81px;
 
-  @include breakpoint(450px){
-    height: 18vw;
-  }
-  @include breakpoint(768px){
-    height: 119px;
-  }
-  @include breakpoint(960px){
-    height: 170px;
-  }
-  @include breakpoint(1200px){
-    height: 192px;
-  }
+    @include breakpoint(450px) {
+        height: 18vw;
+    }
+
+    @include breakpoint(768px) {
+        height: 119px;
+    }
+
+    @include breakpoint(960px) {
+        height: 170px;
+    }
+
+    @include breakpoint(1200px) {
+        height: 192px;
+    }
 }
 
 .pane-page-site-name {
-  display: inline-block;
+    display: inline-block;
 
-  > a {
-    font-size: 45px;
-    width: 100%;
-    margin-left: -42px;
-    line-height: 1;
-    text-decoration: none;
-    color: #a7cf38;
-    text-shadow: #7b7b7b -3px 0px 1px;
-    font-weight: normal;
+    >a {
+        font-size: 45px;
+        width: 100%;
+        margin-left: -42px;
+        line-height: 1;
+        text-decoration: none;
+        color: #a7cf38;
+        text-shadow: #7b7b7b -3px 0px 1px;
+        font-weight: normal;
 
-    @include breakpoint(400px){
-      white-space: nowrap;
-    }
+        @include breakpoint(400px) {
+            white-space: nowrap;
+        }
 
-    @include breakpoint(450px){
-      font-size: 10vw;
-      margin-left: -8.5vw;
-    }
+        @include breakpoint(450px) {
+            font-size: 10vw;
+            margin-left: -8.5vw;
+        }
 
-    @include fluid-type(718px, 767px, 71px, 76px); // values inside are ($min_width, $max_width, $min_font, $max_font);
+        @include fluid-type(718px, 767px, 71px, 76px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 
-    @include breakpoint(768px){
-      font-size: 72px;
-      margin-left: -60px;
+        @include breakpoint(768px) {
+            font-size: 72px;
+            margin-left: -60px;
+        }
+
+        @include breakpoint(960px) {
+            font-size: 98px;
+            margin-left: -77px;
+        }
+
+        @include breakpoint(1200px) {
+            font-size: 116px;
+            margin-left: -90px;
+        }
     }
-    @include breakpoint(960px){
-      font-size: 98px;
-      margin-left: -77px;
-    }
-    @include breakpoint(1200px) {
-      font-size: 116px;
-      margin-left: -90px;
-    }
-  }
 }
 
 /* Typography for site slogan */
 
 .pane-page-slogan {
-  display: inline-block;
-  line-height: 1.3;
-  // font-size: 12.5px;
-  font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
-  font-weight: bold;
-  color: #444;
-  width: calc(100% + 95.45px);
-  margin-left: -95.45px;
-  text-align: center;
-  // margin-top: 0.5em;
+    display: inline-block;
+    line-height: 1.3;
+    // font-size: 12.5px;
+    font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
+    font-weight: bold;
+    color: #444;
+    width: calc(100% + 95.45px);
+    margin-left: -95.45px;
+    text-align: center;
+    // margin-top: 0.5em;
 
-  font-size: 14px;  // backup size
+    font-size: 14px; // backup size
 
-  @include fluid-type(400px, 1200px, 14px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(400px, 1200px, 14px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 
-  @include breakpoint(400px){
-    width: 100%;
-    margin-left: 0;
-    text-align: left;
-    // margin-top: 0;
-
-    // width: calc(100% + 18vw + 15px);
-    // margin-left: calc(-18vw - 8px);
-    // text-align: center;
-  }
-  
-  // @include breakpoint(500px){
-  //   font-size: 2.5vw;
-  // }
-  // @include breakpoint(720px){
-  //   width: 100%;
-  //   margin-left: 0;
-  //   text-align: left;
-  // }
-  // @include breakpoint(768px){
-  //   font-size: 19px;
-  //   margin-left: -12px;
-  // }
-  // @include breakpoint(960px){
-  //   font-size: 24px;
-  //   margin-left: 18px;
-  // }
-  // @include breakpoint(1200px){
-  //   font-size: 30px;
-  //   margin-left: 29px;
-  // }
+    @include breakpoint(400px) {
+        width: 100%;
+        margin-left: 0;
+        text-align: left;
+    }
 }
 
 #header-group-inner {
-  padding: 20px 0 0 0;
+    padding: 20px 0 0 0;
 }
 
 #block-panels-mini-header {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 #header.sticky-header {
-  display: block;
-  position: fixed;
-  background: white;
-  z-index: 100;
-  box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
-  left: 0;
-  top: 0;
-  width: 100%;
-  min-height: 0;
-
-  >.block-content {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      max-width: 1400px;
-      margin: auto;
-      position: relative;
-      box-sizing: border-box;
-  }
-
-  #mini-panel-header {
-      width: 100%;
-  }
-
-  .panel-col-top,
-  .panel-col-bottom {
-      display: none;
-  }
-  .panel-col-first,
-  .panel-col-last {
-      display: none;
-  }
-  .panel-col {
-    text-align: center;
+    display: block;
+    position: fixed;
+    background: white;
+    z-index: 100;
+    box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
+    left: 0;
+    top: 0;
     width: 100%;
-    flex: 1;
-  }
+    min-height: 0;
 
-  .pane-page-slogan {
-    display: none;
-  }
+    >.block-content {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 1400px;
+        margin: auto;
+        position: relative;
+        box-sizing: border-box;
+    }
 
-  .pane-page-site-name {
-    vertical-align: middle;
+    #mini-panel-header {
+        width: 100%;
+    }
 
-    a {
-      display: none;
-      font-size: 36px;
-      text-indent: 0;
-      letter-spacing: normal;
-      line-height: 1.3;
-      margin-left: 0;
-      margin-right: 0.5em;
-      text-shadow: #7b7b7b -2px 0px 1px;
-  
-      @include breakpoint(502px) {
+    .panel-col-top,
+    .panel-col-bottom {
+        display: none;
+    }
+
+    .panel-col-first,
+    .panel-col-last {
+        display: none;
+    }
+
+    .panel-col {
+        text-align: center;
+        width: 100%;
+        flex: 1;
+    }
+
+    .pane-page-slogan {
+        display: none;
+    }
+
+    .pane-page-site-name {
+        vertical-align: middle;
+
+        a {
+            display: none;
+            font-size: 36px;
+            text-indent: 0;
+            letter-spacing: normal;
+            line-height: 1.3;
+            margin-left: 0;
+            margin-right: 0.5em;
+            text-shadow: #7b7b7b -2px 0px 1px;
+
+            @include breakpoint(502px) {
+                display: inline-block;
+            }
+        }
+    }
+
+    .pane-widgets-s-socialmedia-share-default {
         display: inline-block;
-      }
+        vertical-align: middle;
+
+        img {
+            width: 4vw;
+            max-width: 28px;
+            min-width: 25px;
+        }
     }
-  }
 
-  .pane-widgets-s-socialmedia-share-default {
-    display: inline-block;
-    vertical-align: middle;
+    .pane-page-logo {
+        display: inline-block;
+        vertical-align: middle;
 
-    img {
-      width: 4vw;
-      max-width: 28px;
-      min-width: 25px;
+        @include breakpoint(502px) {
+            display: none;
+        }
     }
-  }
 
-  .pane-page-logo {
-    display: inline-block;
-    vertical-align: middle;
-    
-    @include breakpoint(502px) {
-      display: none;
+    #logo {
+        float: none;
+        display: inline-block;
+        margin-right: 0;
+
+        img {
+            vertical-align: baseline;
+            width: 35px;
+            height: 35px;
+        }
     }
-  }
 
-  #logo {
-    float: none;
-    display: inline-block;
-    margin-right: 0;
+    #superfish-1 {
+        text-align: center;
 
-    img {
-      vertical-align: baseline;
-      width: 35px;
-      height: 35px;
+        li.sf-depth-1 {
+            display: inline-block;
+            float: none;
+        }
     }
-  }
 
-  #superfish-1 {
-    text-align: center;
+    @include breakpoint(0px 717px) {
+        box-sizing: border-box;
+        border-left: 3px solid #a7ce38;
+        left: unset;
+        right: -300px;
+        width: 300px;
 
-    li.sf-depth-1 {
-      display: inline-block;
-      float: none;
+        &:hover {
+            right: 0;
+            box-shadow: -5px 5px 20px -3px #383838;
+
+            &:before {
+                opacity: 0;
+                transition: 0.5s;
+            }
+        }
+
+        &:before {
+            content: '\f0c9';
+            font-family: 'FontAwesome';
+            font-size: 24px;
+            left: -45px;
+            background: #a7ce38;
+            padding: 0.5em;
+            box-sizing: border-box;
+            top: 0;
+            position: absolute;
+            color: white;
+            box-shadow: 2px 2px 30px -3px #383838;
+            opacity: 1;
+            transition: all 1.5s ease 0.5s;
+        }
     }
-  }
 }

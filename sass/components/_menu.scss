@@ -124,6 +124,10 @@
             box-shadow: 2px 2px 30px -3px #383838;
             opacity: 1;
             transition: all 1.5s ease 0.5s;
+
+            .sticky-header & {
+                content: '';
+            }
         }
 
         li.sf-depth-1 {
