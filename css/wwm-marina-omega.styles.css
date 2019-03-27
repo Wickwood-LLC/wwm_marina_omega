@@ -955,7 +955,7 @@ legend.collapse-processed a:visited {
   display: flex;
   padding: 5px 10px 1px 10px;
   border-radius: 5px 5px 0 0;
-  line-height: 24px;
+  line-height: 1.1em;
   box-sizing: border-box;
   text-align: center;
   height: 100%;
