@@ -993,63 +993,6 @@ legend.collapse-processed a:visited {
   background: #98d022;
   padding: 5px 10px 1px 10px;
 }
-@media (min-width: 0px) and (max-width: 717px) {
-  #superfish-1 {
-    position: fixed;
-    border-bottom: 3px solid #a7ce38;
-    border-left: 3px solid #a7ce38;
-    box-sizing: border-box;
-    padding: 0;
-    background: white;
-    flex-flow: row wrap;
-    width: 300px;
-    right: -300px;
-    z-index: 50;
-    transition: 1s;
-  }
-  #superfish-1:hover {
-    right: 0;
-    box-shadow: -5px 5px 20px -3px #383838;
-  }
-  #superfish-1:hover:before {
-    opacity: 0;
-    transition: 0.5s;
-  }
-  #superfish-1:before {
-    content: '\f0c9';
-    font-family: 'FontAwesome';
-    font-size: 24px;
-    left: -45px;
-    background: #a7ce38;
-    padding: 0.5em;
-    box-sizing: border-box;
-    top: 0;
-    position: absolute;
-    color: white;
-    box-shadow: 2px 2px 30px -3px #383838;
-    opacity: 1;
-    transition: all 1.5s ease 0.5s;
-  }
-  .sticky-header #superfish-1:before {
-    display: none;
-  }
-  #superfish-1 li.sf-depth-1 {
-    flex: 1 100%;
-    max-width: none;
-    border-radius: 0;
-    border-bottom: 1px dotted #e1e1e1;
-    margin: 0;
-  }
-  #superfish-1 li.sf-depth-1 a.sf-depth-1 {
-    border-radius: 0;
-  }
-  .sticky-header #superfish-1 {
-    border: 0;
-    position: relative;
-    left: -1rem;
-    right: unset;
-  }
-}
 
 ul.sf-menu {
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
