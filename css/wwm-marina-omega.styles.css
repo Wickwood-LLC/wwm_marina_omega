@@ -1129,6 +1129,7 @@ ul.sf-vertical li ul li ul {
   border-top: 0px;
   border-radius: 0 0 10px 10px;
   box-sizing: border-box;
+  display: block;
   width: 100%;
   margin-bottom: 1em;
 }
