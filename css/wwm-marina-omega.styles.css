@@ -916,9 +916,6 @@ legend.collapse-processed a:visited {
   }
 }
 
-#block-superfish-1 {
-  display: flex;
-}
 #block-superfish-1 .block__content {
   width: 100%;
 }
