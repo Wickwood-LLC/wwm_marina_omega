@@ -69,14 +69,11 @@ form input.form-submit:focus {
 .form-item textarea {
   background-color: #f4f8fb; /* old browsers */
   background-image: linear-gradient(top, #f4f8fb 0%, #fafcfb 100%); /* w3c */
-  background-image: -o-linear-gradient(top, #f4f8fb 0%, #fafcfb 100%); /* opera */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f8fb), to(#fafcfb));  /* webkit */
-  background-image: -moz-linear-gradient(top, #f4f8fb 0%, #fafcfb 100%); /* firefox */
   border: 1px solid #9babb0;
   color: #666;
   padding: 2px;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  max-width: 100%;
 }
 
 /* all IEs */
@@ -125,6 +122,10 @@ legend.collapse-processed,
 legend.collapse-processed a:link,
 legend.collapse-processed a:visited {
   font-weight: bold;
+}
+
+.form-actions {
+  text-align: center;
 }
 
 /* @end forms*/
