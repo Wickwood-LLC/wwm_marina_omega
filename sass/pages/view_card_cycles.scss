@@ -2,6 +2,8 @@
 @import "../abstractions/_mixins.scss";
 
 .view-card-cycles {
+  position: relative;
+  
   .vscc-controls {
     text-align: center;
   }
