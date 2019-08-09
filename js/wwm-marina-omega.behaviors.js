@@ -153,7 +153,6 @@
                 stickyTop = $header.offset().top; // tells how far our target element is from the top of the page
                 windowTop = $(window).scrollTop(); // tells how far our screen is currently from the top of the page
                 currentPosition = stickyTop - windowTop + headerHeight - topSpacing; // tells how far our target element is from where our screen is currently
-                topSpacing = $('#admin-menu').height();
 
                 $('#page').css({
                     "margin-top": '0',
@@ -191,6 +190,9 @@
                 }
 
                 if ($('#admin-menu').length) {
+                    $('body').css({
+                        'padding-top': topSpacing - parseInt($('body').css("margin-top")),
+                    });
                     if (currentPosition < 0) { // if target element goes above the screen
                         $header.css({
                             top: topSpacing,
