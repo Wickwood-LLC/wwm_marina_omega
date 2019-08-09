@@ -213,6 +213,7 @@
 
         .field-content {
           width: 100%;
+          margin: 0 0.5em;
         }
 
         img {
@@ -486,7 +487,7 @@
 }
 
 p:last-child {
-  margin: 0;
+  margin-bottom: 0;
 }
 
 .pane-views-empty {
