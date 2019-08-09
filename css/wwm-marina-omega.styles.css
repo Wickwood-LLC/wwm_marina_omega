@@ -432,6 +432,9 @@ h2.pane-title {
   background: white;
 }
 
+#admin-menu {
+  height: auto;
+}
 #admin-menu ul {
   overflow: initial;
 }
