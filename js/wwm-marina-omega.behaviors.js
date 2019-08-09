@@ -133,13 +133,12 @@
             var topSpacing;
 
             $header = $('#header');
-            topSpacing = $('#admin-menu').height();
-            headerHeight = $header.height(); // gets the height of our header
 
             $(document).ready(sticky);
             $(window).on("resize mresize", sticky);
 
             function sticky() {
+                topSpacing = $('#admin-menu').height();
                 headerWidth = $header.width(); // gets the width of the container
                 headerHeight = $header.height(); // gets the height of our header
                 $header.css({
