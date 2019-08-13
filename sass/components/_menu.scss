@@ -213,6 +213,8 @@ ul.sf-vertical li ul li ul {
     display: block !important;
     width: 100%;
     margin-bottom: 1em;
+    padding: 0;
+    text-align: center;
 
     li {
         background-color: white;
@@ -274,6 +276,10 @@ ul.sf-vertical li ul li ul {
             &:focus {
                 background: initial;
             }
+        }
+
+        &.sf-clone-parent a:after {
+            content: "";
         }
     }
 

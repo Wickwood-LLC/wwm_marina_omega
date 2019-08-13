@@ -1138,6 +1138,8 @@ ul.sf-vertical li ul li ul {
   display: block !important;
   width: 100%;
   margin-bottom: 1em;
+  padding: 0;
+  text-align: center;
 }
 #superfish-1-accordion li {
   background-color: white;
@@ -1186,6 +1188,9 @@ ul.sf-vertical li ul li ul {
 }
 #superfish-1-accordion li a:focus {
   background: initial;
+}
+#superfish-1-accordion li.sf-clone-parent a:after {
+  content: "";
 }
 #superfish-1-accordion > li.last {
   border-radius: 0 0 10px 10px;
