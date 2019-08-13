@@ -520,8 +520,6 @@ form input.form-submit {
   color: #fff;
   cursor: pointer;
   font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
-  font-size: 100%;
-  /* 12px/12px */
   font-weight: bold;
   margin: 0 4px;
   padding: 2px 4px;
