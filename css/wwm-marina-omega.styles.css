@@ -238,6 +238,20 @@ hr {
   border: 1px solid #d6dd89;
 }
 
+input, textarea, select, button {
+  font-size: 14px;
+}
+@media screen and (min-width: 400px) {
+  input, textarea, select, button {
+    font-size: calc(14px + 2 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  input, textarea, select, button {
+    font-size: 16px;
+  }
+}
+
 /* @end basic typography*/
 /* @group Layout elements & regions */
 .page-inner {

@@ -163,6 +163,11 @@ hr {
   border: 1px solid #d6dd89;
 }
 
+input, textarea, select, button {
+  font-size: 14px;
+  @include fluid-type(400px, 1200px, 14px, 16px); // values inside are ($min_width, $max_width, $min_font, $max_font);
+}
+
 /* @end basic typography*/
 
 /* @group Layout elements & regions */
