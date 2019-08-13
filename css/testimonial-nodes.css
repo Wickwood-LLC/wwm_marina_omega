@@ -36,7 +36,7 @@
   max-width: 100%;
 }
 
-.node-type-client-written-testimonial #content .radix-bryant-flipped .radix-layouts-content {
+.node-type-client-testimonial-written #content .radix-bryant-flipped .radix-layouts-content {
   background-color: white;
   border-color: #cccccc;
   border-style: solid;
@@ -47,12 +47,12 @@
 }
 
 @media (min-width: 992px) {
-  .node-type-client-written-testimonial #content .radix-bryant-flipped .radix-layouts-content {
+  .node-type-client-testimonial-written #content .radix-bryant-flipped .radix-layouts-content {
     width: calc(75% - 2em);
   }
 }
 
-.node-type-client-written-testimonial #content .radix-bryant-flipped .radix-layouts-content .pane-node-title {
+.node-type-client-testimonial-written #content .radix-bryant-flipped .radix-layouts-content .pane-node-title {
   text-align: center;
 }
 
