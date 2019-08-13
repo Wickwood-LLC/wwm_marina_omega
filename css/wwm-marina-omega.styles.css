@@ -463,6 +463,14 @@ h2.pane-title {
   overflow: initial;
 }
 
+div.vertical-tabs {
+  margin: 1em 0 1em 15rem;
+}
+div.vertical-tabs ul.vertical-tabs-list {
+  width: 15rem;
+  margin: -1px 0 -1px -15rem;
+}
+
 #footer {
   border-top: 3px solid #a7cf38;
   font-size: 10px;

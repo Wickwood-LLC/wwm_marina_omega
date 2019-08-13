@@ -98,3 +98,12 @@ h2.pane-title {
 		overflow: initial;
 	}
 }
+
+div.vertical-tabs {
+    margin: 1em 0 1em 15rem;
+
+    ul.vertical-tabs-list {
+        width: 15rem;
+        margin: -1px 0 -1px -15rem;
+    }
+}
