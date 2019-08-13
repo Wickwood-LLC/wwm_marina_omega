@@ -4,7 +4,8 @@ html {
 
 body {
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
+  @include fluid-type(400px, 1200px, 14px, 16px); // values inside are ($min_width, $max_width, $min_font, $max_font);
   margin: 0;
   display: flex;
   flex-flow: column nowrap;
