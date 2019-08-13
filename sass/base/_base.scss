@@ -60,9 +60,8 @@ h3 {
 }
 
 h4 {
-  font-size: 12px;
-  @include fluid-type(400px, 1200px, 14px, 16px); // values inside are ($min_width, $max_width, $min_font, $max_font);
-
+  font-size: 13px;
+  @include fluid-type(400px, 1200px, 13px, 18px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h5 {
@@ -76,8 +75,8 @@ h6 {
 }
 
 p {
-  font-size: 13px;
-  @include fluid-type(400px, 1200px, 13px, 18px); // values inside are ($min_width, $max_width, $min_font, $max_font);
+  font-size: 14px;
+  @include fluid-type(400px, 1200px, 14px, 16px); // values inside are ($min_width, $max_width, $min_font, $max_font);
   
   &:not([class]) {
     text-align: justify;

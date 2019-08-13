@@ -91,16 +91,16 @@ h3 {
 }
 
 h4 {
-  font-size: 12px;
+  font-size: 13px;
 }
 @media screen and (min-width: 400px) {
   h4 {
-    font-size: calc(14px + 2 * ((100vw - 400px) / 800));
+    font-size: calc(13px + 5 * ((100vw - 400px) / 800));
   }
 }
 @media screen and (min-width: 1200px) {
   h4 {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -133,16 +133,16 @@ h6 {
 }
 
 p {
-  font-size: 13px;
+  font-size: 14px;
 }
 @media screen and (min-width: 400px) {
   p {
-    font-size: calc(13px + 5 * ((100vw - 400px) / 800));
+    font-size: calc(14px + 2 * ((100vw - 400px) / 800));
   }
 }
 @media screen and (min-width: 1200px) {
   p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 p:not([class]) {
