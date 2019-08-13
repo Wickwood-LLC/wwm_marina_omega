@@ -53,7 +53,7 @@ function wwm_marina_omega_preprocess_page() {
   else if (arg(0) == 'user') {
     // login and password reset pages.
     if ((user_is_anonymous() || arg(1) == 'login' || arg(1) == 'password')) {
-        drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/login.css', array('group' => CSS_THEME));
+        drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/login.css', array('group' => CSS_THEME));
     }
   }
   else if (arg(0) == 'admin') {	// admin pages
