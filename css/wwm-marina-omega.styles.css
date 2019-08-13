@@ -996,8 +996,12 @@ legend.collapse-processed a:visited {
   top: 4px;
 }
 #superfish-1 li.sfHover > ul li a {
+  color: #FFF;
   background: #98d022;
   padding: 5px 10px 1px 10px;
+}
+#superfish-1 li.sfHover > ul li a:hover {
+  color: #154b70;
 }
 
 ul.sf-menu {
