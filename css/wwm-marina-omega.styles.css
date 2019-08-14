@@ -1201,7 +1201,7 @@ ul.sf-vertical li ul li ul {
   font-family: "FontAwesome";
 }
 #superfish-1-accordion li.menuparent > ul {
-  padding-left: 10px;
+  padding-left: 10vw;
   box-sizing: border-box;
 }
 #superfish-1-accordion li:nth-child(even) {
