@@ -29,10 +29,9 @@ h1 {
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
   font-size: 183.3%;
   /* 22px/12px */
-  font-weight: normal;
   line-height: 120%;
-  margin-bottom: 5px;
-  margin-top: 0;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 
 h2 {
@@ -40,10 +39,11 @@ h2 {
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
   font-size: 133.3%;
   /* 16px/12px */
-  font-weight: 600;
+  font-weight: 700;
+  line-height: 120%;
   text-transform: uppercase;
-  margin-bottom: 5px;
-  margin-top: 0;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 
 h2 a:hover,
@@ -77,31 +77,37 @@ h2 {
 }
 @media screen and (min-width: 400px) {
   h2 {
-    font-size: calc(20px + 6 * ((100vw - 400px) / 800));
+    font-size: calc(22px + 6 * ((100vw - 400px) / 800));
   }
 }
 @media screen and (min-width: 1200px) {
   h2 {
-    font-size: 26px;
+    font-size: 28px;
   }
 }
 
 h3 {
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 120%;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 @media screen and (min-width: 400px) {
   h3 {
-    font-size: calc(14px + 4 * ((100vw - 400px) / 800));
+    font-size: calc(16px + 6 * ((100vw - 400px) / 800));
   }
 }
 @media screen and (min-width: 1200px) {
   h3 {
-    font-size: 18px;
+    font-size: 22px;
   }
 }
 
 h4 {
   font-size: 13px;
+  line-height: 120%;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 @media screen and (min-width: 400px) {
   h4 {
@@ -116,6 +122,9 @@ h4 {
 
 h5 {
   font-size: 10px;
+  line-height: 120%;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 @media screen and (min-width: 400px) {
   h5 {
@@ -130,6 +139,9 @@ h5 {
 
 h6 {
   font-size: 9px;
+  line-height: 120%;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 @media screen and (min-width: 400px) {
   h6 {
