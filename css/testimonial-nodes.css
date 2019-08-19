@@ -22,7 +22,7 @@
   flex-flow: row wrap;
 }
 
-.node-type-testimonial-audio .pane-node-title {
+.node-type-testimonial-audio .pane-node-title-field {
   text-align: center;
 }
 
@@ -52,7 +52,7 @@
   }
 }
 
-.node-type-testimonial-written #content .radix-bryant-flipped .radix-layouts-content .pane-node-title {
+.node-type-testimonial-written #content .radix-bryant-flipped .radix-layouts-content .pane-node-title-field {
   text-align: center;
 }
 
@@ -72,7 +72,7 @@
   }
 }
 
-.node-type-testimonial-image #content .radix-bryant-flipped .radix-layouts-content .pane-node-title {
+.node-type-testimonial-image #content .radix-bryant-flipped .radix-layouts-content .pane-node-title-field {
   text-align: center;
 }
 
@@ -114,7 +114,7 @@
   }
 }
 
-.node-type-testimonial-video #content .radix-bryant-flipped .radix-layouts-content .pane-node-title {
+.node-type-testimonial-video #content .radix-bryant-flipped .radix-layouts-content .pane-node-title-field {
   text-align: center;
 }
 
@@ -154,4 +154,5 @@
   width: 100%;
   height: 100%;
 }
+
 /*# sourceMappingURL=testimonial-nodes.css.map */
