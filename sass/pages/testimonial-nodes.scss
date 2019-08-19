@@ -1,7 +1,7 @@
 @import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
 @import "../abstractions/_mixins.scss";
 
-.node-type-client-audio-testimonial {
+.node-type-testimonial-audio {
 	#content .radix-selby-flipped .col-md-8 {
 		background-color: white;
 		border-color: #cccccc;
@@ -37,7 +37,7 @@
 	}
 }
 
-.node-type-client-testimonial-written {
+.node-type-testimonial-written {
 	#content .radix-bryant-flipped .radix-layouts-content {
 		background-color: white;
 		border-color: #cccccc;
@@ -57,7 +57,7 @@
 	}
 }
 
-.node-type-client-image-testimonial {
+.node-type-testimonial-image {
 	#content .radix-bryant-flipped .radix-layouts-content {
 		background-color: white;
 		border-color: #cccccc;
@@ -97,7 +97,7 @@
 	}
 }
 
-.node-type-client-video-testimonial {
+.node-type-testimonial-video {
 	#content .radix-bryant-flipped .radix-layouts-content {
 		background-color: white;
 		border-color: #cccccc;
