@@ -690,11 +690,6 @@ legend.collapse-processed a:visited {
   flex: 0;
   width: auto;
 }
-@media (min-width: 721px) {
-  #mini-panel-header .panel-col {
-    flex: 1;
-  }
-}
 #mini-panel-header .panel-col-last .pane-widgets-s-socialmedia-share-default {
   width: 70px;
 }
