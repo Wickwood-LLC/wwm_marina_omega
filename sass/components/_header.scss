@@ -27,10 +27,6 @@
     .panel-col {
         flex: 0;
         width: auto;
-
-        @include breakpoint(721px) {
-            flex: 1;
-        }
     }
 
     .panel-col-last {
