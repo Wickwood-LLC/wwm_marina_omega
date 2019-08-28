@@ -162,6 +162,9 @@
     @include breakpoint(960px 1199px) {
         font-size: 27px;
     }
+    @include breakpoint(1200px) {
+        font-size: 30px;
+    }
 }
 
 #header-group-inner {

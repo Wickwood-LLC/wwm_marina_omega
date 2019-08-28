@@ -842,6 +842,11 @@ legend.collapse-processed a:visited {
     font-size: 27px;
   }
 }
+@media (min-width: 1200px) {
+  .pane-page-slogan {
+    font-size: 30px;
+  }
+}
 
 #header-group-inner {
   padding: 20px 0 0 0;
