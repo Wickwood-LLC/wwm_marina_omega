@@ -143,9 +143,16 @@
 
     @include fluid-type(400px, 1200px, 12px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 
+    @include breakpoint(400px 767px) {
+        margin-left: 0;
+        width: 132%;
+        position: relative;
+        left: -26%;
+        text-align: center;
+    }
+
     @include breakpoint(400px) {
         width: 100%;
-        margin-left: 0;
         text-align: left;
     }
 }

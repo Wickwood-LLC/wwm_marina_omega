@@ -817,10 +817,18 @@ legend.collapse-processed a:visited {
     font-size: 30px;
   }
 }
+@media (min-width: 400px) and (max-width: 767px) {
+  .pane-page-slogan {
+    margin-left: 0;
+    width: 132%;
+    position: relative;
+    left: -26%;
+    text-align: center;
+  }
+}
 @media (min-width: 400px) {
   .pane-page-slogan {
     width: 100%;
-    margin-left: 0;
     text-align: left;
   }
 }
