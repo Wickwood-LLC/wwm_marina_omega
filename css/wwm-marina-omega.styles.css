@@ -826,7 +826,7 @@ legend.collapse-processed a:visited {
     text-align: center;
   }
 }
-@media (min-width: 400px) {
+@media (min-width: 768px) {
   .pane-page-slogan {
     width: 100%;
     text-align: left;
