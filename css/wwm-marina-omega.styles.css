@@ -809,12 +809,12 @@ legend.collapse-processed a:visited {
 }
 @media screen and (min-width: 400px) {
   .pane-page-slogan {
-    font-size: calc(12px + 18 * ((100vw - 400px) / 800));
+    font-size: calc(12px + 7 * ((100vw - 400px) / 367));
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 767px) {
   .pane-page-slogan {
-    font-size: 30px;
+    font-size: 19px;
   }
 }
 @media (min-width: 400px) {
@@ -834,6 +834,11 @@ legend.collapse-processed a:visited {
   }
 }
 @media (min-width: 768px) and (max-width: 959px) {
+  .pane-page-slogan {
+    font-size: 19px;
+  }
+}
+@media (min-width: 960px) and (max-width: 1200px) {
   .pane-page-slogan {
     font-size: 19px;
   }
