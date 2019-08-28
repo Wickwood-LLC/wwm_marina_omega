@@ -159,8 +159,8 @@
     @include breakpoint(768px 959px) {
         font-size: 19px;
     }
-    @include breakpoint(960px 1200px) {
-        font-size: 19px;
+    @include breakpoint(960px 1199px) {
+        font-size: 27px;
     }
 }
 
