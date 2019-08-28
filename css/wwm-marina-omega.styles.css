@@ -831,6 +831,10 @@ legend.collapse-processed a:visited {
     width: 100%;
     text-align: left;
     left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+  .pane-page-slogan {
     font-size: 19px;
   }
 }
