@@ -830,6 +830,8 @@ legend.collapse-processed a:visited {
   .pane-page-slogan {
     width: 100%;
     text-align: left;
+    left: 0;
+    font-size: 19px;
   }
 }
 

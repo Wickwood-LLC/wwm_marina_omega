@@ -154,6 +154,8 @@
     @include breakpoint(768px) {
         width: 100%;
         text-align: left;
+        left: 0;
+        font-size: 19px;
     }
 }
 
