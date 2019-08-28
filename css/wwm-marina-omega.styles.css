@@ -817,7 +817,7 @@ legend.collapse-processed a:visited {
     font-size: 30px;
   }
 }
-@media (min-width: 400px) and (max-width: 767px) {
+@media (min-width: 400px) {
   .pane-page-slogan {
     margin-left: 0;
     width: 132%;
