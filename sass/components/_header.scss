@@ -141,7 +141,7 @@
 
     font-size: 14px; // backup size
 
-    @include fluid-type(400px, 1200px, 14px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(400px, 1200px, 12px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 
     @include breakpoint(400px) {
         width: 100%;
