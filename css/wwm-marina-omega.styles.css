@@ -323,7 +323,7 @@ input, textarea, select, button {
   margin-right: 1em;
 }
 #content.page-content ul li:hover:before {
-  font-family: 'Font Awesome 5 Duotone';
+  font-weight: 400;
 }
 
 /* @group Blocks, panels & all regions
