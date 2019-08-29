@@ -314,10 +314,10 @@ input, textarea, select, button {
   }
 }
 #content.page-content ul li {
-  list-style-image: url("images/arrow-alt-circle-right-solid.svg");
+  list-style-image: url("../images/arrow-alt-circle-right-solid.svg");
 }
 #content.page-content ul li:hover {
-  list-style-image: url("images/arrow-alt-circle-right-duotone.svg");
+  list-style-image: url("../images/arrow-alt-circle-right-duotone.svg");
 }
 
 /* @group Blocks, panels & all regions

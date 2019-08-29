@@ -221,10 +221,10 @@ input, textarea, select, button {
   }
 
   ul li {
-    list-style-image: url('images/arrow-alt-circle-right-solid.svg');
+    list-style-image: url('../images/arrow-alt-circle-right-solid.svg');
 
     &:hover {
-      list-style-image: url('images/arrow-alt-circle-right-duotone.svg');
+      list-style-image: url('../images/arrow-alt-circle-right-duotone.svg');
     }
   }
 }
