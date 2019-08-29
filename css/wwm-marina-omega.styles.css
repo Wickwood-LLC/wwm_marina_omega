@@ -314,11 +314,16 @@ input, textarea, select, button {
   }
 }
 #content.page-content ul li {
-  list-style-image: url("../images/arrow-alt-circle-right-solid.svg");
   list-style-position: inside;
 }
-#content.page-content ul li:hover {
-  list-style-image: url("../images/arrow-alt-circle-right-duotone.svg");
+#content.page-content ul li:before {
+  content: '\f35a';
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 900;
+  margin-right: 1em;
+}
+#content.page-content ul li:hover:before {
+  font-family: 'Font Awesome 5 Duotone';
 }
 
 /* @group Blocks, panels & all regions

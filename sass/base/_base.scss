@@ -221,11 +221,17 @@ input, textarea, select, button {
   }
 
   ul li {
-    list-style-image: url('../images/arrow-alt-circle-right-solid.svg');
     list-style-position: inside;
 
-    &:hover {
-      list-style-image: url('../images/arrow-alt-circle-right-duotone.svg');
+    &:before {
+      content: '\f35a';
+      font-family: 'Font Awesome 5 Pro';
+      font-weight: 900;
+      margin-right: 1em;
+    }
+
+    &:hover:before {
+      font-family: 'Font Awesome 5 Duotone';
     }
   }
 }
