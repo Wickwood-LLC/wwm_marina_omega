@@ -215,6 +215,17 @@ input, textarea, select, button {
     overflow: auto;
     font-size: 13px;
     @include fluid-type(400px, 1200px, 13px, 18px); // values inside are ($min_width, $max_width, $min_font, $max_font);
+    padding-left: 0;
+    list-style-position: inside;
+    margin-left: 1em;
+  }
+
+  ul li {
+    list-style-image: url('images/arrow-alt-circle-right-solid.svg');
+
+    &:hover {
+      list-style-image: url('images/arrow-alt-circle-right-duotone.svg');
+    }
   }
 }
 
