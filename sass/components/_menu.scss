@@ -106,7 +106,7 @@ ul.sf-menu {
 a.menuparent:after {
     content: '\f0da';
     margin-left: 0.5em;
-    font-family: FontAwesome;
+    font-family: 'Font Awesome 5 Pro';
     line-height: 1;
 }
 
@@ -245,7 +245,7 @@ ul.sf-vertical li ul li ul {
 
         &.menuparent>a.menuparent:after {
             content: "\f0da";
-            font-family: "FontAwesome";
+            font-family: "Font Awesome 5 Pro";
         }
 
         &.menuparent.sf-expanded {
@@ -254,7 +254,7 @@ ul.sf-vertical li ul li ul {
 
                 &:after {
                     content: "\f0d7";
-                    font-family: "FontAwesome";
+                    font-family: "Font Awesome 5 Pro";
                 }
             }
         }
