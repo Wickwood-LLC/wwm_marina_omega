@@ -1000,26 +1000,32 @@ legend.collapse-processed a:visited {
   }
 }
 
-#block-superfish-1 {
+#block-superfish-1,
+#block-superfish-2 {
   display: flex;
 }
-#block-superfish-1 .block__content {
+#block-superfish-1 .block__content,
+#block-superfish-2 .block__content {
   width: 100%;
 }
 
-#superfish-1 {
+#superfish-1,
+#superfish-2 {
   display: flex;
   align-content: center;
   justify-content: center;
 }
-#superfish-1 li a {
+#superfish-1 li a,
+#superfish-2 li a {
   color: #154b70;
   text-decoration: none;
 }
-#superfish-1 li a:hover {
+#superfish-1 li a:hover,
+#superfish-2 li a:hover {
   color: #fff;
 }
-#superfish-1 li.sf-depth-1 {
+#superfish-1 li.sf-depth-1,
+#superfish-2 li.sf-depth-1 {
   background: transparent;
   display: block;
   float: left;
@@ -1030,10 +1036,12 @@ legend.collapse-processed a:visited {
   border-radius: 5px 5px 0 0;
   max-width: 200px;
 }
-#superfish-1 li.sf-depth-1.sfHover > ul {
+#superfish-1 li.sf-depth-1.sfHover > ul,
+#superfish-2 li.sf-depth-1.sfHover > ul {
   top: calc(100% + 5px);
 }
-#superfish-1 a.sf-depth-1 {
+#superfish-1 a.sf-depth-1,
+#superfish-2 a.sf-depth-1 {
   background-color: #e1e1e1;
   border: none;
   display: flex;
@@ -1046,17 +1054,21 @@ legend.collapse-processed a:visited {
   align-items: center;
   justify-content: center;
 }
-#superfish-1 a.sf-depth-1:hover, #superfish-1 a.sf-depth-1.active {
+#superfish-1 a.sf-depth-1:hover, #superfish-1 a.sf-depth-1.active,
+#superfish-2 a.sf-depth-1:hover,
+#superfish-2 a.sf-depth-1.active {
   background-color: #b5ee48;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#b5ee48), color-stop(40%, #95cf1a), to(#95cf1a));
   color: #fff;
 }
-#superfish-1 li.sfHover > a {
+#superfish-1 li.sfHover > a,
+#superfish-2 li.sfHover > a {
   background-color: #b5ee48;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#b5ee48), color-stop(40%, #95cf1a), to(#95cf1a));
   color: #fff;
 }
-#superfish-1 li.sfHover > ul {
+#superfish-1 li.sfHover > ul,
+#superfish-2 li.sfHover > ul {
   padding: 0 8px 9px 0 !important;
   background: #97d023;
   font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
@@ -1073,12 +1085,14 @@ legend.collapse-processed a:visited {
   left: 0;
   top: 4px;
 }
-#superfish-1 li.sfHover > ul li a {
+#superfish-1 li.sfHover > ul li a,
+#superfish-2 li.sfHover > ul li a {
   color: #FFF;
   background: #98d022;
   padding: 5px 10px 1px 10px;
 }
-#superfish-1 li.sfHover > ul li a:hover {
+#superfish-1 li.sfHover > ul li a:hover,
+#superfish-2 li.sfHover > ul li a:hover {
   color: #154b70;
 }
 
@@ -1179,7 +1193,8 @@ ul.sf-vertical li ul li ul {
   margin-top: -4px;
 }
 
-#superfish-1-toggle {
+#superfish-1-toggle,
+#superfish-2-toggle {
   border: 0;
   display: block;
   text-align: center;
@@ -1194,25 +1209,30 @@ ul.sf-vertical li ul li ul {
   font-size: 14px;
 }
 @media screen and (min-width: 400px) {
-  #superfish-1-toggle {
+  #superfish-1-toggle,
+  #superfish-2-toggle {
     font-size: calc(14px + 4 * ((100vw - 400px) / 318));
   }
 }
 @media screen and (min-width: 718px) {
-  #superfish-1-toggle {
+  #superfish-1-toggle,
+  #superfish-2-toggle {
     font-size: 18px;
   }
 }
-#superfish-1-toggle.sf-expanded {
+#superfish-1-toggle.sf-expanded,
+#superfish-2-toggle.sf-expanded {
   background-color: #7bc;
   border-radius: 10px 10px 0 0;
   margin-bottom: 0;
 }
-#superfish-1-toggle:hover {
+#superfish-1-toggle:hover,
+#superfish-2-toggle:hover {
   background-color: #7bc;
 }
 
-#superfish-1-accordion {
+#superfish-1-accordion,
+#superfish-2-accordion {
   border: 1px solid #689a04;
   border-top: 0px;
   border-radius: 0 0 10px 10px;
@@ -1223,39 +1243,52 @@ ul.sf-vertical li ul li ul {
   padding: 0;
   text-align: center;
 }
-#superfish-1-accordion li {
+#superfish-1-accordion li,
+#superfish-2-accordion li {
   background-color: white;
   border: 1px solid #ddd;
   box-sizing: border-box;
 }
-#superfish-1-accordion li.active-trail, #superfish-1-accordion li.active-trail:nth-child(even) {
+#superfish-1-accordion li.active-trail, #superfish-1-accordion li.active-trail:nth-child(even),
+#superfish-2-accordion li.active-trail,
+#superfish-2-accordion li.active-trail:nth-child(even) {
   background-color: #00728e;
 }
-#superfish-1-accordion li.active-trail > a, #superfish-1-accordion li.active-trail:nth-child(even) > a {
+#superfish-1-accordion li.active-trail > a, #superfish-1-accordion li.active-trail:nth-child(even) > a,
+#superfish-2-accordion li.active-trail > a,
+#superfish-2-accordion li.active-trail:nth-child(even) > a {
   color: white;
 }
-#superfish-1-accordion li.active-trail > a:hover, #superfish-1-accordion li.active-trail:nth-child(even) > a:hover {
+#superfish-1-accordion li.active-trail > a:hover, #superfish-1-accordion li.active-trail:nth-child(even) > a:hover,
+#superfish-2-accordion li.active-trail > a:hover,
+#superfish-2-accordion li.active-trail:nth-child(even) > a:hover {
   background-color: #00728e;
 }
-#superfish-1-accordion li.menuparent > a.menuparent:after {
+#superfish-1-accordion li.menuparent > a.menuparent:after,
+#superfish-2-accordion li.menuparent > a.menuparent:after {
   content: "\f0da";
   font-family: "FontAwesome";
 }
-#superfish-1-accordion li.menuparent.sf-expanded > a.menuparent {
+#superfish-1-accordion li.menuparent.sf-expanded > a.menuparent,
+#superfish-2-accordion li.menuparent.sf-expanded > a.menuparent {
   font-weight: normal;
 }
-#superfish-1-accordion li.menuparent.sf-expanded > a.menuparent:after {
+#superfish-1-accordion li.menuparent.sf-expanded > a.menuparent:after,
+#superfish-2-accordion li.menuparent.sf-expanded > a.menuparent:after {
   content: "\f0d7";
   font-family: "FontAwesome";
 }
-#superfish-1-accordion li.menuparent > ul {
+#superfish-1-accordion li.menuparent > ul,
+#superfish-2-accordion li.menuparent > ul {
   padding-left: 10vw;
   box-sizing: border-box;
 }
-#superfish-1-accordion li:nth-child(even) {
+#superfish-1-accordion li:nth-child(even),
+#superfish-2-accordion li:nth-child(even) {
   background-color: #e6e6e6;
 }
-#superfish-1-accordion li a {
+#superfish-1-accordion li a,
+#superfish-2-accordion li a {
   border: 0px;
   color: black;
   padding-left: 34px;
@@ -1265,24 +1298,32 @@ ul.sf-vertical li ul li ul {
   text-decoration: none;
   padding: 5px 10px 1px 10px;
 }
-#superfish-1-accordion li a:hover {
+#superfish-1-accordion li a:hover,
+#superfish-2-accordion li a:hover {
   background: #e9efcc;
 }
-#superfish-1-accordion li a:focus {
+#superfish-1-accordion li a:focus,
+#superfish-2-accordion li a:focus {
   background: initial;
 }
-#superfish-1-accordion li.sf-clone-parent a:after {
+#superfish-1-accordion li.sf-clone-parent a:after,
+#superfish-2-accordion li.sf-clone-parent a:after {
   content: "";
 }
-#superfish-1-accordion > li.last {
+#superfish-1-accordion > li.last,
+#superfish-2-accordion > li.last {
   border-radius: 0 0 10px 10px;
 }
-#superfish-1-accordion > li.last.sf-expanded a {
+#superfish-1-accordion > li.last.sf-expanded a,
+#superfish-2-accordion > li.last.sf-expanded a {
   border-radius: 0;
 }
 #superfish-1-accordion > li.last > a,
 #superfish-1-accordion > li.last .last,
-#superfish-1-accordion > li.last .last > a {
+#superfish-1-accordion > li.last .last > a,
+#superfish-2-accordion > li.last > a,
+#superfish-2-accordion > li.last .last,
+#superfish-2-accordion > li.last .last > a {
   border-radius: 0 0 10px 10px;
 }
 
