@@ -8,6 +8,29 @@
   margin: 0 1em 1em 1em;
 }
 
+.node-type-client #content .radix-sutro .row:nth-child(2) {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.node-type-client #content .radix-sutro .radix-layouts-column1 {
+  order: 1;
+}
+
+@media (min-width: 992px) {
+  .node-type-client #content .radix-sutro .radix-layouts-column1 {
+    order: 0;
+  }
+}
+
+.node-type-client .pane-node-field-client-logo {
+  text-align: center;
+}
+
+.node-type-client .pane-node-title-field {
+  text-align: center;
+}
+
 .node-type-client .field--name-field-client-site-iframe {
   border-color: #cccccc;
   border-style: solid;

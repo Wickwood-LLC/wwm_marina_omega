@@ -1,3 +1,5 @@
+@import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
+
 .node-type-client {
 	#content .radix-sutro {
 		background-color: white;
@@ -7,6 +9,26 @@
 		border-width: 1px;
 		padding: 1em;
 		margin: 0 1em 1em 1em;
+
+		.row:nth-child(2) {
+		    display: flex;
+		    flex-flow: row wrap;
+		}
+
+		.radix-layouts-column1 {
+			order: 1;
+			
+			@include breakpoint(992px) {
+				order: 0;
+			}
+		}
+	}
+
+	.pane-node-field-client-logo {
+		text-align: center;
+	}
+	.pane-node-title-field {
+		text-align: center;
 	}
 
 	.field--name-field-client-site-iframe {
