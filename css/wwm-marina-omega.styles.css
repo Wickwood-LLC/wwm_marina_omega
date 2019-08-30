@@ -313,10 +313,10 @@ input, textarea, select, button {
     font-size: 18px;
   }
 }
-#content.page-content ul li {
+#content.page-content .field--name-body ul li {
   list-style-position: inside;
 }
-#content.page-content ul li:before {
+#content.page-content .field--name-body ul li:before {
   content: '\f35a';
   font-family: 'Font Awesome 5 Pro';
   font-weight: 900;
@@ -325,7 +325,7 @@ input, textarea, select, button {
   vertical-align: middle;
   line-height: 1em;
 }
-#content.page-content ul li:hover:before {
+#content.page-content .field--name-body ul li:hover:before {
   font-weight: 400;
 }
 
