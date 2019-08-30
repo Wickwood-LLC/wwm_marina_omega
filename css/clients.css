@@ -15,6 +15,7 @@
 
 .node-type-client #content .radix-sutro .radix-layouts-column1 {
   order: 1;
+  flex: 1;
 }
 
 @media (min-width: 992px) {
