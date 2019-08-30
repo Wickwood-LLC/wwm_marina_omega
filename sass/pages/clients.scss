@@ -18,10 +18,14 @@
 		.radix-layouts-column1 {
 			order: 1;
 			flex: 1;
+			max-width: 100%;
 			
 			@include breakpoint(992px) {
 				order: 0;
 			}
+		}
+		.radix-layouts-column2 {
+			max-width: 100%;
 		}
 	}
 
