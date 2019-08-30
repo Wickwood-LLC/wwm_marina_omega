@@ -292,11 +292,11 @@ input, textarea, select, button {
   flex: 1;
 }
 
-#content.page-content {
+.page-content {
   clear: both;
   margin: 0 0 1em 0;
 }
-#content.page-content ul, #content.page-content ol {
+.page-content ul, .page-content ol {
   overflow: auto;
   font-size: 13px;
   padding-left: 0;
@@ -304,19 +304,19 @@ input, textarea, select, button {
   margin-left: 1em;
 }
 @media screen and (min-width: 400px) {
-  #content.page-content ul, #content.page-content ol {
+  .page-content ul, .page-content ol {
     font-size: calc(13px + 5 * ((100vw - 400px) / 800));
   }
 }
 @media screen and (min-width: 1200px) {
-  #content.page-content ul, #content.page-content ol {
+  .page-content ul, .page-content ol {
     font-size: 18px;
   }
 }
-#content.page-content .field--name-body ul li {
+.page-content .field--name-body ul li {
   list-style-position: inside;
 }
-#content.page-content .field--name-body ul li:before {
+.page-content .field--name-body ul li:before {
   content: '\f35a';
   font-family: 'Font Awesome 5 Pro';
   font-weight: 900;
@@ -325,7 +325,7 @@ input, textarea, select, button {
   vertical-align: middle;
   line-height: 1em;
 }
-#content.page-content .field--name-body ul li:hover:before {
+.page-content .field--name-body ul li:hover:before {
   font-weight: 400;
 }
 
