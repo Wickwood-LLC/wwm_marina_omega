@@ -37,13 +37,17 @@
 
     .views-field-title-field {
         text-align: center;
-        margin-top: 0;
+        
+        h2 {
+        	margin-top: 0;
+        }
     }
 
     .views-field-name,
     .views-field-published-at {
         display: block;
         text-align: center;
+        margin-bottom: 1rem;
 
         a {
             color: black;
@@ -67,11 +71,18 @@
             width: 100%;
             height: auto;
         }
+
+        img {
+        	display: block;
+        	height: auto;
+        	margin: auto;
+        	max-width: 100%;
+        }
     }
 
     .views-field-field-categories {
         font-weight: bold;
-        font-size: 0.8em;
+        font-size: 0.8rem;
     }
 
     .views-label-field-categories {
