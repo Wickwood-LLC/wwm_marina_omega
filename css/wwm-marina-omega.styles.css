@@ -318,6 +318,7 @@ input, textarea, select, button {
 }
 .page-content .field--name-body ul li:before {
   content: '\f35a';
+  color: #0370bb;
   font-family: 'Font Awesome 5 Pro';
   font-weight: 900;
   margin-right: 0.5em;
