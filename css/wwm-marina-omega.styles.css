@@ -504,6 +504,10 @@ div.vertical-tabs ul.vertical-tabs-list {
   background-repeat: repeat;
 }
 
+#media-tabs-wrapper .ui-tabs-active a {
+  color: #333333;
+}
+
 #footer {
   border-top: 3px solid #a7cf38;
   font-size: 10px;
@@ -683,6 +687,7 @@ legend.collapse-processed a:visited {
 
 .form-actions {
   text-align: center;
+  width: 100% !important;
 }
 
 /* @end forms*/

@@ -109,3 +109,9 @@ div.vertical-tabs {
 .ui-widget-overlay {
 	background-repeat: repeat;
 }
+
+#media-tabs-wrapper {
+	.ui-tabs-active a {
+		color: #333333;
+	}
+}
