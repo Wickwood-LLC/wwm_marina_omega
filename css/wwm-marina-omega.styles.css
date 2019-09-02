@@ -500,6 +500,10 @@ div.vertical-tabs ul.vertical-tabs-list {
   margin: -1px 0 -1px -15rem !important;
 }
 
+.ui-widget-overlay {
+  background-repeat: repeat;
+}
+
 #footer {
   border-top: 3px solid #a7cf38;
   font-size: 10px;
