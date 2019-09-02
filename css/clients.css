@@ -27,6 +27,13 @@
 
 .node-type-client #content .radix-sutro .radix-layouts-column2 {
   max-width: 100%;
+  margin-bottom: 1em;
+}
+
+@media (min-width: 992px) {
+  .node-type-client #content .radix-sutro .radix-layouts-column2 {
+    margin-bottom: 0;
+  }
 }
 
 .node-type-client .pane-node-field-client-logo {

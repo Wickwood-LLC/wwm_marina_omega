@@ -26,6 +26,11 @@
 		}
 		.radix-layouts-column2 {
 			max-width: 100%;
+			margin-bottom: 1em;
+
+			@include breakpoint(992px) {
+				margin-bottom: 0;
+			}
 		}
 	}
 
