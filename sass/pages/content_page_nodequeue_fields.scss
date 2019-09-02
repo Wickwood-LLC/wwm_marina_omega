@@ -2,34 +2,95 @@
 @import "../abstractions/_mixins.scss";
 
 .view-home-page-nodequeue-view.view-display-id-panel_pane_1 .view-content {
-	display: flex;
-	flex-flow: row wrap;
-	margin-left: -0.5em;
-	margin-right: -0.5em;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
 
-	.views-row {
-		flex: 1 1 250px;
-		margin: 0.5em;
-		flex-flow: column nowrap;
-		display: flex;
+    .views-row {
+        flex: 1 1 250px;
+        margin: 0.5em;
+        flex-flow: column nowrap;
+        display: flex;
 
-		.views-field-title {
-			text-align: center;
-			margin-bottom: 0.5em;
-		}
-		.views-field-field-teaser-link-text {
-			flex: 1;
-			margin-bottom: 1em;
-			text-align: center;
+        .views-field-title {
+            text-align: center;
+            margin-bottom: 0.5em;
+        }
 
-			a {
-				color: red;
-				font-weight: bold;
-			}
-		}
-		.views-field-nodequeue-links ul.links {
-			margin: 0;
-			padding: 0;
-		}
-	}
+        .views-field-field-teaser-link-text {
+            flex: 1;
+            margin-bottom: 1em;
+            text-align: center;
+
+            a {
+                color: red;
+                font-weight: bold;
+            }
+        }
+
+        .views-field-nodequeue-links ul.links {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    .views-field-title-field {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .views-field-name,
+    .views-field-published-at {
+        display: block;
+        text-align: center;
+
+        a {
+            color: black;
+
+            &:hover {
+                color: blue;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .views-field-body {
+        flex-grow: 1;
+
+        .field-content {
+            margin-bottom: 1em;
+            line-height: 1.35em;
+        }
+
+        iframe {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .views-field-field-categories {
+        font-weight: bold;
+        font-size: 0.8em;
+    }
+
+    .views-label-field-categories {
+        float: left;
+        margin-right: 4px;
+    }
+
+    .views-field-view-node a {
+        float: right;
+        text-transform: capitalize;
+        color: #EA4335;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &:focus {
+            color: #0f753b;
+        }
+    }
 }
