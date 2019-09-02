@@ -282,17 +282,6 @@
   text-align: center;
 }
 
-.blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title a,
-.blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field a,
-.blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title p a,
-.blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field p a,
-.blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title a,
-.blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title-field a,
-.blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title p a,
-.blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title-field p a {
-  color: black;
-}
-
 .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title a:hover,
 .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field a:hover,
 .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title p a:hover,
@@ -301,7 +290,6 @@
 .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title-field a:hover,
 .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title p a:hover,
 .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title-field p a:hover {
-  color: blue;
   text-decoration: underline;
 }
 
