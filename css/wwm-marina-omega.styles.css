@@ -689,6 +689,7 @@ legend.collapse-processed a:visited {
 }
 
 #linkit-cancel,
+#edit-delete,
 #edit-cancel,
 a.button,
 .button {
@@ -704,6 +705,24 @@ a.button,
   border-color: #d8d8d8 #d1d1d1 #bababa;
   border-style: solid;
   border-width: 1px;
+}
+
+#edit-delete {
+  background: red;
+}
+#edit-delete:before {
+  content: '\f2ed';
+  display: inline;
+  margin-right: 0.5em;
+}
+
+#edit-cancel {
+  background: red;
+}
+#edit-cancel:before {
+  content: '\f2ea';
+  display: inline;
+  margin-right: 0.5em;
 }
 
 .form-actions {

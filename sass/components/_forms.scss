@@ -125,6 +125,7 @@ legend.collapse-processed a:visited {
 }
 
 #linkit-cancel,
+#edit-delete,
 #edit-cancel,
 a.button,
 .button {
@@ -140,6 +141,24 @@ a.button,
   border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
   border-style: solid;
   border-width: 1px;
+}
+#edit-delete{
+  background: red;
+  
+  &:before {
+    content: '\f2ed';
+    display: inline;
+    margin-right: 0.5em;
+  }
+}
+#edit-cancel{
+  background: red;
+  
+  &:before {
+    content: '\f2ea';
+    display: inline;
+    margin-right: 0.5em;
+  }
 }
 
 .form-actions {
