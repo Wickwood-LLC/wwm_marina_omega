@@ -247,7 +247,9 @@ input, textarea, select, button {
   position: relative;
 }
 
-.boxed, .page-admin #content {
+.boxed, 
+.page-admin #content,
+.page-file #content {
   background-color: white;
   border-color: #cccccc;
   border-style: solid;

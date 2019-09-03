@@ -336,7 +336,9 @@ input, textarea, select, button {
   position: relative;
 }
 
-.boxed, .page-admin #content {
+.boxed,
+.page-admin #content,
+.page-file #content {
   background-color: white;
   border-color: #cccccc;
   border-style: solid;
@@ -686,7 +688,9 @@ legend.collapse-processed a:visited {
   font-weight: bold;
 }
 
-#linkit-cancel {
+#linkit-cancel,
+#edit-cancel,
+.button {
   cursor: pointer;
   color: #555;
   font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
