@@ -602,7 +602,9 @@ form input.form-submit:focus {
   /* old browsers */
   background-image: linear-gradient(top, #286e9b 0%, #4186b5 50%, #286e9b 100%);
   /* w3c */
+  background-image: -o-linear-gradient(top, #286e9b 0%, #4186b5 50%, #286e9b 100%);
   /* opera */
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#286e9b), to(#286e9b), color-stop(50%, 4186b5));
   /* webkit */
   background-image: -moz-linear-gradient(top, #286e9b 0%, #4186b5 50%, #286e9b 100%);
   /* firefox */
@@ -709,19 +711,23 @@ a.button,
 
 #edit-delete {
   background: red;
+  color: #FFF;
 }
 #edit-delete:before {
   content: '\f2ed';
   display: inline;
+  font-family: 'Font Awesome 5 Pro';
   margin-right: 0.5em;
 }
 
 #edit-cancel {
   background: red;
+  color: #FFF;
 }
 #edit-cancel:before {
   content: '\f2ea';
   display: inline;
+  font-family: 'Font Awesome 5 Pro';
   margin-right: 0.5em;
 }
 
@@ -1128,8 +1134,7 @@ a.button,
   text-align: left;
   text-transform: none;
   z-index: 2;
-  -webkit-filter: opacity(0.95);
-          filter: opacity(0.95);
+  filter: opacity(0.95);
   border-radius: 0 0 5px 5px;
   overflow: visible !important;
   left: 0;

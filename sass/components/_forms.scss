@@ -144,19 +144,23 @@ a.button,
 }
 #edit-delete{
   background: red;
+  color: #FFF;
   
   &:before {
     content: '\f2ed';
     display: inline;
+    font-family: 'Font Awesome 5 Pro';
     margin-right: 0.5em;
   }
 }
 #edit-cancel{
   background: red;
+  color: #FFF;
   
   &:before {
     content: '\f2ea';
     display: inline;
+    font-family: 'Font Awesome 5 Pro';
     margin-right: 0.5em;
   }
 }
