@@ -93,7 +93,7 @@ function wwm_marina_omega_views_pre_render(&$view) {
  *
  * Render submit buttons as buttons instead of input elements.
  */
-function wwm_marina_omega_button($variables) {
-  dpm($variables);
-}
+// function wwm_marina_omega_button($variables) {
+//   dpm($variables);
+// }
 
