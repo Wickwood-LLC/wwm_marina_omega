@@ -602,9 +602,7 @@ form input.form-submit:focus {
   /* old browsers */
   background-image: linear-gradient(top, #286e9b 0%, #4186b5 50%, #286e9b 100%);
   /* w3c */
-  background-image: -o-linear-gradient(top, #286e9b 0%, #4186b5 50%, #286e9b 100%);
   /* opera */
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#286e9b), to(#286e9b), color-stop(50%, 4186b5));
   /* webkit */
   background-image: -moz-linear-gradient(top, #286e9b 0%, #4186b5 50%, #286e9b 100%);
   /* firefox */
@@ -707,6 +705,7 @@ a.button,
   border-color: #d8d8d8 #d1d1d1 #bababa;
   border-style: solid;
   border-width: 1px;
+  background: white;
 }
 
 #edit-delete {
@@ -1134,7 +1133,8 @@ a.button,
   text-align: left;
   text-transform: none;
   z-index: 2;
-  filter: opacity(0.95);
+  -webkit-filter: opacity(0.95);
+          filter: opacity(0.95);
   border-radius: 0 0 5px 5px;
   overflow: visible !important;
   left: 0;

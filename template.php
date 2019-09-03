@@ -87,3 +87,13 @@ function wwm_marina_omega_views_pre_render(&$view) {
     drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/content_page_nodequeue_teasers.css', array('group' => CSS_THEME));
   }
 }
+
+/**
+ * Override of theme_button().
+ *
+ * Render submit buttons as buttons instead of input elements.
+ */
+function wwm_marina_omega_button($variables) {
+  dpm($variables);
+}
+
