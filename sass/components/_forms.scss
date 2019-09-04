@@ -7,7 +7,7 @@ form input.form-submit {
   font-weight: bold;
   margin: 0 4px;
   padding: 2px 4px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   border: 0;
   border-radius: 4px;
 }
@@ -124,6 +124,7 @@ legend.collapse-processed a:visited {
   font-weight: bold;
 }
 
+input[type="submit"],
 .form-actions>input, 
 .form-actions>a,
 #linkit-cancel,
@@ -137,20 +138,22 @@ a.button,
   font-weight: bold;
   margin: 0 4px;
   padding: 2px 4px;
-  text-transform: capitlize;
+  text-transform: capitalize;
   border: 0;
   border-radius: 4px;
   border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
   border-style: solid;
   border-width: 1px;
-  background: white;
+  background: #286e9b;
 
   &:hover {
+    background: #4186b5;
     text-decoration: none;
   }
 }
 input[id*="delete"],
-input[class*="delete"] {
+input[class*="delete"],
+#edit-delete {
   background: red;
   color: #FFF;
   
@@ -179,7 +182,8 @@ input[class*="delete"] {
     background: #f7c72f;
   }
 }
-#edit-submit {
+#edit-submit,
+.mbp-action-edit {
   background: #439401;
   &:hover {
     background: #a7ce37;
