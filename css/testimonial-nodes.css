@@ -23,7 +23,7 @@
 }
 
 .node-type-testimonial-audio #content .radix-selby-flipped .col-md-8 > .row:nth-child(2) > .panel-panel {
-  flex: 1;
+  flex: 1 1 250px;
 }
 
 .node-type-testimonial-audio .pane-node-title-field {
