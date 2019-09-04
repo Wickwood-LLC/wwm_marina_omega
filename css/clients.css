@@ -13,10 +13,6 @@
   flex-flow: row wrap;
 }
 
-.node-type-client #content .radix-sutro .row:nth-child(2) > .panel-panel {
-  flex: 1;
-}
-
 .node-type-client #content .radix-sutro .radix-layouts-column1 {
   order: 1;
   flex: 1;
@@ -67,13 +63,5 @@
   width: 100%;
   height: 100%;
   border: 0;
-}
-
-.node-type-client .field--name-field-image-testimonial {
-  text-align: center;
-}
-
-.node-type-client .field--name-field-audio-testimonial {
-  text-align: center;
 }
 /*# sourceMappingURL=clients.css.map */

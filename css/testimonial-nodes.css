@@ -22,6 +22,10 @@
   flex-flow: row wrap;
 }
 
+.node-type-testimonial-audio #content .radix-selby-flipped .col-md-8 > .row:nth-child(2) > .panel-panel {
+  flex: 1;
+}
+
 .node-type-testimonial-audio .pane-node-title-field {
   text-align: center;
 }
@@ -34,6 +38,14 @@
 .node-type-testimonial-audio .field--name-field-image-testimonial img,
 .node-type-testimonial-audio .field--name-field-audio-testimonial audio {
   max-width: 100%;
+}
+
+.node-type-testimonial-audio .field--name-field-image-testimonial {
+  text-align: center;
+}
+
+.node-type-testimonial-audio .field--name-field-audio-testimonial {
+  text-align: center;
 }
 
 .node-type-testimonial-written #content .radix-bryant-flipped .radix-layouts-content {

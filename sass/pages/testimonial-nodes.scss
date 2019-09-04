@@ -19,6 +19,10 @@
 			justify-content: center;
 			align-items: center;
 			flex-flow: row wrap;
+
+			> .panel-panel {
+				flex: 1;
+			}
 		}
 	}
 
@@ -34,6 +38,12 @@
 	.field--name-field-image-testimonial img,
 	.field--name-field-audio-testimonial audio {
 		max-width: 100%;
+	}
+	.field--name-field-image-testimonial {
+		text-align: center;
+	}
+	.field--name-field-audio-testimonial {
+		text-align: center;
 	}
 }
 
