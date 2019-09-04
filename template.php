@@ -93,9 +93,8 @@ function wwm_marina_omega_views_pre_render(&$view) {
  *
  * Render submit buttons as buttons instead of input elements.
  */
-// function wwm_marina_omega_button($variables) {
-//   if ($variables['element']['#type'] == 'submit') {
-//     $variables['element']['#button_type'] = 'button';
-//   }
-// }
+function wwm_marina_omega_form_alter(&$form, &$form_state, $form_id) {
+  dpm($form);
+  $form['actions']['submit']['#type'] = 'button';
+}
 
