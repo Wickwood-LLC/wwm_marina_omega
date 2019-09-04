@@ -1567,12 +1567,9 @@ div.error {
 }
 
 ul.pager {
-  display: inline-block;
   border: 1px solid #ccc;
   border-radius: 6px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  display: inline-block;
+  display: table;
   margin: 0.5em auto;
   padding: 0;
 }
