@@ -53,9 +53,8 @@ ul.pager {
   border-radius: 6px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  display: inline-block;
-  margin: auto;
-  margin-top: 1em;
+  display: table;
+  margin: 0.5em auto;
   padding: 0;
 
   .pager__item {

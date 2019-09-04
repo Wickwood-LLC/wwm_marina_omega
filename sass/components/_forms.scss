@@ -133,7 +133,7 @@ input[type="submit"],
 a.button,
 .button {
   cursor: pointer;
-  color: #555;
+  color: #fff;
   font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin: 0 4px;
@@ -183,7 +183,7 @@ input[class*="delete"],
   }
 }
 #edit-submit,
-.mbp-action-edit {
+input.mbp-action-edit {
   background: #439401;
   &:hover {
     background: #a7ce37;
