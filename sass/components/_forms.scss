@@ -124,6 +124,8 @@ legend.collapse-processed a:visited {
   font-weight: bold;
 }
 
+.form-actions>input, 
+.form-actions>a,
 #linkit-cancel,
 #edit-delete,
 #edit-cancel,
@@ -135,15 +137,20 @@ a.button,
   font-weight: bold;
   margin: 0 4px;
   padding: 2px 4px;
-  text-transform: uppercase;
+  text-transform: capitlize;
   border: 0;
   border-radius: 4px;
   border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
   border-style: solid;
   border-width: 1px;
   background: white;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
-#edit-delete{
+input[id*="delete"],
+input[class*="delete"] {
   background: red;
   color: #FFF;
   
@@ -153,9 +160,13 @@ a.button,
     font-family: 'Font Awesome 5 Pro';
     margin-right: 0.5em;
   }
+
+  &:hover {
+    background: #fd5959;
+  }
 }
 #edit-cancel{
-  background: red;
+  background: #ffc200;
   color: #FFF;
   
   &:before {
@@ -163,6 +174,15 @@ a.button,
     display: inline;
     font-family: 'Font Awesome 5 Pro';
     margin-right: 0.5em;
+  }
+  &:hover {
+    background: #f7c72f;
+  }
+}
+#edit-submit {
+  background: #439401;
+  &:hover {
+    background: #a7ce37;
   }
 }
 
