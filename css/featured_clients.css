@@ -6,12 +6,18 @@
 .view-featured-clients .views-row {
   display: flex;
   flex-flow: column;
-  flex: 1 1 250px;
+  flex: 1 5 30%;
   margin: 0.5em;
+  min-width: 250px;
 }
 
 .view-featured-clients .views-field-field-client-logo {
   text-align: center;
+}
+
+.view-featured-clients .views-field-field-client-logo img {
+  max-width: 100%;
+  height: auto;
 }
 
 .view-featured-clients .views-field-title-field {
