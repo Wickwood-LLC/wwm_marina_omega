@@ -44,7 +44,7 @@ function wwm_marina_omega_preprocess_page() {
       drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/testimonial-nodes.css', array('group' => CSS_THEME));
     }
   }
-  else if (arg(0) == 'categories') { // Featured clients view page
+  else if (arg(0) == 'featured-clients') { // Featured clients view page
     drupal_add_css(drupal_get_path('theme', 'wwm_marina_omega') . '/css/featured_clients.css', array('group' => CSS_THEME));
   }
   else if (arg(0) == 'categories') { // Categories view pages
