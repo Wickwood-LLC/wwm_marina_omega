@@ -1,0 +1,32 @@
+.view-featured-clients {
+	.view-content {
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	.views-row {
+		display: flex;
+		flex-flow: column;
+	    flex: 1 1 36%;
+	    margin: 0.5em;
+	}
+
+	.views-field-field-client-logo {
+		text-align: center;
+	}
+	.views-field-title-field {
+		border-bottom: 1px solid #d6dd89;
+		text-align: center;
+	}
+	.views-field-body {
+		flex: 1;
+	}
+	.views-field-view-node {
+	    text-align: right;
+	    font-weight: bold;
+	    
+	    a {
+	    	color: #EA4335;
+	    }
+	}
+}

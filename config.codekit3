@@ -690,6 +690,23 @@
 		"oAP": "/css/content_page_nodequeue_teasers.css.map",
 		"oF": 0
 		},
+	"/css/featured_clients.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/featured_clients-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/featured_clients.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/css/featured_clients.css.map",
+		"oF": 0
+		},
 	"/css/login.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1943,7 +1960,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/admin.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 1,
 		"uL": 1
 		},
@@ -1956,7 +1973,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/articles_news_faq_nodes.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 1,
 		"uL": 1
 		},
@@ -1982,7 +1999,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/categories_view.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 1,
 		"uL": 1
 		},
@@ -1995,7 +2012,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/category_term_pages.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 1,
 		"uL": 1
 		},
@@ -2008,7 +2025,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/clients.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 1,
 		"uL": 1
 		},
@@ -2021,7 +2038,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/content_page_nodequeue_fields.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 1,
 		"uL": 1
 		},
@@ -2034,7 +2051,20 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/content_page_nodequeue_teasers.css",
-		"oF": 2,
+		"oF": 3,
+		"oS": 1,
+		"uL": 1
+		},
+	"/sass/pages/featured_clients.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "/css/featured_clients.css",
+		"oF": 3,
 		"oS": 1,
 		"uL": 1
 		},
@@ -2047,7 +2077,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/login.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 1,
 		"uL": 1
 		},
@@ -2073,7 +2103,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/node_edit_forms.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 1,
 		"uL": 1
 		},
@@ -2086,7 +2116,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/press_release_nodes.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 1,
 		"uL": 1
 		},
@@ -2099,7 +2129,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/testimonial-nodes.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 1,
 		"uL": 1
 		},
@@ -2112,7 +2142,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/view_card_cycles.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 1,
 		"uL": 1
 		},
