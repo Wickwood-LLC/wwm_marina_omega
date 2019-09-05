@@ -64,4 +64,9 @@
   height: 100%;
   border: 0;
 }
+
+.node-type-client .field--name-field-audio-testimonial {
+  text-align: center;
+}
+
 /*# sourceMappingURL=clients.css.map */
