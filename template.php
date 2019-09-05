@@ -115,7 +115,7 @@ function wwm_marina_omega_button($variables) {
   else {
     return '<input .="" drupal_attributes="" />';
   }
-  dpm($variables);
+  dpm($element);
 }
 
 
