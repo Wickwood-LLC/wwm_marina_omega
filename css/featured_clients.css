@@ -6,7 +6,7 @@
 .view-featured-clients .views-row {
   display: flex;
   flex-flow: column;
-  flex: 1 1 36%;
+  flex: 1 1 250px;
   margin: 0.5em;
 }
 
