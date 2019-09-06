@@ -110,6 +110,10 @@ function wwm_marina_omega_button($variables) {
   }
   return '<input' . drupal_attributes($element['#attributes']) . ' />';
   dpm($variables);
+
+  if (strpos($variables['element']['#attributes'], 'edit')) {
+    $variables['element']['#value'] = "&#xf044; " . $variables['element']['#value'];
+  }
 }
 
 // function wwm_marina_omega_form_alter(&$form, &$form_state, $form_id) {
