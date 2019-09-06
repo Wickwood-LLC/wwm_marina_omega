@@ -698,7 +698,7 @@ a.button,
 .button {
   cursor: pointer;
   color: #fff;
-  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Font Awesome 5 Pro', Tahoma, Verdana, Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin: 0 4px;
   padding: 2px 4px;
