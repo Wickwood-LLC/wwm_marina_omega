@@ -110,12 +110,12 @@ function wwm_marina_omega_button($variables) {
   }
   return '<input' . drupal_attributes($element['#attributes']) . ' />';
 
-  if (strpos($variables['element']['#value'], 'edit')) {
-    $variables['element']['#value'] = "&#xf044; " . $variables['element']['#value'];
-  }
-  // if ($variables['element']['#value'] == 'Edit selected') {
+  // if (strpos($variables['element']['#value'], 'edit')) {
   //   $variables['element']['#value'] = "&#xf044; " . $variables['element']['#value'];
   // }
+  if ($variables['element']['#value'] == 'Edit selected') {
+    $variables['element']['#value'] = "&#xf044; " . $variables['element']['#value'];
+  }
 
   dpm($variables);
 }
