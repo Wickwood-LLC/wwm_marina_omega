@@ -119,8 +119,8 @@ function wwm_marina_omega_views_pre_render(&$view) {
 //   dpm($variables);
 // }
 
-// function wwm_marina_omega_form_alter(&$form, &$form_state, $form_id) {
-//   dpm($form);
-// }
+function wwm_marina_omega_form_alter(&$form, &$form_state, $form_id) {
+  dpm($form);
+}
 
 
