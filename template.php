@@ -108,7 +108,6 @@ function wwm_marina_omega_button($variables) {
   if (!empty($element['#attributes']['disabled'])) {
     $element['#attributes']['class'][] = 'form-button-disabled';
   }
-  return '<input' . drupal_attributes($element['#attributes']) . ' />';
 
   // if (strpos($variables['element']['#value'], 'edit')) {
   //   $variables['element']['#value'] = "&#xf044; " . $variables['element']['#value'];
@@ -116,6 +115,8 @@ function wwm_marina_omega_button($variables) {
   if ($variables['element']['#value'] == 'Edit selected') {
     $variables['element']['#value'] = "&#xf044; " . $variables['element']['#value'];
   }
+
+  return '<input' . drupal_attributes($element['#attributes']) . ' />';
 
   dpm($variables);
 }
