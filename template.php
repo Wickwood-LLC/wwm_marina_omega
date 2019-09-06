@@ -121,6 +121,9 @@ function wwm_marina_omega_views_pre_render(&$view) {
 
 function wwm_marina_omega_form_alter(&$form, &$form_state, $form_id) {
   dpm($form);
+  if ($form['actions']['delete']) {
+    $form['actions']['delete']['#value'] = "&#x" . $form['actions']['delete']['#value'];
+  }
 }
 
 
