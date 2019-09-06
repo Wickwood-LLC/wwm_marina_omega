@@ -109,11 +109,15 @@ function wwm_marina_omega_button($variables) {
     $element['#attributes']['class'][] = 'form-button-disabled';
   }
   return '<input' . drupal_attributes($element['#attributes']) . ' />';
-  dpm($variables);
 
-  if (strpos($variables['element']['#attributes'], 'edit')) {
+  if (strpos($variables['element']['#value'], 'edit')) {
     $variables['element']['#value'] = "&#xf044; " . $variables['element']['#value'];
   }
+  // if ($variables['element']['#value'] == 'Edit selected') {
+  //   $variables['element']['#value'] = "&#xf044; " . $variables['element']['#value'];
+  // }
+
+  dpm($variables);
 }
 
 // function wwm_marina_omega_form_alter(&$form, &$form_state, $form_id) {
