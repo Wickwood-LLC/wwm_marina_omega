@@ -108,6 +108,15 @@ function wwm_marina_omega_button(&$variables) {
   if ($element['#value'] == 'Edit selected') {
     $element['#attributes']['value'] = decode_entities('&#xf044; ') . $element['#attributes']['value'];
   }
+  if ($element['#value'] == 'Delete selected') {
+    $element['#attributes']['value'] = decode_entities('&#xf2ed; ') . $element['#attributes']['value'];
+  }
+  if ($element['#value'] == 'Download selected') {
+    $element['#attributes']['value'] = decode_entities('&#xf019; ') . $element['#attributes']['value'];
+  }
+  if ($element['#value'] == 'Download files in Media Basket') {
+    $element['#attributes']['value'] = decode_entities('&#xf019; ') . $element['#attributes']['value'];
+  }
 
   $element['#attributes']['class'][] = 'form-' . $element['#button_type'];
   if (!empty($element['#attributes']['disabled'])) {
