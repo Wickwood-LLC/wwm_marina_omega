@@ -132,9 +132,9 @@ function wwm_marina_omega_form_alter(&$form, &$form_state, $form_id) {
   if ($form['actions']['submit']['#value'] == 'Save') {
     $form['actions']['submit']['#value'] = decode_entities('&#xf467; ') . $form['actions']['submit']['#value'];
   }
-  if ($form['actions']['imagecrop']) {
-    $form['actions']['imagecrop']['#markup'] = '<a href="/imagecrop/overview/' . $form['fid']['#value'] . '" class="imagecrop-button button" title="Crop image">&#xf125; Crop media</a>';
-  }
+  // if ($form['actions']['imagecrop']) {
+  //   $form['actions']['imagecrop']['#markup'] = '<a href="/imagecrop/overview/' . $form['fid']['#value'] . '" class="imagecrop-button button" title="Crop image">&#xf125; Crop media</a>';
+  // }
   dpm($form);
 }
 
