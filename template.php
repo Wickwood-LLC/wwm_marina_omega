@@ -96,7 +96,7 @@ function wwm_marina_omega_views_pre_render(&$view) {
  *
  * Render submit buttons as buttons instead of input elements.
  */
-function wwm_marina_omega_button($variables) {
+function wwm_marina_omega_button(&$variables) {
   $element = $variables['element'];
   $element['#attributes']['type'] = 'submit';
   element_set_attributes($element, array(
@@ -113,7 +113,7 @@ function wwm_marina_omega_button($variables) {
   //   $variables['element']['#value'] = "&#xf044; " . $variables['element']['#value'];
   // }
   if ($element['#value'] == 'Edit selected') {
-    $element['#value'] = "&#xf044; " . $variables['element']['#value'];
+    $element['#value'] = "&#xf044; " . $element['#value'];
   }
 
   return '<input' . drupal_attributes($element['#attributes']) . ' />';
