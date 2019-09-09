@@ -97,28 +97,22 @@ function wwm_marina_omega_views_pre_render(&$view) {
  * Render submit buttons as buttons instead of input elements.
  */
 function wwm_marina_omega_button($variables) {
-  $element = $variables['element'];
-  $element['#attributes']['type'] = 'submit';
-  element_set_attributes($element, array(
-    'id',
-    'name',
-    'value',
-  ));
-  $element['#attributes']['class'][] = 'form-' . $element['#button_type'];
-  if (!empty($element['#attributes']['disabled'])) {
-    $element['#attributes']['class'][] = 'form-button-disabled';
+$element = $variables['element'];
+
+  // Add icons before or after the value.
+  // @see https://drupal.org/node/2219965
+  $value = $element['#value'];
+  if (!empty($element['#icon'])) {
+    if ($element['#icon_position'] === 'before') {
+      $value = $element['#icon'] . ' ' . $value;
+    }
+    elseif ($element['#icon_position'] === 'after') {
+      $value .= ' ' . $element['#icon'];
+    }
   }
 
-  // if (strpos($variables['element']['#value'], 'edit')) {
-  //   $variables['element']['#value'] = "&#xf044; " . $variables['element']['#value'];
-  // }
-  if ($element['#value'] == 'Edit selected') {
-    $element['#value'] = "&#xf044; " . $variables['element']['#value'];
-  }
-
-  return '<input' . drupal_attributes($element['#attributes']) . ' />';
-
-  dpm($variables);
+  // This line break adds inherent margin between multiple buttons.
+  return '<button' . drupal_attributes($element['#attributes']) . '>' . $value . "</button>\n";
 }
 
 function wwm_marina_omega_form_alter(&$form, &$form_state, $form_id) {
