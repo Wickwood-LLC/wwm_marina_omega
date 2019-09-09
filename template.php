@@ -127,7 +127,7 @@ function wwm_marina_omega_form_alter(&$form, &$form_state, $form_id) {
     $form['actions']['delete']['#value'] = decode_entities('&#xf2ed; ') . $form['actions']['delete']['#value'];
   }
   if ($form['actions']['cancel']) {
-    $form['actions']['cancel']['#value'] = decode_entities('&#xf2ea; ') . $form['actions']['cancel']['#value'];
+    $form['actions']['cancel']['#title'] = decode_entities('&#xf2ea; ') . $form['actions']['cancel']['#title'];
   }
   dpm($form);
 }
