@@ -105,7 +105,7 @@ function wwm_marina_omega_button(&$variables) {
     'value',
   ));
 
-  if (strpos($element['#value'], 'edit')) {
+  if (strpos($element['#value'], 'edit') !==false ) {
     $element['#attributes']['value'] = decode_entities('&#xf044; ') . $element['#attributes']['value'];
   }
   if ($element['#value'] == 'Delete selected') {
