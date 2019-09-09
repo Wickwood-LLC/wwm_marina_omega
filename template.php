@@ -104,9 +104,9 @@ function wwm_marina_omega_button(&$variables) {
     'name',
     'value',
   ));
-  
+
   if ($element['#value'] == 'Edit selected') {
-    $element['#value'] = "&#xf044; " . $element['#value'];
+    $element['#attributes']['value'] = decode_entities('&#xf044; ') . $element['#attributes']['value'];
   }
 
   $element['#attributes']['class'][] = 'form-' . $element['#button_type'];
