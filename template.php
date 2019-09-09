@@ -124,7 +124,7 @@ function wwm_marina_omega_views_pre_render(&$view) {
 
 function wwm_marina_omega_form_alter(&$form, &$form_state, $form_id) {
   if ($form['actions']['delete']) {
-    $form['actions']['delete']['#value'] = decode_entities('&#xf2ed;') . $form['actions']['delete']['#value'];
+    $form['actions']['delete']['#value'] = decode_entities('&#xf2ed; ') . $form['actions']['delete']['#value'];
   }
   dpm($form);
 }
