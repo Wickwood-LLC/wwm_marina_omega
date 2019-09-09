@@ -133,7 +133,7 @@ function wwm_marina_omega_form_alter(&$form, &$form_state, $form_id) {
     $form['actions']['submit']['#value'] = decode_entities('&#xf467; ') . $form['actions']['submit']['#value'];
   }
   if ($form['actions']['imagecrop']) {
-    $form['actions']['imagecrop']['#title'] = decode_entities('&#xf125; ') . 'Crop media';
+    $form['actions']['imagecrop']['#markup'] = '<a href="/imagecrop/overview/' . menu_get_object()->nid; 'class="imagecrop-button button" title="Crop image">&#xf125; Crop media</a>';
   }
   dpm($form);
 }
