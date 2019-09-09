@@ -559,22 +559,6 @@ div.vertical-tabs ul.vertical-tabs-list {
   text-decoration: none;
 }
 
-form input.form-submit {
-  background-color: #286e9b;
-  /* old browsers */
-  background-image: linear-gradient(top, #4186b5 0%, #286e9b 50%, #4186b5 100%);
-  /* w3c */
-  color: #fff;
-  cursor: pointer;
-  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  margin: 0 4px;
-  padding: 2px 4px;
-  text-transform: capitalize;
-  border: 0;
-  border-radius: 4px;
-}
-
 .g-recaptcha {
   display: table;
   margin: auto;
@@ -689,6 +673,7 @@ legend.collapse-processed a:visited {
 }
 
 input[type="submit"],
+input.form-submit,
 .form-actions > input,
 .form-actions > a,
 #linkit-cancel,
@@ -711,6 +696,7 @@ a.button,
   background: #286e9b;
 }
 input[type="submit"]:hover,
+input.form-submit:hover,
 .form-actions > input:hover,
 .form-actions > a:hover,
 #linkit-cancel:hover,
