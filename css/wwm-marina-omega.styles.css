@@ -746,12 +746,6 @@ input[class*="delete"]:hover,
   background: #ffc200;
   color: #FFF;
 }
-#edit-cancel:before {
-  content: '\f2ea';
-  display: inline;
-  font-family: 'Font Awesome 5 Pro';
-  margin-right: 0.5em;
-}
 #edit-cancel:hover {
   background: #f7c72f;
 }
