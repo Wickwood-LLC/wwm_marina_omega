@@ -132,6 +132,9 @@ function wwm_marina_omega_form_alter(&$form, &$form_state, $form_id) {
   if ($form['actions']['submit']['#value'] == 'Save') {
     $form['actions']['submit']['#value'] = decode_entities('&#xf467; ') . $form['actions']['submit']['#value'];
   }
+  if ($form['actions']['imagecrop']) {
+    $form['actions']['imagecrop']['#title'] = decode_entities('&#xf125; ') . 'Crop media';
+  }
   dpm($form);
 }
 
