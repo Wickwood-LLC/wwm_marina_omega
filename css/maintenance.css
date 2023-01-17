@@ -1,13 +1,8 @@
 /* Fluid Typography */
 .maintenance-page .l-page {
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
+  flex-flow: column;
 }
 
 .maintenance-page #header {
@@ -24,9 +19,7 @@
 }
 
 .maintenance-page #mini-panel-header .panel-col {
-  -webkit-box-flex: 0;
-      -ms-flex: 0;
-          flex: 0;
+  flex: 0;
 }
 
 .maintenance-page h1.pane-page-site-name a {
@@ -34,18 +27,10 @@
 }
 
 .maintenance-page .l-main {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  flex: 1;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
+  flex-flow: column;
   background-color: #f2fbd2;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f2fbd2), to(#f5f7e7));
   background-image: linear-gradient(#f2fbd2, #f5f7e7);
 }
 
@@ -54,13 +39,11 @@
   height: 33px;
   width: 100%;
   background-color: #2f76a5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#2f76a5), to(#144a6e));
   background: linear-gradient(#2f76a5, #144a6e);
   border-top: 3px solid #a7ce38;
 }
 
 .maintenance-page .l-content {
-  text-align: center;
   margin: 10%;
 }
 
@@ -68,6 +51,19 @@
   border: 0;
   text-transform: capitalize;
   font-weight: bold;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.maintenance-page .l-content h2 {
+  text-align: center;
+}
+
+.maintenance-page .l-content dt {
+  font-weight: bold;
+}
+
+.maintenance-page .l-content dd {
   margin-bottom: 1em;
 }
 
